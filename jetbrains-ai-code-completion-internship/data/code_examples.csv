@@ -155,158 +155,158 @@ def create_user(user: schemas.UserCreate, db: Session = Depends(get_db)):
     cv2.destroyAllWindows()
 
 predict_attributes(image_path)"
-"    def twoSum(nums, target):
-        map = {}
-        for i, num in enumerate(nums):
-            diff = target - num
-            if diff in map:
-                return [map[diff], i]
-            map[num] = i
-        return None"
-"    def divide(dividend, divisor):
-        if dividend == -(2**31) and divisor == -1:
-            return (2**31) - 1     
-        return int(dividend / divisor)"
-"    def reverse(x):
-        result = 0
-        negative = x < 0
-        x = abs(x)
-        while x != 0:
-            result = result * 10 + x % 10
-            x //= 10
-        if negative:
-            result = -result
-        if result < -2 ** 31 or result > 2 ** 31 - 1:
-            return 0
-        return result"
-"    def romanToInt(s):
-        result = 0
-        previous_value = 0
-        roman = {'I': 1,'V': 5,'X': 10,'L': 50,'C': 100,'D': 500,'M': 1000}
-        for i in reversed(s):
-            value = roman[i]
-            if value < previous_value:
-                result -= value
-            else:
-                result += value
-            previous_value = value
-        return result"
-"    def longestConsecutive(nums):
-        nums = set(nums)
-        maximum = 0
-        for num in nums:
-            if (num - 1) not in nums:
-                counter = 0
-                while (num + counter) in nums:
-                    counter += 1
-                maximum = max(maximum, counter)    
-        return maximum"
-"    def wordPattern(pattern, s):
-        word_map = {}
-        s = s.split()
-        if len(s) != len(pattern):
-            return False
-        for index, char in enumerate(pattern):
-            if char not in word_map:
-                if s[index] in word_map.values():
-                    return False
-                word_map[char] = s[index]
-            elif word_map[char] != s[index]:
+"def twoSum(nums, target):
+    map = {}
+    for i, num in enumerate(nums):
+        diff = target - num
+        if diff in map:
+            return [map[diff], i]
+        map[num] = i
+    return None"
+"def divide(dividend, divisor):
+    if dividend == -(2**31) and divisor == -1:
+        return (2**31) - 1     
+    return int(dividend / divisor)"
+"def reverse(x):
+    result = 0
+    negative = x < 0
+    x = abs(x)
+    while x != 0:
+        result = result * 10 + x % 10
+        x //= 10
+    if negative:
+        result = -result
+    if result < -2 ** 31 or result > 2 ** 31 - 1:
+        return 0
+    return result"
+"def romanToInt(s):
+    result = 0
+    previous_value = 0
+    roman = {'I': 1,'V': 5,'X': 10,'L': 50,'C': 100,'D': 500,'M': 1000}
+    for i in reversed(s):
+        value = roman[i]
+        if value < previous_value:
+            result -= value
+        else:
+            result += value
+        previous_value = value
+    return result"
+"def longestConsecutive(nums):
+    nums = set(nums)
+    maximum = 0
+    for num in nums:
+        if (num - 1) not in nums:
+            counter = 0
+            while (num + counter) in nums:
+                counter += 1
+            maximum = max(maximum, counter)    
+    return maximum"
+"def wordPattern(pattern, s):
+    word_map = {}
+    s = s.split()
+    if len(s) != len(pattern):
+        return False
+    for index, char in enumerate(pattern):
+        if char not in word_map:
+            if s[index] in word_map.values():
                 return False
-        return True"
-"    def longestPalindrome(s):
-        map = {}
-        counter = 0
-        odd = False
-        for char in s:
-            if char not in map:
-                map[char] = 1
-            elif char in map:
-                map[char] += 1
-        for key, value in map.items():
-            if value % 2 == 0:
-                counter += value
-            elif value % 2 != 0:
-                counter += value - 1
-                odd = True
-        return counter + 1 if odd else counter"
-"    def search(nums, target):
-        left, right = 0, len(nums) - 1
-        while left <= right:
-            mid = (left + right) // 2
-            if nums[mid] == target:
-                return mid
-            if nums[mid] < target:
-                left = mid + 1
-            else:
-                right = mid - 1
-        return -1"
-"    def missingNumber(nums):
-        n = len(nums)
-        result = n * (n + 1) // 2
-        for num in nums:
-            result -= num
-        return result"
-"    def insertGreatestCommonDivisors(head):
-        node = head
-        while node.next:
-            node.next = ListNode(gcd(node.val, node.next.val), node.next)
-            node = node.next.next
-        return head"
-"    def mergeInBetween(list1, a, b, list2):
-        left = right = list1
-        for _ in range(a - 1):
-            left = left.next
-        for _ in range(b):
-            right = right.next
-        left.next = list2
-        while list2:
-            list2 = list2.next
-        left.next = right.next
-        left = right.next = None
-        return list1"
-"    def reverseList(head):
-        prev, curr = None, head
-        while curr:
-            temp = curr.next
-            curr.next = prev
-            prev = curr
-            curr = temp
-        return prev"
-"    def swapPairs(self, head):
-        if not head or not head.next:
-            return head
-        head.val, head.next.val = head.next.val, head.val
-        self.swapPairs(head.next.next)
-        return head"
-"    def oddEvenList(head):
-        if not head or not head.next:
-            return head
-        odd = head
-        even = head.next
-        node = even
-        while even and even.next:
-            odd.next = odd.next.next
-            even.next = even.next.next
-            odd = odd.next
-            even = even.next
-        odd.next = node
-        return head"
-"    def mergeTwoLists(list1, list2):
-        result = current = ListNode(0)
-        while list1 and list2:
-            if list1.val < list2.val:
-                current.next = list1
-                list1 = list1.next
-            else:
-                current.next = list2
-                list2 = list2.next
-            current = current.next
-        if list1:
+            word_map[char] = s[index]
+        elif word_map[char] != s[index]:
+            return False
+    return True"
+"def longestPalindrome(s):
+    map = {}
+    counter = 0
+    odd = False
+    for char in s:
+        if char not in map:
+            map[char] = 1
+        elif char in map:
+            map[char] += 1
+    for key, value in map.items():
+        if value % 2 == 0:
+            counter += value
+        elif value % 2 != 0:
+            counter += value - 1
+            odd = True
+    return counter + 1 if odd else counter"
+"def search(nums, target):
+    left, right = 0, len(nums) - 1
+    while left <= right:
+        mid = (left + right) // 2
+        if nums[mid] == target:
+            return mid
+        if nums[mid] < target:
+            left = mid + 1
+        else:
+            right = mid - 1
+    return -1"
+"def missingNumber(nums):
+    n = len(nums)
+    result = n * (n + 1) // 2
+    for num in nums:
+        result -= num
+    return result"
+"def insertGreatestCommonDivisors(head):
+    node = head
+    while node.next:
+        node.next = ListNode(gcd(node.val, node.next.val), node.next)
+        node = node.next.next
+    return head"
+"def mergeInBetween(list1, a, b, list2):
+    left = right = list1
+    for _ in range(a - 1):
+        left = left.next
+    for _ in range(b):
+        right = right.next
+    left.next = list2
+    while list2:
+        list2 = list2.next
+    left.next = right.next
+    left = right.next = None
+    return list1"
+"def reverseList(head):
+    prev, curr = None, head
+    while curr:
+        temp = curr.next
+        curr.next = prev
+        prev = curr
+        curr = temp
+    return prev"
+"def swapPairs(self, head):
+    if not head or not head.next:
+        return head
+    head.val, head.next.val = head.next.val, head.val
+    self.swapPairs(head.next.next)
+    return head"
+"def oddEvenList(head):
+    if not head or not head.next:
+        return head
+    odd = head
+    even = head.next
+    node = even
+    while even and even.next:
+        odd.next = odd.next.next
+        even.next = even.next.next
+        odd = odd.next
+        even = even.next
+    odd.next = node
+    return head"
+"def mergeTwoLists(list1, list2):
+    result = current = ListNode(0)
+    while list1 and list2:
+        if list1.val < list2.val:
             current.next = list1
-        elif list2:
+            list1 = list1.next
+        else:
             current.next = list2
-        return result.next"
+            list2 = list2.next
+        current = current.next
+    if list1:
+        current.next = list1
+    elif list2:
+        current.next = list2
+    return result.next"
 "def quick_sort(arr):
     if len(arr) <= 1:
         return arr
@@ -349,7 +349,6 @@ predict_attributes(image_path)"
             j += 1
             k += 1
     return arr"
-
 "def selection_sort(arr):
     n = len(arr)
     for i in range(n):
