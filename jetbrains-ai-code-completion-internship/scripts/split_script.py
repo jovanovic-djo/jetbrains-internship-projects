@@ -1,8 +1,6 @@
 import pandas as pd
 import random
 
-df = pd.read_csv('jetbrains-ai-code-completion-internship\data\code_examples.csv')
-
 def split_method(code):
     lines = code.splitlines()
     if len(lines) < 3:
@@ -15,5 +13,9 @@ def split_method(code):
     
     return prefix, middle, suffix
 
-df['prefix'], df['middle'], df['suffix'] = zip(*df['code examples'].apply(split_method))
-df.to_csv('jetbrains-ai-code-completion-internship/data/split_code_examples.csv', index=False)
+def split_code_examples(input_csv, output_csv):
+    df = pd.read_csv(input_csv)
+    df['prefix'], df['middle'], df['suffix'] = zip(*df['code examples'].apply(split_method))
+    df.to_csv(output_csv, index=False)
+
+    return df

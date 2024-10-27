@@ -4,7 +4,7 @@ from nltk.metrics.distance import edit_distance
 import sacrebleu
 
 def compute_exact_match(reference, prediction):
-    return int(reference.strip() == prediction.strip())
+    return int(reference == prediction)
 
 def compute_bleu(reference, prediction):
     reference_tokens = reference.split()
@@ -18,7 +18,8 @@ def compute_chrf(reference, prediction):
 def compute_edit_distance(reference, prediction):
     return edit_distance(reference, prediction)
 
-def compute_metrics(df):
+def compute_metrics(input_csv, output_csv):
+    df = pd.read_csv(input_csv)
     exact_matches = []
     bleu_scores = []
     chrf_scores = []
@@ -37,14 +38,6 @@ def compute_metrics(df):
     df['bleu'] = bleu_scores
     df['chrf'] = chrf_scores
     df['edit_distance'] = edit_distances
-    
-    df.to_csv('jetbrains-ai-code-completion-internship\data\metrics_results.csv', index=False)
-    
-    print(df)
+    df.to_csv(output_csv, index=False)
+
     return df
-
-df = pd.read_csv('jetbrains-ai-code-completion-internship\data\completion_results.csv')
-
-df = compute_metrics(df)
-
-print(df)

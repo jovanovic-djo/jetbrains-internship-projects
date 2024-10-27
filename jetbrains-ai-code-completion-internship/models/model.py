@@ -10,8 +10,9 @@ def get_completion(prefix, max_new_tokens=50):
     completion = tokenizer.decode(outputs[0], skip_special_tokens=True)
     return completion
 
-df = pd.read_csv('jetbrains-ai-code-completion-internship\data\split_code_examples.csv')
+def generate_completions(input_csv, output_csv):
+    df = pd.read_csv(input_csv)
+    df['completion'] = df['prefix'].apply(lambda x: get_completion(x))
+    df.to_csv(output_csv, index=False)
 
-df['completion'] = df['prefix'].apply(lambda x: get_completion(x))
-
-df.to_csv('jetbrains-ai-code-completion-internship\data\completion_results.csv', index=False)
+    return df

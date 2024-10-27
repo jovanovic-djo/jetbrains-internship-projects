@@ -3,8 +3,8 @@ code examples,prefix,middle,suffix
     if self.cool_down_counter == 0:
         laser = Laser(self.x, self.y, self.laser_img)
         self.lasers.append(laser)
-        self.cool_down_counter = 1","def shoot(self):
-    if self.cool_down_counter == 0:","        laser = Laser(self.x, self.y, self.laser_img)","        self.lasers.append(laser)
+        self.cool_down_counter = 1",def shoot(self):,    if self.cool_down_counter == 0:,"        laser = Laser(self.x, self.y, self.laser_img)
+        self.lasers.append(laser)
         self.cool_down_counter = 1"
 "def chat():
     print(""Start talking with the bot: (Press q to quit)"")
@@ -21,12 +21,12 @@ code examples,prefix,middle,suffix
                     responses = tg[""responses""]
             print(random.choice(responses))
         else: 
-            print(""I did not understand that!"")","def chat():
-    print(""Start talking with the bot: (Press q to quit)"")
-    while True:
+            print(""I did not understand that!"")",def chat():,"    print(""Start talking with the bot: (Press q to quit)"")","    while True:
         inp = input(""You: "")
         if inp.lower() == ""q"":
-            break       ","        result = model.predict([bag_of_words(inp, words)])[0]","        result_index = numpy.argmax(result)
+            break       
+        result = model.predict([bag_of_words(inp, words)])[0]
+        result_index = numpy.argmax(result)
         tag = labels[result_index]
         if result[result_index] > 0.1:
             for tg in data[""intents""]:
@@ -40,8 +40,8 @@ code examples,prefix,middle,suffix
         if clicking:
             mouse.click(Button.left, 1)
         time.sleep(0.00001)","def clicker():
-    while True:
-        if clicking:","            mouse.click(Button.left, 1)",        time.sleep(0.00001)
+    while True:",        if clicking:,"            mouse.click(Button.left, 1)
+        time.sleep(0.00001)"
 "class ApartmentItem(scrapy.Item):
     title = scrapy.Field()
     price = scrapy.Field()
@@ -55,10 +55,10 @@ code examples,prefix,middle,suffix
     title = scrapy.Field()
     price = scrapy.Field()
     square_price = scrapy.Field()
-    area = scrapy.Field()
-    rooms = scrapy.Field()
-    floor = scrapy.Field()
-    city = scrapy.Field()",    location = scrapy.Field(),    source = scrapy.Field()
+    area = scrapy.Field()",    rooms = scrapy.Field(),"    floor = scrapy.Field()
+    city = scrapy.Field()
+    location = scrapy.Field()
+    source = scrapy.Field()"
 "@router.post(""/"", status_code=status.HTTP_201_CREATED, response_model=schemas.UserOut)
 def create_user(user: schemas.UserCreate, db: Session = Depends(get_db)):
     hashed_password = utils.hash(user.password)
@@ -68,11 +68,11 @@ def create_user(user: schemas.UserCreate, db: Session = Depends(get_db)):
     db.commit()
     db.refresh(new_user)
     return new_user","@router.post(""/"", status_code=status.HTTP_201_CREATED, response_model=schemas.UserOut)
-def create_user(user: schemas.UserCreate, db: Session = Depends(get_db)):
-    hashed_password = utils.hash(user.password)
-    user.password = hashed_password
+def create_user(user: schemas.UserCreate, db: Session = Depends(get_db)):",    hashed_password = utils.hash(user.password),"    user.password = hashed_password
     new_user = models.User(**user.model_dump())
-    db.add(new_user)",    db.commit(),"    db.refresh(new_user)
+    db.add(new_user)
+    db.commit()
+    db.refresh(new_user)
     return new_user"
 "class Settings(BaseSettings):
     database_hostname: str
@@ -101,8 +101,8 @@ def create_user(user: schemas.UserCreate, db: Session = Depends(get_db)):
         yield db
     finally:
         db.close()","def get_db():
-    db = SessionLocal()
-    try:",        yield db,"    finally:
+    db = SessionLocal()",    try:,"        yield db
+    finally:
         db.close()"
 "class Follow(Base):
     __tablename__ = ""followers""
@@ -110,8 +110,8 @@ def create_user(user: schemas.UserCreate, db: Session = Depends(get_db)):
         Integer, ForeignKey(""users.id"", ondelete=""CASCADE""), primary_key=True
     )
     follow_user_id = Column(
-        Integer, ForeignKey(""users.id"", ondelete=""CASCADE""), primary_key=True","class Follow(Base):
-    __tablename__ = ""followers""",    user_id = Column(,"        Integer, ForeignKey(""users.id"", ondelete=""CASCADE""), primary_key=True
+        Integer, ForeignKey(""users.id"", ondelete=""CASCADE""), primary_key=True",class Follow(Base):,"    __tablename__ = ""followers""","    user_id = Column(
+        Integer, ForeignKey(""users.id"", ondelete=""CASCADE""), primary_key=True
     )
     follow_user_id = Column(
         Integer, ForeignKey(""users.id"", ondelete=""CASCADE""), primary_key=True"
@@ -129,8 +129,8 @@ def create_user(user: schemas.UserCreate, db: Session = Depends(get_db)):
     id = Column(Integer, primary_key=True, nullable=False)
     email = Column(String, nullable=False, unique=True)
     password = Column(String, nullable=False)
-    created_at = Column(","        TIMESTAMP(timezone=True), nullable=False, server_default=text(""now()"")","    )
-    followers = Column(Integer, nullable=False)
+    created_at = Column(
+        TIMESTAMP(timezone=True), nullable=False, server_default=text(""now()"")",    ),"    followers = Column(Integer, nullable=False)
     following = Column(Integer, nullable=False)"
 "def preprocess_face(face):
     face_resized = cv2.resize(face, (48, 48))
@@ -158,8 +158,8 @@ def create_user(user: schemas.UserCreate, db: Session = Depends(get_db)):
         1: ""Black"",
         2: ""Asiatic"",
         3: ""Indian"",
-        4: ""Other""
-    }.get(np.argmax(ethnicity_pred[0]), ""Unknown"")",    age = int(age_pred[0][0]),"    return gender, ethnicity, age"
+        4: ""Other""","    }.get(np.argmax(ethnicity_pred[0]), ""Unknown"")","    age = int(age_pred[0][0])
+    return gender, ethnicity, age"
 "def predict_attributes(image_path):
     try:
         img, gray_img = load_and_preprocess_image(image_path)
@@ -182,11 +182,11 @@ def create_user(user: schemas.UserCreate, db: Session = Depends(get_db)):
         img, gray_img = load_and_preprocess_image(image_path)
         faces = detect_faces(gray_img)
         if len(faces) == 0:
-            print(""No faces detected."")",            return,"        for (x, y, w, h) in faces:
+            print(""No faces detected."")
+            return
+        for (x, y, w, h) in faces:
             face = gray_img[y : y + h, x : x + w]
-            face_input = preprocess_face(face)
-            gender, ethnicity, age = predict_facial_attributes(face_input)
-            img = annotate_image(img, x, y, gender, ethnicity, age)
+            face_input = preprocess_face(face)","            gender, ethnicity, age = predict_facial_attributes(face_input)","            img = annotate_image(img, x, y, gender, ethnicity, age)
         cv2.imshow('Facial Attribute Recognition', cv2.resize(img, (512, 512)))
         cv2.waitKey(0)
         cv2.destroyAllWindows()
@@ -259,13 +259,13 @@ predict_attributes(image_path)","def predict_attributes(image_path):
             case 2:
                 ethnicity = ""Asiatic""
             case 3:
-                ethnicity = ""Indian""",            case 4:,"                ethnicity = ""Other""
+                ethnicity = ""Indian""
+            case 4:
+                ethnicity = ""Other""
         age = age_pred[0][0]
         
         cv2.putText(img, f""Gender: {gender}"", (x, y - 50), text_font, text_fontScale, text_color, text_thickness)
-        cv2.putText(img, f""Ethnicity: {ethnicity}"", (x, y - 30), text_font, text_fontScale, text_color, text_thickness)
-        cv2.putText(img, f""Age: {int(age)}"", (x, y - 10), text_font, text_fontScale, text_color, text_thickness)
-    
+        cv2.putText(img, f""Ethnicity: {ethnicity}"", (x, y - 30), text_font, text_fontScale, text_color, text_thickness)","        cv2.putText(img, f""Age: {int(age)}"", (x, y - 10), text_font, text_fontScale, text_color, text_thickness)","    
     cv2.imshow('Facial Attribute Recognition', cv2.resize(img, (512, 512)))
     
     cv2.waitKey(0)
@@ -279,12 +279,12 @@ predict_attributes(image_path)"
         if diff in map:
             return [map[diff], i]
         map[num] = i
-    return None","def twoSum(nums, target):",    map = {},"    for i, num in enumerate(nums):
+    return None","def twoSum(nums, target):
+    map = {}
+    for i, num in enumerate(nums):
         diff = target - num
         if diff in map:
-            return [map[diff], i]
-        map[num] = i
-    return None"
+            return [map[diff], i]",        map[num] = i,    return None
 "def divide(dividend, divisor):
     if dividend == -(2**31) and divisor == -1:
         return (2**31) - 1     
@@ -306,11 +306,11 @@ predict_attributes(image_path)"
     negative = x < 0
     x = abs(x)
     while x != 0:
-        result = result * 10 + x % 10",        x //= 10,"    if negative:
+        result = result * 10 + x % 10
+        x //= 10
+    if negative:
         result = -result
-    if result < -2 ** 31 or result > 2 ** 31 - 1:
-        return 0
-    return result"
+    if result < -2 ** 31 or result > 2 ** 31 - 1:",        return 0,    return result
 "def romanToInt(s):
     result = 0
     previous_value = 0
@@ -322,15 +322,15 @@ predict_attributes(image_path)"
         else:
             result += value
         previous_value = value
-    return result",def romanToInt(s):,    result = 0,"    previous_value = 0
+    return result","def romanToInt(s):
+    result = 0
+    previous_value = 0
     roman = {'I': 1,'V': 5,'X': 10,'L': 50,'C': 100,'D': 500,'M': 1000}
     for i in reversed(s):
         value = roman[i]
         if value < previous_value:
             result -= value
-        else:
-            result += value
-        previous_value = value
+        else:",            result += value,"        previous_value = value
     return result"
 "def longestConsecutive(nums):
     nums = set(nums)
@@ -343,8 +343,8 @@ predict_attributes(image_path)"
             maximum = max(maximum, counter)    
     return maximum","def longestConsecutive(nums):
     nums = set(nums)
-    maximum = 0",    for num in nums:,"        if (num - 1) not in nums:
-            counter = 0
+    maximum = 0
+    for num in nums:",        if (num - 1) not in nums:,"            counter = 0
             while (num + counter) in nums:
                 counter += 1
             maximum = max(maximum, counter)    
@@ -365,11 +365,11 @@ predict_attributes(image_path)"
     word_map = {}
     s = s.split()
     if len(s) != len(pattern):
-        return False
-    for index, char in enumerate(pattern):
-        if char not in word_map:
+        return False","    for index, char in enumerate(pattern):","        if char not in word_map:
             if s[index] in word_map.values():
-                return False",            word_map[char] = s[index],"        elif word_map[char] != s[index]:
+                return False
+            word_map[char] = s[index]
+        elif word_map[char] != s[index]:
             return False
     return True"
 "def longestPalindrome(s):
@@ -387,9 +387,7 @@ predict_attributes(image_path)"
         elif value % 2 != 0:
             counter += value - 1
             odd = True
-    return counter + 1 if odd else counter","def longestPalindrome(s):
-    map = {}
-    counter = 0
+    return counter + 1 if odd else counter",def longestPalindrome(s):,    map = {},"    counter = 0
     odd = False
     for char in s:
         if char not in map:
@@ -400,7 +398,9 @@ predict_attributes(image_path)"
         if value % 2 == 0:
             counter += value
         elif value % 2 != 0:
-            counter += value - 1",            odd = True,    return counter + 1 if odd else counter
+            counter += value - 1
+            odd = True
+    return counter + 1 if odd else counter"
 "def search(nums, target):
     left, right = 0, len(nums) - 1
     while left <= right:
@@ -414,10 +414,10 @@ predict_attributes(image_path)"
     return -1","def search(nums, target):
     left, right = 0, len(nums) - 1
     while left <= right:
-        mid = (left + right) // 2
-        if nums[mid] == target:
-            return mid
-        if nums[mid] < target:",            left = mid + 1,"        else:
+        mid = (left + right) // 2",        if nums[mid] == target:,"            return mid
+        if nums[mid] < target:
+            left = mid + 1
+        else:
             right = mid - 1
     return -1"
 "def missingNumber(nums):
@@ -425,8 +425,8 @@ predict_attributes(image_path)"
     result = n * (n + 1) // 2
     for num in nums:
         result -= num
-    return result","def missingNumber(nums):
-    n = len(nums)",    result = n * (n + 1) // 2,"    for num in nums:
+    return result",def missingNumber(nums):,    n = len(nums),"    result = n * (n + 1) // 2
+    for num in nums:
         result -= num
     return result"
 "def insertGreatestCommonDivisors(head):
@@ -449,13 +449,13 @@ predict_attributes(image_path)"
         list2 = list2.next
     left.next = right.next
     left = right.next = None
-    return list1","def mergeInBetween(list1, a, b, list2):
-    left = right = list1
-    for _ in range(a - 1):
+    return list1","def mergeInBetween(list1, a, b, list2):",    left = right = list1,"    for _ in range(a - 1):
         left = left.next
     for _ in range(b):
         right = right.next
-    left.next = list2",    while list2:,"        list2 = list2.next
+    left.next = list2
+    while list2:
+        list2 = list2.next
     left.next = right.next
     left = right.next = None
     return list1"
@@ -468,9 +468,9 @@ predict_attributes(image_path)"
         curr = temp
     return prev","def reverseList(head):
     prev, curr = None, head
-    while curr:",        temp = curr.next,"        curr.next = prev
-        prev = curr
-        curr = temp
+    while curr:
+        temp = curr.next
+        curr.next = prev",        prev = curr,"        curr = temp
     return prev"
 "def swapPairs(self, head):
     if not head or not head.next:
@@ -478,8 +478,8 @@ predict_attributes(image_path)"
     head.val, head.next.val = head.next.val, head.val
     self.swapPairs(head.next.next)
     return head","def swapPairs(self, head):
-    if not head or not head.next:
-        return head","    head.val, head.next.val = head.next.val, head.val","    self.swapPairs(head.next.next)
+    if not head or not head.next:",        return head,"    head.val, head.next.val = head.next.val, head.val
+    self.swapPairs(head.next.next)
     return head"
 "def oddEvenList(head):
     if not head or not head.next:
@@ -493,10 +493,10 @@ predict_attributes(image_path)"
         odd = odd.next
         even = even.next
     odd.next = node
-    return head",def oddEvenList(head):,    if not head or not head.next:,"        return head
-    odd = head
-    even = head.next
-    node = even
+    return head","def oddEvenList(head):
+    if not head or not head.next:
+        return head
+    odd = head",    even = head.next,"    node = even
     while even and even.next:
         odd.next = odd.next.next
         even.next = even.next.next
@@ -522,14 +522,14 @@ predict_attributes(image_path)"
     result = current = ListNode(0)
     while list1 and list2:
         if list1.val < list2.val:
-            current.next = list1
-            list1 = list1.next
-        else:
+            current.next = list1",            list1 = list1.next,"        else:
             current.next = list2
             list2 = list2.next
         current = current.next
     if list1:
-        current.next = list1",    elif list2:,"        current.next = list2
+        current.next = list1
+    elif list2:
+        current.next = list2
     return result.next"
 "def quick_sort(arr):
     if len(arr) <= 1:
@@ -538,9 +538,9 @@ predict_attributes(image_path)"
     left = [x for x in arr if x < pivot]
     middle = [x for x in arr if x == pivot]
     right = [x for x in arr if x > pivot]
-    return quick_sort(left) + middle + quick_sort(right)",def quick_sort(arr):,    if len(arr) <= 1:,"        return arr
-    pivot = arr[len(arr) // 2]
-    left = [x for x in arr if x < pivot]
+    return quick_sort(left) + middle + quick_sort(right)","def quick_sort(arr):
+    if len(arr) <= 1:
+        return arr",    pivot = arr[len(arr) // 2],"    left = [x for x in arr if x < pivot]
     middle = [x for x in arr if x == pivot]
     right = [x for x in arr if x > pivot]
     return quick_sort(left) + middle + quick_sort(right)"
@@ -614,9 +614,9 @@ predict_attributes(image_path)"
             if arr[j] < arr[min_idx]:
                 min_index = j
         arr[i], arr[min_index] = arr[min_index], arr[i]
-    return arr",def selection_sort(arr):,    n = len(arr),"    for i in range(n):
-        min_index = i
-        for j in range(i + 1, n):
+    return arr","def selection_sort(arr):
+    n = len(arr)
+    for i in range(n):",        min_index = i,"        for j in range(i + 1, n):
             if arr[j] < arr[min_idx]:
                 min_index = j
         arr[i], arr[min_index] = arr[min_index], arr[i]
@@ -629,6 +629,6 @@ predict_attributes(image_path)"
                 arr[j], arr[j + 1] = arr[j + 1], arr[j]
     return arr","def bubble_sort(arr):
     n = len(arr)
-    for i in range(n):","        for j in range(0, n - i - 1):","            if arr[j] > arr[j + 1]:
-                arr[j], arr[j + 1] = arr[j + 1], arr[j]
+    for i in range(n):
+        for j in range(0, n - i - 1):",            if arr[j] > arr[j + 1]:,"                arr[j], arr[j + 1] = arr[j + 1], arr[j]
     return arr"
