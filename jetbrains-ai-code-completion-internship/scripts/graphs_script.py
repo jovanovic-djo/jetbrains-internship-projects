@@ -33,8 +33,9 @@ def graph_metrics(inputdir, outputdir):
     plt.show()
 
 
-def graph_word_cloud(df, column_name, output_file):
-    text = " ".join(df[column_name].dropna().astype(str))
+def graph_word_cloud(input_file, output_file):
+    df = pd.read_csv(input_file)
+    text = " ".join(df['code examples'])
     wordcloud = WordCloud(width=800, height=400, background_color='#000000').generate(text)
 
     plt.figure(figsize=(10, 5))
