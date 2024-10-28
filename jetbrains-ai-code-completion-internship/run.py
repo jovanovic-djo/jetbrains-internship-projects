@@ -1,6 +1,6 @@
 from scripts.split_script import split_code_examples
 from scripts.metrics_script import compute_metrics
-from scripts.graphs_script import graph_metrics
+from scripts.graphs_script import graph_metrics, graph_word_cloud
 from models.model import generate_completions
 
 def main():
@@ -19,6 +19,7 @@ def main():
     graph_input_csv = metrics_output_csv
     graph_output_png = 'jetbrains-ai-code-completion-internship/imgs/metrics_plot.png'
     graph_metrics(graph_input_csv, graph_output_png)
+    graph_word_cloud('jetbrains-ai-code-completion-internship/data/code_examples.csv', 'code examples', 'jetbrains-ai-code-completion-internship\imgs\wordcloud_output.png')
 
 if __name__ == "__main__":
     main()

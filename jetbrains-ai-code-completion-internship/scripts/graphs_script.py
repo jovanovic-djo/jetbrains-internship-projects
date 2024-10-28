@@ -2,6 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 from matplotlib import gridspec
+from wordcloud import WordCloud
 
 def graph_metrics(inputdir, outputdir):
     df = pd.read_csv(inputdir)
@@ -29,4 +30,17 @@ def graph_metrics(inputdir, outputdir):
 
     plt.tight_layout()
     plt.savefig(outputdir)
+    plt.show()
+
+
+def graph_word_cloud(df, column_name, output_file):
+    text = " ".join(df[column_name].dropna().astype(str))
+    wordcloud = WordCloud(width=800, height=400, background_color='#000000').generate(text)
+
+    plt.figure(figsize=(10, 5))
+    plt.imshow(wordcloud, interpolation='bilinear')
+    plt.axis('off')
+    plt.tight_layout()
+    
+    plt.savefig(output_file)
     plt.show()
