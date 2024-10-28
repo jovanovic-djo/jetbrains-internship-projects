@@ -13,7 +13,7 @@ def graph_metrics(inputdir, outputdir):
     fig = plt.figure(figsize=(14, 8))
     gs = gridspec.GridSpec(2, 2, width_ratios=[1, 1.5], height_ratios=[2, 1])
 
-    metrics = ['exact_match', 'bleu', 'chrf', 'edit_distance']
+    metrics = ['exact_match', 'bleu', 'chrf', 'levenshtein_distance']
 
     for i, metric in enumerate(metrics):
         ax = fig.add_subplot(gs[i // 2, i % 2])
@@ -30,8 +30,6 @@ def graph_metrics(inputdir, outputdir):
 
     plt.tight_layout()
     plt.savefig(outputdir)
-    plt.show()
-
 
 def graph_word_cloud(input_file, output_file):
     df = pd.read_csv(input_file)
@@ -44,4 +42,3 @@ def graph_word_cloud(input_file, output_file):
     plt.tight_layout()
     
     plt.savefig(output_file)
-    plt.show()

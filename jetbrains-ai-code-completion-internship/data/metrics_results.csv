@@ -1,16 +1,17 @@
-code examples,prefix,middle,suffix,completion,exact_match,bleu,chrf,edit_distance
+code examples,prefix,middle,suffix,completion,exact_match,bleu,chrf,levenshtein_distance
 "def shoot(self):
     if self.cool_down_counter == 0:
         laser = Laser(self.x, self.y, self.laser_img)
         self.lasers.append(laser)
         self.cool_down_counter = 1","def shoot(self):
-    if self.cool_down_counter == 0:","        laser = Laser(self.x, self.y, self.laser_img)","        self.lasers.append(laser)
-        self.cool_down_counter = 1","def shoot(self):
     if self.cool_down_counter == 0:
+        laser = Laser(self.x, self.y, self.laser_img)",        self.lasers.append(laser),        self.cool_down_counter = 1,"def shoot(self):
+    if self.cool_down_counter == 0:
+        laser = Laser(self.x, self.y, self.laser_img)
+        laser.shoot()
         self.cool_down_counter = 1
-        self.cool_down_timer = 0
-        self.cool_down_timer_timer = 0
-        self.cool_down_timer_timer_counter = 0",0,0.010802314890908065,20.60208954773719,168
+        self.laser_img = laser.laser_img
+        self.laser_img = pygame.transform.scale(laser.laser_",0,0.5530711031691576,80.44315701365431,115
 "def chat():
     print(""Start talking with the bot: (Press q to quit)"")
     while True:
@@ -35,9 +36,9 @@ code examples,prefix,middle,suffix,completion,exact_match,bleu,chrf,edit_distanc
         result = model.predict([bag_of_words(inp, words)])[0]
         result_index = numpy.argmax(result)
         tag = labels[result_index]
-        if result[result_index] > 0.1:
-            for tg in data[""intents""]:
-                if tg[""tag""] == tag:","                    responses = tg[""responses""]","            print(random.choice(responses))
+        if result[result_index] > 0.1:","            for tg in data[""intents""]:","                if tg[""tag""] == tag:
+                    responses = tg[""responses""]
+            print(random.choice(responses))
         else: 
             print(""I did not understand that!"")","def chat():
     print(""Start talking with the bot: (Press q to quit)"")
@@ -49,13 +50,11 @@ code examples,prefix,middle,suffix,completion,exact_match,bleu,chrf,edit_distanc
         result_index = numpy.argmax(result)
         tag = labels[result_index]
         if result[result_index] > 0.1:
-            for tg in data[""intents""]:
-                if tg[""tag""] == tag:
-                    tg[""confidence""] = 1.0
-                    tg[""confidence_index""] = result_index
-                    tg[""confidence_index_index""] = result_index
-                    tg[""confidence_index_index_index""] = result_index
-                   ",0,0.003263584888402175,7.199116490718054,637
+            print(f""You: {inp} is {tag}"")
+        else:
+            print(f""You: {inp} is {tag} but is {result[result_index]}"")
+
+if __name__ == ""__main",0,0.6704908293077895,72.31782629733259,162
 "def clicker():
     while True:
         if clicking:
@@ -70,7 +69,7 @@ code examples,prefix,middle,suffix,completion,exact_match,bleu,chrf,edit_distanc
         super().__init__(*args, **kwargs)
         self.clicker = clicker_factory.get_clicker()
 
-    def",0,0.0,3.6630036630036624,183
+    def",0,0.026012784404037925,26.247455581251916,130
 "class ApartmentItem(scrapy.Item):
     title = scrapy.Field()
     price = scrapy.Field()
@@ -84,20 +83,18 @@ code examples,prefix,middle,suffix,completion,exact_match,bleu,chrf,edit_distanc
     title = scrapy.Field()
     price = scrapy.Field()
     square_price = scrapy.Field()
-    area = scrapy.Field()
-    rooms = scrapy.Field()",    floor = scrapy.Field(),"    city = scrapy.Field()
+    area = scrapy.Field()",    rooms = scrapy.Field(),"    floor = scrapy.Field()
+    city = scrapy.Field()
     location = scrapy.Field()
     source = scrapy.Field()","class ApartmentItem(scrapy.Item):
     title = scrapy.Field()
     price = scrapy.Field()
     square_price = scrapy.Field()
     area = scrapy.Field()
-    rooms = scrapy.Field()
-    bedrooms = scrapy.Field()
-    beds = scrapy.Field()
-    beds_per_room = scrapy.Field()
-    beds_per_bed = scrapy.Field()
-    beds_per_",0,0.01320526852533513,21.325182235733443,288
+    image_url = scrapy.Field()
+    image_url_alt = scrapy.Field()
+    image_url_alt_alt = scrapy.Field()
+    image_url_alt_alt_alt = scrapy.",0,0.5283288078078556,73.50098449218976,76
 "@router.post(""/"", status_code=status.HTTP_201_CREATED, response_model=schemas.UserOut)
 def create_user(user: schemas.UserCreate, db: Session = Depends(get_db)):
     hashed_password = utils.hash(user.password)
@@ -110,9 +107,9 @@ def create_user(user: schemas.UserCreate, db: Session = Depends(get_db)):
 def create_user(user: schemas.UserCreate, db: Session = Depends(get_db)):
     hashed_password = utils.hash(user.password)
     user.password = hashed_password
-    new_user = models.User(**user.model_dump())",    db.add(new_user),"    db.commit()
-    db.refresh(new_user)
-    return new_user","@router.post(""/"", status_code=status.HTTP_201_CREATED, response_model=schemas.UserOut)
+    new_user = models.User(**user.model_dump())
+    db.add(new_user)
+    db.commit()",    db.refresh(new_user),    return new_user,"@router.post(""/"", status_code=status.HTTP_201_CREATED, response_model=schemas.UserOut)
 def create_user(user: schemas.UserCreate, db: Session = Depends(get_db)):
     hashed_password = utils.hash(user.password)
     user.password = hashed_password
@@ -123,7 +120,8 @@ def create_user(user: schemas.UserCreate, db: Session = Depends(get_db)):
 
 
 @router.get(""/{user_id}"", response_model=schemas.UserOut)
-def get_user(user_id:",0,0.006980361417366381,15.671855025389778,411
+def get_user(user_id: int, db: Session = Depends(get_db)):
+   ",0,0.6614325723576705,90.10018412530853,115
 "class Settings(BaseSettings):
     database_hostname: str
     database_port: str
@@ -138,9 +136,9 @@ def get_user(user_id:",0,0.006980361417366381,15.671855025389778,411
         env_file = "".env""","class Settings(BaseSettings):
     database_hostname: str
     database_port: str
-    database_password: str
-    database_name: str
-    database_username: str",    secret_key: str,"    algorithm: str
+    database_password: str",    database_name: str,"    database_username: str
+    secret_key: str
+    algorithm: str
     access_token_expire_minutes: int
 
     class Config:
@@ -149,23 +147,21 @@ def get_user(user_id:",0,0.006980361417366381,15.671855025389778,411
     database_port: str
     database_password: str
     database_name: str
-    database_username: str
+    database_user: str
     database_password_hash: str
     database_name_hash: str
     database_host: str
     database_port_hash: str
-    database_user: str
-    database_password_hash_hash: str
-    database_name",0,0.007575731225158965,5.373552027253554,329
+    database_user_hash: str",0,0.41999722493596964,60.6159285547633,106
 "def get_db():
     db = SessionLocal()
     try:
         yield db
     finally:
         db.close()","def get_db():
-    db = SessionLocal()
-    try:
-        yield db",    finally:,        db.close(),"def get_db():
+    db = SessionLocal()",    try:,"        yield db
+    finally:
+        db.close()","def get_db():
     db = SessionLocal()
     try:
         yield db
@@ -181,7 +177,7 @@ def get_db_session(db_url):
         db.close()
 
 
-def get_db_session",0,0.008687475782716616,17.079550994239522,210
+",0,0.4562799427006306,80.77930904305313,109
 "class Follow(Base):
     __tablename__ = ""followers""
     user_id = Column(
@@ -196,7 +192,7 @@ def get_db_session",0,0.008687475782716616,17.079550994239522,210
     __tablename__ = ""followers""
     user_id = Column(Integer, ForeignKey(""users.id""), primary_key=True)
     follower_id = Column(Integer, ForeignKey(""users.id""), primary_key=True)
-    follower = relationship(""User"", back_populates",0,0.0,49.25193544661405,184
+    follower = relationship(""User"", back_populates",0,0.3023858407554745,79.38637864900751,106
 "class User(Base):
     __tablename__ = ""users""
     id = Column(Integer, primary_key=True, nullable=False)
@@ -212,8 +208,8 @@ def get_db_session",0,0.008687475782716616,17.079550994239522,210
     email = Column(String, nullable=False, unique=True)
     password = Column(String, nullable=False)
     created_at = Column(
-        TIMESTAMP(timezone=True), nullable=False, server_default=text(""now()"")",    ),"    followers = Column(Integer, nullable=False)
-    following = Column(Integer, nullable=False)","class User(Base):
+        TIMESTAMP(timezone=True), nullable=False, server_default=text(""now()"")
+    )","    followers = Column(Integer, nullable=False)","    following = Column(Integer, nullable=False)","class User(Base):
     __tablename__ = ""users""
     id = Column(Integer, primary_key=True, nullable=False)
     email = Column(String, nullable=False, unique=True)
@@ -227,7 +223,7 @@ def get_db_session",0,0.008687475782716616,17.079550994239522,210
 
     def __init__(self, email, password):
         self.email = email
-        self",0,0.004503778123700044,1.2406947890818858,503
+        self.password",0,0.6314460727414661,81.05063745632323,145
 "def preprocess_face(face):
     face_resized = cv2.resize(face, (48, 48))
     face_normalized = face_resized / 255.0
@@ -238,7 +234,7 @@ def get_db_session",0,0.008687475782716616,17.079550994239522,210
     face_resized = cv2.resize(face, (48, 48))
     face_resized = face_resized.astype(np.float32) / 255.0
     face_resized = np.expand_dims(face_resized, axis=0)
-    face_",0,0.028927969316143217,36.97438520431947,159
+    face_",0,0.36816017035411847,72.9887133986229,54
 "def predict_facial_attributes(face_input):
     gender_pred, ethnicity_pred, age_pred = model.predict(face_input)
     gender = ""Male"" if gender_pred[0][0] < 0.5 else ""Female""
@@ -250,8 +246,8 @@ def get_db_session",0,0.008687475782716616,17.079550994239522,210
         4: ""Other""
     }.get(np.argmax(ethnicity_pred[0]), ""Unknown"")
     age = int(age_pred[0][0])
-    return gender, ethnicity, age","def predict_facial_attributes(face_input):
-    gender_pred, ethnicity_pred, age_pred = model.predict(face_input)","    gender = ""Male"" if gender_pred[0][0] < 0.5 else ""Female""","    ethnicity = {
+    return gender, ethnicity, age",def predict_facial_attributes(face_input):,"    gender_pred, ethnicity_pred, age_pred = model.predict(face_input)","    gender = ""Male"" if gender_pred[0][0] < 0.5 else ""Female""
+    ethnicity = {
         0: ""White"",
         1: ""Black"",
         2: ""Asiatic"",
@@ -260,13 +256,16 @@ def get_db_session",0,0.008687475782716616,17.079550994239522,210
     }.get(np.argmax(ethnicity_pred[0]), ""Unknown"")
     age = int(age_pred[0][0])
     return gender, ethnicity, age","def predict_facial_attributes(face_input):
-    gender_pred, ethnicity_pred, age_pred = model.predict(face_input)
-    return gender_pred, ethnicity_pred, age_pred
+    """"""
+    Predicts the facial attributes of a face.
 
+    Args:
+        face_input (numpy.ndarray): The input image.
 
-def predict_face(face_input):
-    gender_pred, ethnicity_pred, age_pred = model.predict(face_input)
-   ",0,0.010802314890908065,18.047118160922373,229
+    Returns:
+        numpy.ndarray: The predicted facial attributes.
+    """"""
+    face_input =",0,0.010540755538631595,26.977739658907314,279
 "def predict_attributes(image_path):
     try:
         img, gray_img = load_and_preprocess_image(image_path)
@@ -292,9 +291,9 @@ def predict_face(face_input):
             print(""No faces detected."")
             return
         for (x, y, w, h) in faces:
-            face = gray_img[y : y + h, x : x + w]
-            face_input = preprocess_face(face)
-            gender, ethnicity, age = predict_facial_attributes(face_input)","            img = annotate_image(img, x, y, gender, ethnicity, age)","        cv2.imshow('Facial Attribute Recognition', cv2.resize(img, (512, 512)))
+            face = gray_img[y : y + h, x : x + w]",            face_input = preprocess_face(face),"            gender, ethnicity, age = predict_facial_attributes(face_input)
+            img = annotate_image(img, x, y, gender, ethnicity, age)
+        cv2.imshow('Facial Attribute Recognition', cv2.resize(img, (512, 512)))
         cv2.waitKey(0)
         cv2.destroyAllWindows()
     
@@ -308,16 +307,9 @@ def predict_face(face_input):
             return
         for (x, y, w, h) in faces:
             face = gray_img[y : y + h, x : x + w]
-            face_input = preprocess_face(face)
-            gender, ethnicity, age = predict_facial_attributes(face_input)
-            print(gender, ethnicity, age)
-            if gender == ""Male"":
-                gender = ""Male""
-            elif gender == ""Female"":
-                gender = ""Female""
-            else:
-                gender = ""Unknown""
-            print(gender",0,0.00858661484197413,26.498251758582704,630
+            face = cv2.resize(face, (224, 224))
+            face = face.reshape(1, 224, 224, 3)
+            face = np.expand_dims",0,0.5342367253682578,52.93321500016892,298
 "def predict_attributes(image_path):
     img = cv2.imread(image_path)
     img = cv2.resize(img, (512, 512))
@@ -364,9 +356,7 @@ predict_attributes(image_path)","def predict_attributes(image_path):
     if img is None:
         print(f""Error: Image at {image_path} could not be loaded."")
         return
-    gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-    faces = face_cascade.detectMultiScale(gray_img, scaleFactor=1.3, minNeighbors=5)
-    if len(faces) == 0:
+    gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)","    faces = face_cascade.detectMultiScale(gray_img, scaleFactor=1.3, minNeighbors=5)","    if len(faces) == 0:
         print(""No faces detected."")
         return
     for (x, y, w, h) in faces:
@@ -377,7 +367,9 @@ predict_attributes(image_path)","def predict_attributes(image_path):
         gender_pred, ethnicity_pred, age_pred = model.predict(face_input)
         gender = ""Male"" if gender_pred[0][0] < 0.5 else ""Female""
         match np.argmax(ethnicity_pred[0]):
-            case 0:","                ethnicity = ""White""","            case 1:
+            case 0:
+                ethnicity = ""White""
+            case 1:
                 ethnicity = ""Black""
             case 2:
                 ethnicity = ""Asiatic""
@@ -403,28 +395,10 @@ predict_attributes(image_path)","def predict_attributes(image_path):
         print(f""Error: Image at {image_path} could not be loaded."")
         return
     gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-    faces = face_cascade.detectMultiScale(gray_img, scaleFactor=1.3, minNeighbors=5)
-    if len(faces) == 0:
-        print(""No faces detected."")
-        return
-    for (x, y, w, h) in faces:
-        face = gray_img[y : y + h, x : x + w]
-        face_resized = cv2.resize(face, (48, 48))
-        face_normalized = face_resized / 255.0
-        face_input = np.expand_dims(face_normalized, axis=(0, -1))
-        gender_pred, ethnicity_pred, age_pred = model.predict(face_input)
-        gender = ""Male"" if gender_pred[0][0] < 0.5 else ""Female""
-        match np.argmax(ethnicity_pred[0]):
-            case 0:
-                gender = ""Female""
-            case 1:
-                gender = ""Male""
-            case 2:
-                gender = ""Unknown""
-        if gender == ""Unknown"":
-            gender = ""Unknown""
-        if gender == ""Male"":
-            gender",0,0.0015397079930921473,5.076085244954501,1084
+    # Detecting the faces in the image
+    faces = face_cascade.detectMultiScale(gray_img, scaleFactor=1.1, minNeighbors=5)
+    # Drawing the faces
+    for (x, y, w",0,0.057440029221971764,28.688619375773257,1289
 "def twoSum(nums, target):
     map = {}
     for i, num in enumerate(nums):
@@ -432,22 +406,25 @@ predict_attributes(image_path)","def predict_attributes(image_path):
         if diff in map:
             return [map[diff], i]
         map[num] = i
-    return None","def twoSum(nums, target):",    map = {},"    for i, num in enumerate(nums):
-        diff = target - num
-        if diff in map:
-            return [map[diff], i]
+    return None","def twoSum(nums, target):
+    map = {}
+    for i, num in enumerate(nums):
+        diff = target - num",        if diff in map:,"            return [map[diff], i]
         map[num] = i
     return None","def twoSum(nums, target):
-    """"""
-    :type nums: List[int]
-    :type target: int
-    :rtype: List[int]
-    """"""
-    if not nums:
-        return []
-    if target < 0:
-        return []
-    if target == ",0,0.0,2.222222222222222,192
+    map = {}
+    for i, num in enumerate(nums):
+        diff = target - num
+        if diff in map:
+            map[diff] += 1
+        else:
+            map[diff] = 1
+    return map
+
+
+def twoSum2(nums, target):
+    map = {}
+    for i, num in enumerate",0,0.49141334629113187,74.17043696285111,103
 "def divide(dividend, divisor):
     if dividend == -(2**31) and divisor == -1:
         return (2**31) - 1     
@@ -464,7 +441,7 @@ def get_price_change(price, change):
     return price - change
 
 
-def get_price_change",0,0.010331208012220438,22.63315408416,168
+def get_price_change",0,0.056586356745712406,45.53166072071051,115
 "def reverse(x):
     result = 0
     negative = x < 0
@@ -478,9 +455,9 @@ def get_price_change",0,0.010331208012220438,22.63315408416,168
         return 0
     return result","def reverse(x):
     result = 0
-    negative = x < 0",    x = abs(x),"    while x != 0:
-        result = result * 10 + x % 10
-        x //= 10
+    negative = x < 0
+    x = abs(x)
+    while x != 0:",        result = result * 10 + x % 10,"        x //= 10
     if negative:
         result = -result
     if result < -2 ** 31 or result > 2 ** 31 - 1:
@@ -488,7 +465,8 @@ def get_price_change",0,0.010331208012220438,22.63315408416,168
     return result","def reverse(x):
     result = 0
     negative = x < 0
-    while negative:
+    x = abs(x)
+    while x != 0:
         result = result * 10 + x % 10
         x = x // 10
     return result
@@ -496,7 +474,8 @@ def get_price_change",0,0.010331208012220438,22.63315408416,168
 def main():
     print(reverse(10))
 
-if __name__ == '__",0,0.011231940108313073,5.712412548984845,191
+if __name__ == '__main__':
+    main",0,0.5196670772045985,58.13037240391422,98
 "def romanToInt(s):
     result = 0
     previous_value = 0
@@ -510,29 +489,25 @@ if __name__ == '__",0,0.011231940108313073,5.712412548984845,191
         previous_value = value
     return result","def romanToInt(s):
     result = 0
-    previous_value = 0
-    roman = {'I': 1,'V': 5,'X': 10,'L': 50,'C': 100,'D': 500,'M': 1000}
-    for i in reversed(s):
-        value = roman[i]
-        if value < previous_value:
-            result -= value
-        else:",            result += value,"        previous_value = value
-    return result","def romanToInt(s):
-    result = 0
-    previous_value = 0
-    roman = {'I': 1,'V': 5,'X': 10,'L': 50,'C': 100,'D': 500,'M': 1000}
-    for i in reversed(s):
+    previous_value = 0","    roman = {'I': 1,'V': 5,'X': 10,'L': 50,'C': 100,'D': 500,'M': 1000}","    for i in reversed(s):
         value = roman[i]
         if value < previous_value:
             result -= value
         else:
-            previous_value = value
-    return result
-
-def romanToInt2(s):
+            result += value
+        previous_value = value
+    return result","def romanToInt(s):
     result = 0
     previous_value = 0
-    roman = {'I': 1,'V': 5,'X': 1",0,0.004188635776841715,11.189562471472723,376
+    for c in s:
+        if c == 'I':
+            result += 1
+        elif c == 'V':
+            result -= 1
+        elif c == 'X':
+            result += 1
+        elif c == 'L':
+           ",0,0.20507248087279378,33.98761025938819,163
 "def longestConsecutive(nums):
     nums = set(nums)
     maximum = 0
@@ -543,27 +518,23 @@ def romanToInt2(s):
                 counter += 1
             maximum = max(maximum, counter)    
     return maximum","def longestConsecutive(nums):
-    nums = set(nums)
-    maximum = 0
-    for num in nums:
+    nums = set(nums)",    maximum = 0,"    for num in nums:
         if (num - 1) not in nums:
-            counter = 0",            while (num + counter) in nums:,"                counter += 1
+            counter = 0
+            while (num + counter) in nums:
+                counter += 1
             maximum = max(maximum, counter)    
     return maximum","def longestConsecutive(nums):
     nums = set(nums)
-    maximum = 0
-    for num in nums:
-        if (num - 1) not in nums:
-            counter = 0
-            for i in range(len(nums)):
-                if (num - i) in nums:
-                    counter += 1
-            if counter > maximum:
-                maximum = counter
-    return maximum
+    for i in range(len(nums)):
+        if nums[i] != nums[i - 1]:
+            return i
+    return -1
+
 
 def longestConsecutive2(nums):
-    nums",0,0.009149557561466086,21.1719848749694,344
+    nums = set(nums)
+    for",0,0.10625862422030927,38.688206401038514,154
 "def wordPattern(pattern, s):
     word_map = {}
     s = s.split()
@@ -578,7 +549,19 @@ def longestConsecutive2(nums):
             return False
     return True","def wordPattern(pattern, s):
     word_map = {}
-    s = s.split()",    if len(s) != len(pattern):,"        return False
+    s = s.split()
+    if len(s) != len(pattern):
+        return False
+    for index, char in enumerate(pattern):
+        if char not in word_map:
+            if s[index] in word_map.values():
+                return False
+            word_map[char] = s[index]
+        elif word_map[char] != s[index]:",            return False,    return True,"def wordPattern(pattern, s):
+    word_map = {}
+    s = s.split()
+    if len(s) != len(pattern):
+        return False
     for index, char in enumerate(pattern):
         if char not in word_map:
             if s[index] in word_map.values():
@@ -586,15 +569,15 @@ def longestConsecutive2(nums):
             word_map[char] = s[index]
         elif word_map[char] != s[index]:
             return False
-    return True","def wordPattern(pattern, s):
+    return True
+
+
+def wordPattern2(pattern, s):
     word_map = {}
     s = s.split()
-    for i in range(len(s)):
-        if s[i] in word_map:
-            word_map[s[i]] += 1
-        else:
-            word_map[s[i]] = 1
-    return",0,0.007575731225158965,27.12400425703833,189
+    if len(s) != len(pattern):
+        return False
+    for index, char in",0,0.6805329594454985,92.66169243669792,143
 "def longestPalindrome(s):
     map = {}
     counter = 0
@@ -616,12 +599,12 @@ def longestConsecutive2(nums):
     odd = False
     for char in s:
         if char not in map:
-            map[char] = 1",        elif char in map:,"            map[char] += 1
+            map[char] = 1
+        elif char in map:
+            map[char] += 1
     for key, value in map.items():
         if value % 2 == 0:
-            counter += value
-        elif value % 2 != 0:
-            counter += value - 1
+            counter += value",        elif value % 2 != 0:,"            counter += value - 1
             odd = True
     return counter + 1 if odd else counter","def longestPalindrome(s):
     map = {}
@@ -630,18 +613,22 @@ def longestConsecutive2(nums):
     for char in s:
         if char not in map:
             map[char] = 1
-        else:
+        elif char in map:
             map[char] += 1
-        if map[char] > 1:
+    for key, value in map.items():
+        if value % 2 == 0:
+            counter += value
             odd = True
-            counter += 1
     if odd:
         return counter
     else:
-        return 0
+        return counter + 1
 
 def main():
-   ",0,0.011125382292406935,20.336823312531184,312
+    s = ""aab""
+    print(longestPalindrome(s))
+
+if __name__ == ""__main__"":",0,0.7261064153440595,79.92872491343847,115
 "def search(nums, target):
     left, right = 0, len(nums) - 1
     while left <= right:
@@ -655,18 +642,18 @@ def main():
     return -1","def search(nums, target):
     left, right = 0, len(nums) - 1
     while left <= right:
-        mid = (left + right) // 2",        if nums[mid] == target:,"            return mid
+        mid = (left + right) // 2
+        if nums[mid] == target:
+            return mid
         if nums[mid] < target:
-            left = mid + 1
-        else:
-            right = mid - 1
+            left = mid + 1",        else:,"            right = mid - 1
     return -1","def search(nums, target):
     left, right = 0, len(nums) - 1
     while left <= right:
         mid = (left + right) // 2
         if nums[mid] == target:
             return mid
-        elif nums[mid] < target:
+        if nums[mid] < target:
             left = mid + 1
         else:
             right = mid - 1
@@ -674,7 +661,8 @@ def main():
 
 
 def main():
-    nums =",0,0.04761298946116126,35.04898900941036,284
+    nums = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+   ",0,0.7656560821786901,95.98310911779798,57
 "def missingNumber(nums):
     n = len(nums)
     result = n * (n + 1) // 2
@@ -694,7 +682,7 @@ def missingNumber2(nums):
     n = len(nums)
     if n == 0:
         return 0
-    else:",0,0.007987276352377327,6.819284824049027,172
+    else:",0,0.14059391325479217,49.34771076584335,96
 "def insertGreatestCommonDivisors(head):
     node = head
     while node.next:
@@ -713,7 +701,7 @@ def missingNumber2(nums):
     return head
 
 
-def insertGreatestCommonSubtrees(head):",0,0.008687475782716616,25.994761386518224,228
+def insertGreatestCommonSubtrees(head):",0,0.29904420018707906,75.21290022019068,107
 "def mergeInBetween(list1, a, b, list2):
     left = right = list1
     for _ in range(a - 1):
@@ -725,30 +713,23 @@ def insertGreatestCommonSubtrees(head):",0,0.008687475782716616,25.9947613865182
         list2 = list2.next
     left.next = right.next
     left = right.next = None
-    return list1","def mergeInBetween(list1, a, b, list2):
-    left = right = list1
-    for _ in range(a - 1):
-        left = left.next
-    for _ in range(b):
-        right = right.next
-    left.next = list2",    while list2:,"        list2 = list2.next
-    left.next = right.next
-    left = right.next = None
-    return list1","def mergeInBetween(list1, a, b, list2):
-    left = right = list1
-    for _ in range(a - 1):
+    return list1","def mergeInBetween(list1, a, b, list2):",    left = right = list1,"    for _ in range(a - 1):
         left = left.next
     for _ in range(b):
         right = right.next
     left.next = list2
-    right.next = list1
-    return left, right
-
-
-def mergeInBetween2(list1, a, b, list2):
-    left = right = list1
-    for _ in range(a - 1):
-        left",0,0.0,6.750899001027277,327
+    while list2:
+        list2 = list2.next
+    left.next = right.next
+    left = right.next = None
+    return list1","def mergeInBetween(list1, a, b, list2):
+    """"""
+    Merge two lists together.
+    """"""
+    if len(list1) != len(list2):
+        raise ValueError(""Lists must have the same length"")
+    if len(list1) < len(list2):
+        list1",0,0.07244757591204713,31.624219526237024,183
 "def reverseList(head):
     prev, curr = None, head
     while curr:
@@ -758,24 +739,25 @@ def mergeInBetween2(list1, a, b, list2):
         curr = temp
     return prev","def reverseList(head):
     prev, curr = None, head
-    while curr:",        temp = curr.next,"        curr.next = prev
-        prev = curr
-        curr = temp
+    while curr:
+        temp = curr.next
+        curr.next = prev",        prev = curr,"        curr = temp
     return prev","def reverseList(head):
     prev, curr = None, head
     while curr:
-        curr = curr.next
+        temp = curr.next
+        curr.next = prev
         prev = curr
+        curr = temp
     return prev
 
 def reverseList2(head):
     prev, curr = None, head
     while curr:
-        curr = curr.next
+        temp = curr.next
+        curr.next = prev
         prev = curr
-    return prev
-
-def",0,0.011231940108313073,18.598701346414074,239
+        curr",0,0.530347487135559,84.90381269271458,152
 "def swapPairs(self, head):
     if not head or not head.next:
         return head
@@ -795,7 +777,7 @@ def",0,0.011231940108313073,18.598701346414074,239
         q = head
         while p and q:
             if p.val < q.val:
-                p =",0,0.014117915208981237,23.819359109488666,230
+                p =",0,0.047973925170118475,36.63794033651614,161
 "def oddEvenList(head):
     if not head or not head.next:
         return head
@@ -814,8 +796,8 @@ def",0,0.011231940108313073,18.598701346414074,239
     odd = head
     even = head.next
     node = even
-    while even and even.next:",        odd.next = odd.next.next,"        even.next = even.next.next
-        odd = odd.next
+    while even and even.next:
+        odd.next = odd.next.next",        even.next = even.next.next,"        odd = odd.next
         even = even.next
     odd.next = node
     return head","def oddEvenList(head):
@@ -825,15 +807,17 @@ def",0,0.011231940108313073,18.598701346414074,239
     even = head.next
     node = even
     while even and even.next:
-        node = even.next
-        even = even.next.next
-    return odd.next
+        odd.next = odd.next.next
+        even = even.next
+    return odd
 
 def oddEvenList2(head):
     if not head or not head.next:
         return head
     odd = head
-    even = head",0,0.004649189828106597,24.55167931711283,311
+    even = head.next
+    node = even
+    while even and",0,0.5406139367818353,79.27070612627341,109
 "def mergeTwoLists(list1, list2):
     result = current = ListNode(0)
     while list1 and list2:
@@ -855,8 +839,8 @@ def oddEvenList2(head):
             current.next = list1
             list1 = list1.next
         else:
-            current.next = list2
-            list2 = list2.next",        current = current.next,"    if list1:
+            current.next = list2",            list2 = list2.next,"        current = current.next
+    if list1:
         current.next = list1
     elif list2:
         current.next = list2
@@ -877,8 +861,7 @@ def oddEvenList2(head):
     return result
 
 
-def mergeTwoLists2(list1, list2):
-    result =",0,0.01853380378290996,24.464806729495912,422
+def mergeTwoLists2(list",0,0.7879844158264592,90.36945836755058,38
 "def quick_sort(arr):
     if len(arr) <= 1:
         return arr
@@ -887,8 +870,8 @@ def mergeTwoLists2(list1, list2):
     middle = [x for x in arr if x == pivot]
     right = [x for x in arr if x > pivot]
     return quick_sort(left) + middle + quick_sort(right)","def quick_sort(arr):
-    if len(arr) <= 1:
-        return arr",    pivot = arr[len(arr) // 2],"    left = [x for x in arr if x < pivot]
+    if len(arr) <= 1:",        return arr,"    pivot = arr[len(arr) // 2]
+    left = [x for x in arr if x < pivot]
     middle = [x for x in arr if x == pivot]
     right = [x for x in arr if x > pivot]
     return quick_sort(left) + middle + quick_sort(right)","def quick_sort(arr):
@@ -898,7 +881,7 @@ def mergeTwoLists2(list1, list2):
     i = 1
     for j in range(1, len(arr)):
         if arr[j] < pivot:
-            arr[i], arr[j] = arr[j], arr[i",0,0.014203609079723397,33.03497911907021,166
+            arr[i], arr[j] = arr[j],",0,0.1473638702131434,37.94895392762776,138
 "def insertion_sort(arr):
     for i in range(1, len(arr)):
         key = arr[i]
@@ -912,8 +895,8 @@ def mergeTwoLists2(list1, list2):
         key = arr[i]
         j = i - 1
         while j >= 0 and key < arr[j]:
-            arr[j + 1] = arr[j]
-            j -= 1",        arr[j + 1] = key,    return arr,"def insertion_sort(arr):
+            arr[j + 1] = arr[j]",            j -= 1,"        arr[j + 1] = key
+    return arr","def insertion_sort(arr):
     for i in range(1, len(arr)):
         key = arr[i]
         j = i - 1
@@ -927,7 +910,7 @@ def mergeTwoLists2(list1, list2):
 def insertion_sort_2(arr):
     for i in range(1, len(arr)):
         key = arr[i]
-        j = i - 1",0,0.06428216024520217,21.130656783325914,303
+        j",0,0.7682732547003108,91.07700658696835,93
 "def merge_sort(arr):
     if len(arr) > 1:
         mid = len(arr) // 2
@@ -964,13 +947,13 @@ def insertion_sort_2(arr):
             if left[i] < right[j]:
                 arr[k] = left[i]
                 i += 1
-            else:
-                arr[k] = right[j]
-                j += 1
+            else:",                arr[k] = right[j],"                j += 1
             k += 1
         while i < len(left):
             arr[k] = left[i]
-            i += 1",            k += 1,"        while j < len(right):
+            i += 1
+            k += 1
+        while j < len(right):
             arr[k] = right[j]
             j += 1
             k += 1
@@ -994,15 +977,7 @@ def insertion_sort_2(arr):
             arr[k] = left[i]
             i += 1
             k += 1
-        while j < len(right):
-            arr[k] = right[j]
-            j += 1
-            k += 1
-    return arr
-
-
-def merge_sort_2(arr):
-    if len",0,0.010416435374238737,3.709232534599083,653
+        while",0,0.8139288269830024,87.60715769369202,99
 "def selection_sort(arr):
     n = len(arr)
     for i in range(n):
@@ -1015,21 +990,19 @@ def merge_sort_2(arr):
     n = len(arr)
     for i in range(n):
         min_index = i
-        for j in range(i + 1, n):
-            if arr[j] < arr[min_idx]:",                min_index = j,"        arr[i], arr[min_index] = arr[min_index], arr[i]
+        for j in range(i + 1, n):",            if arr[j] < arr[min_idx]:,"                min_index = j
+        arr[i], arr[min_index] = arr[min_index], arr[i]
     return arr","def selection_sort(arr):
     n = len(arr)
     for i in range(n):
         min_index = i
         for j in range(i + 1, n):
-            if arr[j] < arr[min_idx]:
+            if arr[j] < arr[min_index]:
                 min_index = j
         arr[i], arr[min_index] = arr[min_index], arr[i]
 
 
-def selection_sort_2(arr):
-    n = len(arr)
-    for i in",0,0.023480087201163912,18.736615136900227,274
+def selection_sort_2(",0,0.8547305998833805,91.23312492453616,20
 "def bubble_sort(arr):
     n = len(arr)
     for i in range(n):
@@ -1047,4 +1020,4 @@ def selection_sort_2(arr):
             if arr[j] > arr[i]:
                 arr[j], arr[i] = arr[i], arr[j]
 
-def quick_sort(arr):",0,0.042601467364417965,27.14168536035229,162
+def quick_sort(arr):",0,0.3523055853669439,73.15969357827444,42

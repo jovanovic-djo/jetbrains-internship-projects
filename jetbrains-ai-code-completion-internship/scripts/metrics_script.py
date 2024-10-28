@@ -36,7 +36,7 @@ def compute_metrics(input_csv, output_csv):
     edit_distances = []
 
     for _, row in df.iterrows():
-        reference = row['middle']
+        reference = row['code examples']
         prediction = row['completion']
         
         exact_matches.append(compute_exact_match(reference, prediction))
@@ -47,7 +47,7 @@ def compute_metrics(input_csv, output_csv):
     df['exact_match'] = exact_matches
     df['bleu'] = bleu_scores
     df['chrf'] = chrf_scores
-    df['edit_distance'] = edit_distances
+    df['levenshtein_distance'] = edit_distances
     
     df.to_csv(output_csv, index=False)
 
