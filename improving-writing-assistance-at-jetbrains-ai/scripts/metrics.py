@@ -9,3 +9,6 @@ def calculate_accuracy(predicted_sentences, correct_sentences):
     correct_matches = sum([1 for predicted, correct in zip(predicted_sentences, correct_sentences) if predicted == correct])
     accuracy = correct_matches / len(correct_sentences) * 100
     return accuracy
+
+def calculate_exact_match(incorrect, correct):
+    return incorrect.strip() == correct.strip()
