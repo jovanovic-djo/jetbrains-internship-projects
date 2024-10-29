@@ -1,6 +1,6 @@
 from nltk.metrics.distance import edit_distance
 
-def calculate_avg_levenshtein(incorrect_sentences, correct_sentences):
+def calculate_levenshtein(incorrect_sentences, correct_sentences):
     distances = [edit_distance(incorrect, correct) for incorrect, correct in zip(incorrect_sentences, correct_sentences)]
     avg_distance = sum(distances) / len(distances)
     return avg_distance
