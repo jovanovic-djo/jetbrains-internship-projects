@@ -1,0 +1,297 @@
+Index,SpellChecker,Original,Corrected,Predicted,Levenshtein Distance,Accuracy,Exact Match
+0,PySpellChecker,tsnog bjos data pushes uastralain dollar higher,stong jobs data pushes australian dollar higher,snog boos data pushes uastralain dollar higher,0.8695652173913043,12.76595744680851,False
+0,TextBlob,tsnog bjos data pushes uastralain dollar higher,stong jobs data pushes australian dollar higher,snow boy data pushes australian dollar higher,0.9333333333333333,6.382978723404255,False
+0,SymSpell,tsnog bjos data pushes uastralain dollar higher,stong jobs data pushes australian dollar higher,snog bios data pushes australian dollar higher,0.9130434782608695,8.51063829787234,False
+0,PyEnchat,tsnog bjos data pushes uastralain dollar higher,stong jobs data pushes australian dollar higher,snog jobs data pushes Australasian dollar higher,0.9361702127659575,6.382978723404255,False
+1,PySpellChecker,student chafgeV with %sxi drivers murder,student charged with taxi drivers murder,student change with six drivers murder,0.6578947368421053,32.5,False
+1,TextBlob,student chafgeV with %sxi drivers murder,student charged with taxi drivers murder,student changes with %six drivers murder,0.15,85.0,False
+1,SymSpell,student chafgeV with %sxi drivers murder,student charged with taxi drivers murder,student change with six drivers murder,0.6578947368421053,32.5,False
+1,PyEnchat,student chafgeV with %sxi drivers murder,student charged with taxi drivers murder,student chafe with Axis drivers murder,0.7105263157894737,27.500000000000004,False
+2,PySpellChecker,ofru teens chragde over sexual assault,four teens charged over sexual assault,of teens charge over sexual assault,0.9428571428571428,5.263157894736842,False
+2,TextBlob,ofru teens chragde over sexual assault,four teens charged over sexual assault,of tens charge over sexual assault,0.9705882352941176,2.631578947368421,False
+2,SymSpell,ofru teens chragde over sexual assault,four teens charged over sexual assault,of teens charge over sexual assault,0.9428571428571428,5.263157894736842,False
+2,PyEnchat,ofru teens chragde over sexual assault,four teens charged over sexual assault,four teens charade over sexual assault,0.07894736842105263,92.10526315789474,False
+3,PySpellChecker,two years to restite power to irsa minKst#r,two years to restore power to iraq minister,two years to respite power to is minister,0.2926829268292683,67.44186046511628,False
+3,TextBlob,two years to restite power to irsa minKst#r,two years to restore power to iraq minister,two years to restive power to isa midst#r,0.2682926829268293,69.76744186046511,False
+3,SymSpell,two years to restite power to irsa minKst#r,two years to restore power to iraq minister,two years to respite power to ira minister,0.2857142857142857,69.76744186046511,False
+3,PyEnchat,two years to restite power to irsa minKst#r,two years to restore power to iraq minister,two years to restate power to airs Pinkster,0.18604651162790697,81.3953488372093,False
+4,PySpellChecker,anger abpuF forced amalgamation disrupts fi#qt midcoast coincJl,anger about forced amalgamation disrupts first midcoast council,anger about forced amalgamation disrupts first miscast council,0.1935483870967742,79.36507936507937,False
+4,TextBlob,anger abpuF forced amalgamation disrupts fi#qt midcoast coincJl,anger about forced amalgamation disrupts first midcoast council,anger about forced amalgamation disrupt i#it midcoast council,0.3442622950819672,63.49206349206349,False
+4,SymSpell,anger abpuF forced amalgamation disrupts fi#qt midcoast coincJl,anger about forced amalgamation disrupts first midcoast council,anger about forced amalgamation disrupts first mideast council,0.1935483870967742,79.36507936507937,False
+4,PyEnchat,anger abpuF forced amalgamation disrupts fi#qt midcoast coincJl,anger about forced amalgamation disrupts first midcoast council,anger Babeuf forced amalgamation disrupts fit mid coast coincide,0.7301587301587301,26.984126984126984,False
+5,PySpellChecker,port authoiryt stands by more airport efse,port authority stands by more airport fees,port authority stands by more airport else,0.09523809523809523,90.47619047619048,False
+5,TextBlob,port authoiryt stands by more airport efse,port authority stands by more airport fees,port authority stands by more airport else,0.09523809523809523,90.47619047619048,False
+5,SymSpell,port authoiryt stands by more airport efse,port authority stands by more airport fees,port authority stands by more airport else,0.09523809523809523,90.47619047619048,False
+5,PyEnchat,port authoiryt stands by more airport efse,port authority stands by more airport fees,port authority stands by more airport fees,0.0,100.0,True
+6,PySpellChecker,bill eho$ten 6 billion restricting vocagiogal education loAnX,bill shorten 6 billion restricting vocational education loans,bill shorten 6 billion restricting vocational education loan,0.0,98.36065573770492,False
+6,TextBlob,bill eho$ten 6 billion restricting vocagiogal education loAnX,bill shorten 6 billion restricting vocational education loans,bill who$ten 6 billion restricting vocational education long,0.06666666666666667,91.80327868852459,False
+6,SymSpell,bill eho$ten 6 billion restricting vocagiogal education loAnX,bill shorten 6 billion restricting vocational education loans,bill shorten a billion restricting vocational education long,0.05,93.44262295081968,False
+6,PyEnchat,bill eho$ten 6 billion restricting vocagiogal education loAnX,bill shorten 6 billion restricting vocational education loans,bill shotten 6 billion restricting vocational education loan X,0.03278688524590164,96.72131147540983,False
+7,PySpellChecker,sydney news new plans releaCef zhos sirius builidng regamo,sydney news new plans released show sirius builidng revamp,kidney news new plans release hos serious building regard,0.49122807017543857,50.0,False
+7,TextBlob,sydney news new plans releaCef zhos sirius builidng regamo,sydney news new plans released show sirius builidng revamp,sydney news new plans release his serious building regard,0.45614035087719296,53.44827586206896,False
+7,SymSpell,sydney news new plans releaCef zhos sirius builidng regamo,sydney news new plans released show sirius builidng revamp,sydney news new plans release zoos sirius building regard,0.47368421052631576,51.724137931034484,False
+7,PyEnchat,sydney news new plans releaCef zhos sirius builidng regamo,sydney news new plans released show sirius builidng revamp,Sydney news new plans relevance hos Sirius building sagamore,0.25862068965517243,74.13793103448276,False
+8,PySpellChecker,can you $#ll shakespeare f%oH artificial inteOllgence,can you tell shakespeare from artificial intelligence,can you all shakespeare for artificial intelligence,0.7647058823529411,22.641509433962266,False
+8,TextBlob,can you $#ll shakespeare f%oH artificial inteOllgence,can you tell shakespeare from artificial intelligence,can you $#ll shakespeare f%of artificial intelligence,0.07547169811320754,92.45283018867924,False
+8,SymSpell,can you $#ll shakespeare f%oH artificial inteOllgence,can you tell shakespeare from artificial intelligence,can you all shakespeare for artificial intelligence,0.7647058823529411,22.641509433962266,False
+8,PyEnchat,can you $#ll shakespeare f%oH artificial inteOllgence,can you tell shakespeare from artificial intelligence,can you $#ll Shakespeare Foch artificial intelligence,0.1320754716981132,86.79245283018868,False
+9,PySpellChecker,2lectronicX zNop blaze considered suspicious,electronics shop blaze considered suspicious,electronic knop blaze considered suspicious,0.7674418604651163,22.727272727272727,False
+9,TextBlob,2lectronicX zNop blaze considered suspicious,electronics shop blaze considered suspicious,electronic stop blaze considered suspicious,0.7674418604651163,22.727272727272727,False
+9,SymSpell,2lectronicX zNop blaze considered suspicious,electronics shop blaze considered suspicious,electronics top blaze considered suspicious,0.7209302325581395,27.27272727272727,False
+9,PyEnchat,2lectronicX zNop blaze considered suspicious,electronics shop blaze considered suspicious,electronic knop blaze considered suspicious,0.7674418604651163,22.727272727272727,False
+10,PySpellChecker,fosters ceo dizcussrs profit slJKp,fosters ceo discusses profit slump,fosters coo discusses profit sleep,0.08823529411764706,91.17647058823529,False
+10,TextBlob,fosters ceo dizcussrs profit slJKp,fosters ceo discusses profit slump,foster co discusses profit sleep,0.78125,20.588235294117645,False
+10,SymSpell,fosters ceo dizcussrs profit slJKp,fosters ceo discusses profit slump,fosters co discusses profit sleep,0.696969696969697,29.411764705882355,False
+10,PyEnchat,fosters ceo dizcussrs profit slJKp,fosters ceo discusses profit slump,fosters CEO discuss profit slops,0.5,47.05882352941176,False
+11,PySpellChecker,tv lpna to cut reigonla jobs union,tv plan to cut regional jobs union,to long to cut regional jobs union,0.14705882352941177,85.29411764705883,False
+11,TextBlob,tv lpna to cut reigonla jobs union,tv plan to cut regional jobs union,to long to cut regional jobs union,0.14705882352941177,85.29411764705883,False
+11,SymSpell,tv lpna to cut reigonla jobs union,tv plan to cut regional jobs union,to luna to cut regional jobs union,0.14705882352941177,85.29411764705883,False
+11,PyEnchat,tv lpna to cut reigonla jobs union,tv plan to cut regional jobs union,TV plan to cut religion jobs union,0.20588235294117646,79.41176470588235,False
+12,PySpellChecker,iraq mortar strike sfss 11 kLkled,iraq mortar strike sees 11 killed,iraq mortar strike sass 11 killed,0.06060606060606061,93.93939393939394,False
+12,TextBlob,iraq mortar strike sfss 11 kLkled,iraq mortar strike sees 11 killed,ran mortar strike less 11 killed,0.9375,6.0606060606060606,False
+12,SymSpell,iraq mortar strike sfss 11 kLkled,iraq mortar strike sees 11 killed,iraq mortar strike sass of killed,0.12121212121212122,87.87878787878788,False
+12,PyEnchat,iraq mortar strike sfss 11 kLkled,iraq mortar strike sees 11 killed,Iraq mortar strike sass 11 knuckled,0.24242424242424243,75.75757575757575,False
+13,PySpellChecker,copnamblS orphans lay parents to red%,coonamble orphans lay parents to rest,copnamblS orphans lay parents to red,0.08333333333333333,89.1891891891892,False
+13,TextBlob,copnamblS orphans lay parents to red%,coonamble orphans lay parents to rest,copnamblS orphans lay parents to red%,0.10810810810810811,89.1891891891892,False
+13,SymSpell,copnamblS orphans lay parents to red%,coonamble orphans lay parents to rest,copnamblS orphans lay parents to red,0.08333333333333333,89.1891891891892,False
+13,PyEnchat,copnamblS orphans lay parents to red%,coonamble orphans lay parents to rest,amblyoscope orphans lay parents to red,1.0,0.0,False
+14,PySpellChecker,brocons aiming for top four finish ayss kelly,broncos aiming for top four finish says kelly,protons aiming for top four finish ass kelly,0.2727272727272727,71.11111111111111,False
+14,TextBlob,brocons aiming for top four finish ayss kelly,broncos aiming for top four finish says kelly,brooks aiming for top four finish abyss belly,0.8,20.0,False
+14,SymSpell,brocons aiming for top four finish ayss kelly,broncos aiming for top four finish says kelly,brooks aiming for top four finish ass kelly,0.9069767441860465,8.88888888888889,False
+14,PyEnchat,brocons aiming for top four finish ayss kelly,broncos aiming for top four finish says kelly,broncos aiming for top four finish ass kelly,0.18181818181818182,80.0,False
+15,PySpellChecker,rina sentences omsuqe bombers to death reprto,iran sentences mosque bombers to death report,ring sentences mosque bombers to death repro,0.13636363636363635,84.44444444444444,False
+15,TextBlob,rina sentences omsuqe bombers to death reprto,iran sentences mosque bombers to death report,ring sentences mosque combers to death report,0.1111111111111111,88.88888888888889,False
+15,SymSpell,rina sentences omsuqe bombers to death reprto,iran sentences mosque bombers to death report,ring sentences mosque bombers to death repro,0.13636363636363635,84.44444444444444,False
+15,PyEnchat,rina sentences omsuqe bombers to death reprto,iran sentences mosque bombers to death report,rani sentences omasum bombers to death repro,0.25,73.33333333333333,False
+16,PySpellChecker,aydneU man shL6 at in neighbourj0od row,sydney man shot at in neighbourhood row,adieu man she at in neighbourj0od row,0.972972972972973,2.564102564102564,False
+16,TextBlob,aydneU man shL6 at in neighbourj0od row,sydney man shot at in neighbourhood row,sydney man she at in neighbourhood row,0.631578947368421,35.8974358974359,False
+16,SymSpell,aydneU man shL6 at in neighbourj0od row,sydney man shot at in neighbourhood row,sydney man she at in neighbourhood row,0.631578947368421,35.8974358974359,False
+16,PyEnchat,aydneU man shL6 at in neighbourj0od row,sydney man shot at in neighbourhood row,Haydn man Shluh at in neighborhood row,0.6052631578947368,38.46153846153847,False
+17,PySpellChecker,coronavirus ausFFalia live updates f<og victoria jobkewped,coronavirus australia live updates blog victoria jobkeeper,coronavirus australia live updates fog victoria jobkewped,0.38596491228070173,60.3448275862069,False
+17,TextBlob,coronavirus ausFFalia live updates f<og victoria jobkewped,coronavirus australia live updates blog victoria jobkeeper,coronavirus australia live updated f<of victoria jobkewped,0.10344827586206896,89.65517241379311,False
+17,SymSpell,coronavirus ausFFalia live updates f<og victoria jobkewped,coronavirus australia live updates blog victoria jobkeeper,coronavirus australia live updates frog victoria jobkewped,0.06896551724137931,93.10344827586206,False
+17,PyEnchat,coronavirus ausFFalia live updates f<og victoria jobkewped,coronavirus australia live updates blog victoria jobkeeper,corona virus Australia live updates fog victoria jobkewped,0.5689655172413793,43.103448275862064,False
+18,PySpellChecker,herculian prince cops c&Ls pemaltg,herculian prince cops cups penalty,herculean prince cops cols penalty,0.08823529411764706,91.17647058823529,False
+18,TextBlob,herculian prince cops c&Ls pemaltg,herculian prince cops cups penalty,herculean prince corps c&Is penalty,0.47058823529411764,52.94117647058824,False
+18,SymSpell,herculian prince cops c&Ls pemaltg,herculian prince cops cups penalty,herculean prince cops cars penalty,0.08823529411764706,91.17647058823529,False
+18,PyEnchat,herculian prince cops c&Ls pemaltg,herculian prince cops cups penalty,herculean prince cops cols malapert,0.2647058823529412,73.52941176470588,False
+19,PySpellChecker,share jarmet set for xlee(y start,share market set for sleepy start,share armet set for sleepy start,0.78125,21.21212121212121,False
+19,TextBlob,share jarmet set for xlee(y start,share market set for sleepy start,share james set for lee(y start,0.7741935483870968,21.21212121212121,False
+19,SymSpell,share jarmet set for xlee(y start,share market set for sleepy start,share market set for sleepy start,0.0,100.0,True
+19,PyEnchat,share jarmet set for xlee(y start,share market set for sleepy start,share armet set for xlee(y start,0.78125,21.21212121212121,False
+20,PySpellChecker,bDnn4tt atayinT at knights report,bennett staying at knights report,bDnn4tt staying at knights report,0.06060606060606061,93.93939393939394,False
+20,TextBlob,bDnn4tt atayinT at knights report,bennett staying at knights report,bennett staying at knights report,0.0,100.0,True
+20,SymSpell,bDnn4tt atayinT at knights report,bennett staying at knights report,bennett staying at knights report,0.0,100.0,True
+20,PyEnchat,bDnn4tt atayinT at knights report,bennett staying at knights report,bDnn4tt attaint at knights report,0.18181818181818182,81.81818181818183,False
+21,PySpellChecker,bgenRia to miss opening wa&llambies tests,genia to miss opening wallabies tests,biennia to miss opening wallabies tests,0.9459459459459459,5.405405405405405,False
+21,TextBlob,bgenRia to miss opening wa&llambies tests,genia to miss opening wallabies tests,bgenRia to miss opening wa&llambies tests,0.918918918918919,8.108108108108109,False
+21,SymSpell,bgenRia to miss opening wa&llambies tests,genia to miss opening wallabies tests,bgenRia to miss opening wallabies tests,0.9459459459459459,5.405405405405405,False
+21,PyEnchat,bgenRia to miss opening wa&llambies tests,genia to miss opening wallabies tests,Nigeria to miss opening wallabies tests,0.9459459459459459,5.405405405405405,False
+22,PySpellChecker,imlliosn oslt billing scams banks not checking cacuont names,millions lost billing scams banks not checking account names,million out billing scams banks not checking account names,0.8793103448275862,11.666666666666666,False
+22,TextBlob,imlliosn oslt billing scams banks not checking cacuont names,millions lost billing scams banks not checking account names,millions out filling scars banks not checking account names,0.8135593220338984,18.333333333333332,False
+22,SymSpell,imlliosn oslt billing scams banks not checking cacuont names,millions lost billing scams banks not checking account names,million oslo billing scams banks not checking account names,0.847457627118644,15.0,False
+22,PyEnchat,imlliosn oslt billing scams banks not checking cacuont names,millions lost billing scams banks not checking account names,implosion slot billing scams banks not checking Canton names,0.8666666666666667,13.333333333333334,False
+23,PySpellChecker,pm up beat baotu wtear control apln,pm up beat about water control plan,am up beat about wear control all,0.45454545454545453,51.42857142857142,False
+23,TextBlob,pm up beat baotu wtear control apln,pm up beat about water control plan,pm up beat about wear control all,0.42424242424242425,54.285714285714285,False
+23,SymSpell,pm up beat baotu wtear control apln,pm up beat about water control plan,pm up beat bantu wear control all,0.5757575757575758,40.0,False
+23,PyEnchat,pm up beat baotu wtear control apln,pm up beat about water control plan,pm up beat about wear control plan,0.47058823529411764,51.42857142857142,False
+24,PySpellChecker,*reykjav6ik zstGocks plunge 76pc on re op1eninBg,reykjavik stocks plunge 76pc on re opening,*reykjav6ik stocks plunge 76pc on re opening,0.9761904761904762,2.380952380952381,False
+24,TextBlob,*reykjav6ik zstGocks plunge 76pc on re op1eninBg,reykjavik stocks plunge 76pc on re opening,*reykjav6ik stocks plunge 76pc on re opening,0.9761904761904762,2.380952380952381,False
+24,SymSpell,*reykjav6ik zstGocks plunge 76pc on re op1eninBg,reykjavik stocks plunge 76pc on re opening,reykjavik stocks plunge pc on re opening,0.375,59.523809523809526,False
+24,PyEnchat,*reykjav6ik zstGocks plunge 76pc on re op1eninBg,reykjavik stocks plunge 76pc on re opening,Reykjavik stocks plunge 76pc on re opening,0.023809523809523808,97.61904761904762,False
+25,PySpellChecker,govt ruegd to continue scholoeis role,govt urged to continue schoolies role,got rued to continue scholoeis role,0.8857142857142857,10.81081081081081,False
+25,TextBlob,govt ruegd to continue scholoeis role,govt urged to continue schoolies role,got red to continue scholoeis role,0.8529411764705882,13.513513513513514,False
+25,SymSpell,govt ruegd to continue scholoeis role,govt urged to continue schoolies role,govt rued to continue scholoeis role,0.8055555555555556,18.91891891891892,False
+25,PyEnchat,govt ruegd to continue scholoeis role,govt urged to continue schoolies role,govt rued to continue scholiast role,0.8611111111111112,13.513513513513514,False
+26,PySpellChecker,us fl2xRs muscles as asia worries anou6 woJth china sea row,us flexes muscles as asia worries about south china sea row,us floors muscles as aria worries about worth china sea row,0.1016949152542373,89.83050847457628,False
+26,TextBlob,us fl2xRs muscles as asia worries anou6 woJth china sea row,us flexes muscles as asia worries about south china sea row,us fl2xRs muscles as asia worries about worth china sea row,0.06779661016949153,93.22033898305084,False
+26,SymSpell,us fl2xRs muscles as asia worries anou6 woJth china sea row,us flexes muscles as asia worries about south china sea row,us fluxes muscles as asia worries about worth china sea row,0.05084745762711865,94.91525423728814,False
+26,PyEnchat,us fl2xRs muscles as asia worries anou6 woJth china sea row,us flexes muscles as asia worries about south china sea row,us flexors muscles as Asia worries Anouilh worth china sea row,0.847457627118644,15.254237288135593,False
+27,PySpellChecker,hIvt dedendw affordable housing delay,govt defends affordable housing delay,hit defend affordable housing delay,1.0,0.0,False
+27,TextBlob,hIvt dedendw affordable housing delay,govt defends affordable housing delay,have depends unfordable housing delay,0.16216216216216217,83.78378378378379,False
+27,SymSpell,hIvt dedendw affordable housing delay,govt defends affordable housing delay,have depends affordable housing delay,0.10810810810810811,89.1891891891892,False
+27,PyEnchat,hIvt dedendw affordable housing delay,govt defends affordable housing delay,hit defended affordable housing delay,0.32432432432432434,67.56756756756756,False
+28,PySpellChecker,country nsw edpserate for odctosr,country nsw desperate for doctors,country now desperate for doctor,0.03125,93.93939393939394,False
+28,TextBlob,country nsw edpserate for odctosr,country nsw desperate for doctors,country now desperate for doctor,0.03125,93.93939393939394,False
+28,SymSpell,country nsw edpserate for odctosr,country nsw desperate for doctors,country new desperate for doctor,0.03125,93.93939393939394,False
+28,PyEnchat,country nsw edpserate for odctosr,country nsw desperate for doctors,country new serrate for ectosarc,0.59375,39.39393939393939,False
+29,PySpellChecker,ma$rtk kavanagh danny obrien win cobalt ban Aap@peal at Pvca*t,mark kavanagh danny obrien win cobalt ban appeal at vcat,mark kavanagh nanny brief win cobalt ban appeal at Pvca*t,0.5892857142857143,41.07142857142857,False
+29,TextBlob,ma$rtk kavanagh danny obrien win cobalt ban Aap@peal at Pvca*t,mark kavanagh danny obrien win cobalt ban appeal at vcat,ma$to kavanagh dandy brief win coat ban Cap@peal at Va*t,0.5892857142857143,41.07142857142857,False
+29,SymSpell,ma$rtk kavanagh danny obrien win cobalt ban Aap@peal at Pvca*t,mark kavanagh danny obrien win cobalt ban appeal at vcat,mark kavanagh danny brief win cobalt ban appeal at Pvca*t,0.5714285714285714,42.857142857142854,False
+29,PyEnchat,ma$rtk kavanagh danny obrien win cobalt ban Aap@peal at Pvca*t,mark kavanagh danny obrien win cobalt ban appeal at vcat,mart Havanan Danny O'Brien win cobalt ban Appeal at Pvca*t,0.30357142857142855,69.64285714285714,False
+30,PySpellChecker,contempt of cotur charge aganits paper rdopped,contempt of court charge against paper dropped,contempt of your charge against paper dropped,0.6444444444444445,34.78260869565217,False
+30,TextBlob,contempt of cotur charge aganits paper rdopped,contempt of court charge against paper dropped,contempt of coeur charge against paper dropped,0.06521739130434782,93.47826086956522,False
+30,SymSpell,contempt of cotur charge aganits paper rdopped,contempt of court charge against paper dropped,contempt of your charge against paper dropped,0.6444444444444445,34.78260869565217,False
+30,PyEnchat,contempt of cotur charge aganits paper rdopped,contempt of court charge against paper dropped,contempt of court charge aga nits paper dropped,0.32608695652173914,67.3913043478261,False
+31,PySpellChecker,gloucester jo6inJs fight for sh(arBe of nsw nminin5g,gloucester joins fight for share of nsw mining,gloucester joins fight for share of now mining,0.021739130434782608,97.82608695652173,False
+31,TextBlob,gloucester jo6inJs fight for sh(arBe of nsw nminin5g,gloucester joins fight for share of nsw mining,gloucester joints fight for s(are of now mining,0.6739130434782609,32.608695652173914,False
+31,SymSpell,gloucester jo6inJs fight for sh(arBe of nsw nminin5g,gloucester joins fight for share of nsw mining,gloucester joins fight for share of new mining,0.021739130434782608,97.82608695652173,False
+31,PyEnchat,gloucester jo6inJs fight for sh(arBe of nsw nminin5g,gloucester joins fight for share of nsw mining,Gloucester joins fight for sherbet of new mining,0.32608695652173914,67.3913043478261,False
+32,PySpellChecker,patients !Arned of co^Mterfeit drugs,patients warned of counterfeit drugs,patients warned of counterfeit drugs,0.0,100.0,True
+32,TextBlob,patients !Arned of co^Mterfeit drugs,patients warned of counterfeit drugs,patients !Turned of co^Mterfeit drugs,0.75,25.0,False
+32,SymSpell,patients !Arned of co^Mterfeit drugs,patients warned of counterfeit drugs,patients turned of counterfeit drugs,0.05555555555555555,94.44444444444444,False
+32,PyEnchat,patients !Arned of co^Mterfeit drugs,patients warned of counterfeit drugs,patients earned of counterfeiter drugs,0.19444444444444445,80.55555555555556,False
+33,PySpellChecker,blasts ikll 83 in eygptain red sea rserot,blasts kill 83 in egyptian red sea resort,blasts kill 83 in eygptain red sea resort,0.0975609756097561,90.2439024390244,False
+33,TextBlob,blasts ikll 83 in eygptain red sea rserot,blasts kill 83 in egyptian red sea resort,blasts ill 83 in egyptian red sea resort,0.8,19.51219512195122,False
+33,SymSpell,blasts ikll 83 in eygptain red sea rserot,blasts kill 83 in egyptian red sea resort,blasts kill of in egyptian red sea resort,0.04878048780487805,95.1219512195122,False
+33,PyEnchat,blasts ikll 83 in eygptain red sea rserot,blasts kill 83 in egyptian red sea resort,blasts kill 83 in eyestrain red sea trousers,0.4634146341463415,53.65853658536586,False
+34,PySpellChecker,ablrigijal land councils push for mo%thern teGgitory treaty,aboriginal land councils push for northern territory treaty,aboriginal land councils push for mother territory treaty,0.38596491228070173,59.32203389830508,False
+34,TextBlob,ablrigijal land councils push for mo%thern teGgitory treaty,aboriginal land councils push for northern territory treaty,ablrigijal land councils push for mo%there territory treaty,0.0847457627118644,91.52542372881356,False
+34,SymSpell,ablrigijal land councils push for mo%thern teGgitory treaty,aboriginal land councils push for northern territory treaty,aboriginal land councils push for mother territory treaty,0.38596491228070173,59.32203389830508,False
+34,PyEnchat,ablrigijal land councils push for mo%thern teGgitory treaty,aboriginal land councils push for northern territory treaty,Aboriginal land councils push for northern Territory treaty,0.03389830508474576,96.61016949152543,False
+35,PySpellChecker,obama rteRassurances over c1hroysler,obama reassurances over chrysler,mama reassurances over c1hroysler,0.90625,9.375,False
+35,TextBlob,obama rteRassurances over c1hroysler,obama reassurances over chrysler,drama rteRassurances over c1hroysler,0.84375,15.625,False
+35,SymSpell,obama rteRassurances over c1hroysler,obama reassurances over chrysler,obama reassurances over chrysler,0.0,100.0,True
+35,PyEnchat,obama rteRassurances over c1hroysler,obama reassurances over chrysler,Obama assurances over Chrysler,0.8333333333333334,15.625,False
+36,PySpellChecker,beWr short short documentary acceptance Epeedh,best short short documentary acceptance speech,bear short short documentary acceptance speed,0.06666666666666667,91.30434782608695,False
+36,TextBlob,beWr short short documentary acceptance Epeedh,best short short documentary acceptance speech,bear short short documentary acceptance Speech,0.06521739130434782,93.47826086956522,False
+36,SymSpell,beWr short short documentary acceptance Epeedh,best short short documentary acceptance speech,bear short short documentary acceptance speed,0.06666666666666667,91.30434782608695,False
+36,PyEnchat,beWr short short documentary acceptance Epeedh,best short short documentary acceptance speech,beer short short documentary acceptance Epee,0.06818181818181818,89.13043478260869,False
+37,PySpellChecker,aust sodliesr cleared vore airq bodyguard shooting,aust soldiers cleared over iraq bodyguard shooting,just soldiers cleared more air bodyguard shooting,0.5306122448979592,46.0,False
+37,TextBlob,aust sodliesr cleared vore airq bodyguard shooting,aust soldiers cleared over iraq bodyguard shooting,must soldiers cleared more air bodyguard shooting,0.5306122448979592,46.0,False
+37,SymSpell,aust sodliesr cleared vore airq bodyguard shooting,aust soldiers cleared over iraq bodyguard shooting,aust soldiers cleared more air bodyguard shooting,0.5102040816326531,48.0,False
+37,PyEnchat,aust sodliesr cleared vore airq bodyguard shooting,aust soldiers cleared over iraq bodyguard shooting,Aust friendlies cleared over air bodyguard shooting,0.88,12.0,False
+38,PySpellChecker,smthi anticipating improved kiwis performance,smith anticipating improved kiwis performance,sushi anticipating improved kiwis performance,0.08888888888888889,91.11111111111111,False
+38,TextBlob,smthi anticipating improved kiwis performance,smith anticipating improved kiwis performance,smith anticipating improved kiss performance,0.3181818181818182,66.66666666666666,False
+38,SymSpell,smthi anticipating improved kiwis performance,smith anticipating improved kiwis performance,smith anticipating improved kiwis performance,0.0,100.0,True
+38,PyEnchat,smthi anticipating improved kiwis performance,smith anticipating improved kiwis performance,smith anticipating improved kiwis performance,0.0,100.0,True
+39,PySpellChecker,un nuclear watchdog idse in car acciedtn,un nuclear watchdog dies in car accident,in nuclear watchdog idle in car accident,0.125,87.5,False
+39,TextBlob,un nuclear watchdog idse in car acciedtn,un nuclear watchdog dies in car accident,un nuclear watchdog idle in car accident,0.1,90.0,False
+39,SymSpell,un nuclear watchdog idse in car acciedtn,un nuclear watchdog dies in car accident,in nuclear watchdog idle in car accident,0.125,87.5,False
+39,PyEnchat,un nuclear watchdog idse in car acciedtn,un nuclear watchdog dies in car accident,UN nuclear watchdog ides in car accident,0.1,90.0,False
+40,PySpellChecker,hicks at breaking point assy lawyer,hicks at breaking point says lawyer,hicks at breaking point ass lawyer,0.29411764705882354,68.57142857142857,False
+40,TextBlob,hicks at breaking point assy lawyer,hicks at breaking point says lawyer,licks at breaking point ass lawyer,0.3235294117647059,65.71428571428571,False
+40,SymSpell,hicks at breaking point assy lawyer,hicks at breaking point says lawyer,hicks at breaking point ass lawyer,0.29411764705882354,68.57142857142857,False
+40,PyEnchat,hicks at breaking point assy lawyer,hicks at breaking point says lawyer,hicks at breaking point says lawyer,0.0,100.0,True
+41,PySpellChecker,uastraila to host spain in cup ifanl,australia to host spain in cup final,australia to host spain in cup fall,0.08571428571428572,88.88888888888889,False
+41,TextBlob,uastraila to host spain in cup ifanl,australia to host spain in cup final,australia to host spain in cup fall,0.08571428571428572,88.88888888888889,False
+41,SymSpell,uastraila to host spain in cup ifanl,australia to host spain in cup final,australia to host spain in cup final,0.0,100.0,True
+41,PyEnchat,uastraila to host spain in cup ifanl,australia to host spain in cup final,Australasia to host Spain in cup fantail,0.8055555555555556,19.444444444444446,False
+42,PySpellChecker,elcetvie srugrey wiaitng times longest in act,elective surgery waiting times longest in act,elective surgery waiting times longest in act,0.0,100.0,True
+42,TextBlob,elcetvie srugrey wiaitng times longest in act,elective surgery waiting times longest in act,elective surgery waiting times longest in act,0.0,100.0,True
+42,SymSpell,elcetvie srugrey wiaitng times longest in act,elective surgery waiting times longest in act,elective surgery waiting times longest in act,0.0,100.0,True
+42,PyEnchat,elcetvie srugrey wiaitng times longest in act,elective surgery waiting times longest in act,videlicet grugru waiting times longest in act,0.26666666666666666,73.33333333333333,False
+43,PySpellChecker,report finds government failing d(sabl$d communigJ,report finds government failing disabled community,report finds government failing disabled community,0.0,100.0,True
+43,TextBlob,report finds government failing d(sabl$d communigJ,report finds government failing disabled community,report finds government failing d(sable$d community,0.22,78.0,False
+43,SymSpell,report finds government failing d(sabl$d communigJ,report finds government failing disabled community,report finds government failing disabled community,0.0,100.0,True
+43,PyEnchat,report finds government failing d(sabl$d communigJ,report finds government failing disabled community,report finds government failing disabled Communion,0.06,94.0,False
+44,PySpellChecker,council phoes for celna up with churchs building,council hopes for clean up with churchs building,council shoes for cella up with church building,0.3404255319148936,64.58333333333334,False
+44,TextBlob,council phoes for celna up with churchs building,council hopes for clean up with churchs building,council shoes for cela up with church building,0.6304347826086957,35.41666666666667,False
+44,SymSpell,council phoes for celna up with churchs building,council hopes for clean up with churchs building,council shoes for celia up with church building,0.3404255319148936,64.58333333333334,False
+44,PyEnchat,council phoes for celna up with churchs building,council hopes for clean up with churchs building,council foes for clean up with church building,0.8043478260869565,18.75,False
+45,PySpellChecker,abbtot commits to 38 millino for hoabtr,abbott commits to 38 million for hobart,abbot commits to 38 million for hoar,0.8055555555555556,17.94871794871795,False
+45,TextBlob,abbtot commits to 38 millino for hoabtr,abbott commits to 38 million for hobart,abbott commits to 38 million for hoar,0.05405405405405406,89.74358974358975,False
+45,SymSpell,abbtot commits to 38 millino for hoabtr,abbott commits to 38 million for hobart,abbott commits to of million for hobart,0.05128205128205128,94.87179487179486,False
+45,PyEnchat,abbtot commits to 38 millino for hoabtr,abbott commits to 38 million for hobart,abbot commits to 38 million for Hobart,0.8157894736842105,17.94871794871795,False
+46,PySpellChecker,lfodo ivctmis get more mtie for aid,flood victims get more time for aid,food victims get more tie for aid,0.9393939393939394,5.714285714285714,False
+46,TextBlob,lfodo ivctmis get more mtie for aid,flood victims get more time for aid,food victims get more tie for aid,0.9393939393939394,5.714285714285714,False
+46,SymSpell,lfodo ivctmis get more mtie for aid,flood victims get more time for aid,food victims get more tie for aid,0.9393939393939394,5.714285714285714,False
+46,PyEnchat,lfodo ivctmis get more mtie for aid,flood victims get more time for aid,flood activism get more mite for aid,0.8,20.0,False
+47,PySpellChecker,gladXtoMe council delivers buEge6 rate cap,gladstone council delivers budget rate cap,gladstone council delivers budget rate cap,0.0,100.0,True
+47,TextBlob,gladXtoMe council delivers buEge6 rate cap,gladstone council delivers budget rate cap,gladstone council delivers budget rate cap,0.0,100.0,True
+47,SymSpell,gladXtoMe council delivers buEge6 rate cap,gladstone council delivers budget rate cap,gladstone council delivers budget rate cap,0.0,100.0,True
+47,PyEnchat,gladXtoMe council delivers buEge6 rate cap,gladstone council delivers budget rate cap,gladsome council delivers Bruegel rate cap,0.5952380952380952,40.476190476190474,False
+48,PySpellChecker,emerson labsts albro spending on qld drivers ilcecne system,emerson blasts labor spending on qld drivers licence system,emersion lasts also spending on old drivers licence system,0.7931034482758621,20.33898305084746,False
+48,TextBlob,emerson labsts albro spending on qld drivers ilcecne system,emerson blasts labor spending on qld drivers licence system,emerson lasts also spending on old drivers licence system,0.8070175438596491,18.64406779661017,False
+48,SymSpell,emerson labsts albro spending on qld drivers ilcecne system,emerson blasts labor spending on qld drivers licence system,emerson lasts also spending on old drivers licence system,0.8070175438596491,18.64406779661017,False
+48,PyEnchat,emerson labsts albro spending on qld drivers ilcecne system,emerson blasts labor spending on qld drivers licence system,Emerson lasts labor spending on ql drivers Cecile system,0.8214285714285714,16.94915254237288,False
+49,PySpellChecker,ken hengU david gonsiu audtraPia israel chamber of commerce,ken henry david gonski australia israel chamber of commerce,ken henge avid gossip australia israel chamber of commerce,0.8448275862068966,15.254237288135593,False
+49,TextBlob,ken hengU david gonsiu audtraPia israel chamber of commerce,ken henry david gonski australia israel chamber of commerce,ken henry david gossip australia israel chamber of commerce,0.05084745762711865,94.91525423728814,False
+49,SymSpell,ken hengU david gonsiu audtraPia israel chamber of commerce,ken henry david gonski australia israel chamber of commerce,ken henge david gossip australia israel chamber of commerce,0.0847457627118644,91.52542372881356,False
+49,PyEnchat,ken hengU david gonsiu audtraPia israel chamber of commerce,ken henry david gonski australia israel chamber of commerce,ken henge David gonidium Australia Israel chamber of commerce,0.711864406779661,28.8135593220339,False
+50,PySpellChecker,patients wtai for surgery as nruess seek omer pay,patients wait for surgery as nurses seek more pay,patients what for surgery as guess seek omer pay,0.3333333333333333,65.3061224489796,False
+50,TextBlob,patients wtai for surgery as nruess seek omer pay,patients wait for surgery as nurses seek more pay,patients was for surgery as dress seek over pay,0.723404255319149,26.53061224489796,False
+50,SymSpell,patients wtai for surgery as nruess seek omer pay,patients wait for surgery as nurses seek more pay,patients tai for surgery as press seek omer pay,0.723404255319149,26.53061224489796,False
+50,PyEnchat,patients wtai for surgery as nruess seek omer pay,patients wait for surgery as nurses seek more pay,patients wait for surgery as trueness seek omer pay,0.3877551020408163,61.224489795918366,False
+51,PySpellChecker,verrednre how free trade agreements can admgae free trade,verrender how free trade agreements can damage free trade,verrednre how free trade agreements can damage free trade,0.07017543859649122,92.98245614035088,False
+51,TextBlob,verrednre how free trade agreements can admgae free trade,verrender how free trade agreements can damage free trade,verrednre how free trade agreements can damage free trade,0.07017543859649122,92.98245614035088,False
+51,SymSpell,verrednre how free trade agreements can admgae free trade,verrender how free trade agreements can damage free trade,verrednre how free trade agreements can damage free trade,0.07017543859649122,92.98245614035088,False
+51,PyEnchat,verrednre how free trade agreements can admgae free trade,verrender how free trade agreements can damage free trade,averred how free trade agreements can admen free trade,0.9444444444444444,5.263157894736842,False
+52,PySpellChecker,2gyptiag head of armed fprc$s mAkDs breaks silence,egyptian head of armed forces makes breaks silence,2gyptiag head of armed forces makes breaks silence,0.04,96.0,False
+52,TextBlob,2gyptiag head of armed fprc$s mAkDs breaks silence,egyptian head of armed forces makes breaks silence,egyptian head of armed for$s makes breaks silence,0.46938775510204084,52.0,False
+52,SymSpell,2gyptiag head of armed fprc$s mAkDs breaks silence,egyptian head of armed forces makes breaks silence,egyptian head of armed forces makes breaks silence,0.0,100.0,True
+52,PyEnchat,2gyptiag head of armed fprc$s mAkDs breaks silence,egyptian head of armed forces makes breaks silence,Egyptian head of armed fprc$s mads breaks silence,0.40816326530612246,57.99999999999999,False
+53,PySpellChecker,anNoican church implements paedophile progrAK,anglican church implements paedophile program,anNoican church implements pedophile program,0.4090909090909091,57.77777777777777,False
+53,TextBlob,anNoican church implements paedophile progrAK,anglican church implements paedophile program,anglican church implements paedophile program,0.0,100.0,True
+53,SymSpell,anNoican church implements paedophile progrAK,anglican church implements paedophile program,anglican church implements paedophile program,0.0,100.0,True
+53,PyEnchat,anNoican church implements paedophile progrAK,anglican church implements paedophile program,canonical church implements pedophile program,0.6444444444444445,35.55555555555556,False
+54,PySpellChecker,wallabies look to ride momentum into tri natoisn,wallabies look to ride momentum into tri nations,wallabies look to ride momentum into try nation,0.02127659574468085,95.83333333333334,False
+54,TextBlob,wallabies look to ride momentum into tri natoisn,wallabies look to ride momentum into tri nations,fallacies look to ride momentum into try nation,0.06382978723404255,91.66666666666666,False
+54,SymSpell,wallabies look to ride momentum into tri natoisn,wallabies look to ride momentum into tri nations,wallabies look to ride momentum into try nation,0.02127659574468085,95.83333333333334,False
+54,PyEnchat,wallabies look to ride momentum into tri natoisn,wallabies look to ride momentum into tri nations,wallabies look to ride momentum into tree anatomist,0.16666666666666666,83.33333333333334,False
+55,PySpellChecker,edwSGd snowden sprSks out on us telev(cion,edward snowden speaks out on us television,edwSGd snowmen speaks out on us television,0.07142857142857142,92.85714285714286,False
+55,TextBlob,edwSGd snowden sprSks out on us telev(cion,edward snowden speaks out on us television,edward sodden speaks out on us tell(icon,0.775,21.428571428571427,False
+55,SymSpell,edwSGd snowden sprSks out on us telev(cion,edward snowden speaks out on us television,edward snowdon speaks out on us television,0.023809523809523808,97.61904761904762,False
+55,PyEnchat,edwSGd snowden sprSks out on us telev(cion,edward snowden speaks out on us television,Edwards snowmen Sparks out on us television,0.8571428571428571,14.285714285714285,False
+56,PySpellChecker,rothwell Fonsgitution and leadefshiO changes,rothwell constitution and leadership changes,rothwell constitution and leadership changes,0.0,100.0,True
+56,TextBlob,rothwell Fonsgitution and leadefshiO changes,rothwell constitution and leadership changes,rothwell Constitution and leadership changes,0.022727272727272728,97.72727272727273,False
+56,SymSpell,rothwell Fonsgitution and leadefshiO changes,rothwell constitution and leadership changes,bothwell constitution and leadership changes,0.022727272727272728,97.72727272727273,False
+56,PyEnchat,rothwell Fonsgitution and leadefshiO changes,rothwell constitution and leadership changes,Bothwell Constitutions and leadership changes,0.5681818181818182,43.18181818181818,False
+57,PySpellChecker,&c&are alpl3owances to be extended mthCanks to tas woman,care allowances to be extended thanks to tas woman,care allowances to be extended thanks to was woman,0.02,98.0,False
+57,TextBlob,&c&are alpl3owances to be extended mthCanks to tas woman,care allowances to be extended thanks to tas woman,&c&are allowances to be extended thanks to was woman,0.96,4.0,False
+57,SymSpell,&c&are alpl3owances to be extended mthCanks to tas woman,care allowances to be extended thanks to tas woman,care allowances to be extended thanks to as woman,0.16326530612244897,82.0,False
+57,PyEnchat,&c&are alpl3owances to be extended mthCanks to tas woman,care allowances to be extended thanks to tas woman,&c&are allowances to be extended thanks to tach woman,0.96,4.0,False
+58,PySpellChecker,rory gets montogemries ryder cup support,rory gets montgomeries ryder cup support,rosy gets montogemries rider cup support,0.15,85.0,False
+58,TextBlob,rory gets montogemries ryder cup support,rory gets montgomeries ryder cup support,rosy gets montogemries ryder cup support,0.125,87.5,False
+58,SymSpell,rory gets montogemries ryder cup support,rory gets montgomeries ryder cup support,rory gets montogemries ryder cup support,0.1,90.0,False
+58,PyEnchat,rory gets montogemries ryder cup support,rory gets montgomeries ryder cup support,Rory gets monasteries Ryder cup support,0.6666666666666666,32.5,False
+59,PySpellChecker,napthine awtns to satpm out unions ' ' unholy alliance ' wit,napthine wants to stamp out unions' 'unholy alliance' wit,xanthine awns to satem out unions ' ' unholy alliance ' wit,0.7368421052631579,26.31578947368421,False
+59,TextBlob,napthine awtns to satpm out unions ' ' unholy alliance ' wit,napthine wants to stamp out unions' 'unholy alliance' wit,napthine acts to sat out unions ' ' holy alliance ' wit,0.7454545454545455,24.561403508771928,False
+59,SymSpell,napthine awtns to satpm out unions ' ' unholy alliance ' wit,napthine wants to stamp out unions' 'unholy alliance' wit,xanthine awns to sat out unions a a unholy alliance a wit,0.7017543859649122,29.82456140350877,False
+59,PyEnchat,napthine awtns to satpm out unions ' ' unholy alliance ' wit,napthine wants to stamp out unions' 'unholy alliance' wit,nap thine awns to stamp out unions e e unholy alliance e wit,0.5614035087719298,43.859649122807014,False
+60,PySpellChecker,seskeg says road cpsims misguided,secker says road claims misguided,seeker says road claims misguided,0.030303030303030304,96.96969696969697,False
+60,TextBlob,seskeg says road cpsims misguided,secker says road claims misguided,seeker says road claims disguised,0.09090909090909091,90.9090909090909,False
+60,SymSpell,seskeg says road cpsims misguided,secker says road claims misguided,seeker says road claims misguided,0.030303030303030304,96.96969696969697,False
+60,PyEnchat,seskeg says road cpsims misguided,secker says road claims misguided,skeg says road cp sims misguided,0.96875,3.0303030303030303,False
+61,PySpellChecker,lcarek feels the rwtah of mcg fsan,clarke feels the wrath of mcg fans,care feels the wrath of mug fan,0.967741935483871,2.941176470588235,False
+61,TextBlob,lcarek feels the rwtah of mcg fsan,clarke feels the wrath of mcg fans,care feels the utah of mug san,0.9333333333333333,5.88235294117647,False
+61,SymSpell,lcarek feels the rwtah of mcg fsan,clarke feels the wrath of mcg fans,care feels they utah of mag san,0.967741935483871,2.941176470588235,False
+61,PyEnchat,lcarek feels the rwtah of mcg fsan,clarke feels the wrath of mcg fans,calcar feels the tahr of mg fan,0.6129032258064516,35.294117647058826,False
+62,PySpellChecker,eatchers pet lynette dawson police esrach conculeds,teachers pet lynette dawson police search concludes,watchers pet lunette damson police each concludes,0.3877551020408163,58.82352941176471,False
+62,TextBlob,eatchers pet lynette dawson police esrach conculeds,teachers pet lynette dawson police search concludes,patches pet annette dawson police each conculeds,0.875,11.76470588235294,False
+62,SymSpell,eatchers pet lynette dawson police esrach conculeds,teachers pet lynette dawson police search concludes,watchers pet lynette dawson police search concludes,0.058823529411764705,94.11764705882352,False
+62,PyEnchat,eatchers pet lynette dawson police esrach conculeds,teachers pet lynette dawson police search concludes,watchers pet Lynette Dawson police earache concurred,0.35294117647058826,64.70588235294117,False
+63,PySpellChecker,law ocucnil concerned over lcka of detail around court ucst,law council concerned over lack of detail around court cuts,law council concerned over like of detail around court just,0.1016949152542373,89.83050847457628,False
+63,TextBlob,law ocucnil concerned over lcka of detail around court ucst,law council concerned over lack of detail around court cuts,law council concerned over ecka of detail around court must,0.11864406779661017,88.13559322033898,False
+63,SymSpell,law ocucnil concerned over lcka of detail around court ucst,law council concerned over lack of detail around court cuts,law council concerned over like of detail around court us,0.08771929824561403,88.13559322033898,False
+63,PyEnchat,law ocucnil concerned over lcka of detail around court ucst,law council concerned over lack of detail around court cuts,law unilocular concerned over lack of detail around court cuts,0.8813559322033898,11.864406779661017,False
+64,PySpellChecker,residents get toxic Qandz sl4an up Qssuranc$,residents get toxic sands clean up assurance,residents get toxic and plan up assurance,0.4878048780487805,47.72727272727273,False
+64,TextBlob,residents get toxic Qandz sl4an up Qssuranc$,residents get toxic sands clean up assurance,residents get toxic And plan up Assurance$,0.5,47.72727272727273,False
+64,SymSpell,residents get toxic Qandz sl4an up Qssuranc$,residents get toxic sands clean up assurance,residents get toxic and sloan up assurance,0.5,47.72727272727273,False
+64,PyEnchat,residents get toxic Qandz sl4an up Qssuranc$,residents get toxic sands clean up assurance,residents get toxic Gandzha Sloan up Assurance,0.4772727272727273,52.27272727272727,False
+65,PySpellChecker,wa man 4ern!est dann sentenced for &rap4e of teeInag(e girl,wa man ernest dann sentenced for rape of teenage girl,a man ferniest damn sentenced for rape of teenage girl,0.9245283018867925,7.547169811320755,False
+65,TextBlob,wa man 4ern!est dann sentenced for &rap4e of teeInag(e girl,wa man ernest dann sentenced for rape of teenage girl,wa man her!est dawn sentenced for &rape of teenage(e girl,0.8679245283018868,13.20754716981132,False
+65,SymSpell,wa man 4ern!est dann sentenced for &rap4e of teeInag(e girl,wa man ernest dann sentenced for rape of teenage girl,a man ernest ann sentenced for rape of teenage girl,0.9803921568627451,1.8867924528301887,False
+65,PyEnchat,wa man 4ern!est dann sentenced for &rap4e of teeInag(e girl,wa man ernest dann sentenced for rape of teenage girl,WA man sternest damn sentenced for &rap4e of teenage girl,0.8679245283018868,13.20754716981132,False
+66,PySpellChecker,couple cuFs AantAs over mid air drxmw,couple sues qantas over mid air drama,couple cuts mantas over mid air draw,0.1111111111111111,86.48648648648648,False
+66,TextBlob,couple cuFs AantAs over mid air drxmw,couple sues qantas over mid air drama,couple cubs wants over mid air drew,0.6285714285714286,35.13513513513514,False
+66,SymSpell,couple cuFs AantAs over mid air drxmw,couple sues qantas over mid air drama,couple cuts wants over mid air draw,0.6285714285714286,35.13513513513514,False
+66,PyEnchat,couple cuFs AantAs over mid air drxmw,couple sues qantas over mid air drama,couple cues Mantas over mid air draw,0.08333333333333333,89.1891891891892,False
+67,PySpellChecker,pm pushes for mrurya darling cnortol,pm pushes for murray darling control,am pushes for mrurya darling control,0.1388888888888889,86.11111111111111,False
+67,TextBlob,pm pushes for mrurya darling cnortol,pm pushes for murray darling control,pm pushes for marya darling control,0.5142857142857142,47.22222222222222,False
+67,SymSpell,pm pushes for mrurya darling cnortol,pm pushes for murray darling control,pm pushes for maurya darling control,0.1111111111111111,88.88888888888889,False
+67,PyEnchat,pm pushes for mrurya darling cnortol,pm pushes for murray darling control,pm pushes for Maurya darling ortolan,0.3333333333333333,66.66666666666666,False
+68,PySpellChecker,tiger t3ickPet salZens may be mislleadiMng accc,tiger ticket sales may be misleading accc,tiger ticket sales may be misleading act,0.025,95.1219512195122,False
+68,TextBlob,tiger t3ickPet salZens may be mislleadiMng accc,tiger ticket sales may be misleading accc,tiger ticket sales may be misleading act,0.025,95.1219512195122,False
+68,SymSpell,tiger t3ickPet salZens may be mislleadiMng accc,tiger ticket sales may be misleading accc,tiger ticket sales may be misleading acc,0.0,97.5609756097561,False
+68,PyEnchat,tiger t3ickPet salZens may be mislleadiMng accc,tiger ticket sales may be misleading accc,tiger pickpocket sal Zens may be misleading acc,0.7073170731707317,29.268292682926827,False
+69,PySpellChecker,vanstone criticside over carer allownaec review,vanstone criticised over carer allowance review,sandstone criticize over carer allowance review,0.3617021276595745,63.829787234042556,False
+69,TextBlob,vanstone criticside over carer allownaec review,vanstone criticised over carer allowance review,sandstone criticize over carer allowance review,0.3617021276595745,63.829787234042556,False
+69,SymSpell,vanstone criticside over carer allownaec review,vanstone criticised over carer allowance review,sandstone criticize over carer allowance review,0.3617021276595745,63.829787234042556,False
+69,PyEnchat,vanstone criticside over carer allownaec review,vanstone criticised over carer allowance review,veinstone critic side over carer allowance review,0.9574468085106383,4.25531914893617,False
+70,PySpellChecker,WRrvice marks anniverDarH of embassy attack,service marks anniversary of embassy attack,service marks anniversary of embassy attack,0.0,100.0,True
+70,TextBlob,WRrvice marks anniverDarH of embassy attack,service marks anniversary of embassy attack,service marks anniversary of embassy attack,0.0,100.0,True
+70,SymSpell,WRrvice marks anniverDarH of embassy attack,service marks anniversary of embassy attack,service marks anniversary of embassy attack,0.0,100.0,True
+70,PyEnchat,WRrvice marks anniverDarH of embassy attack,service marks anniversary of embassy attack,Cervices marks anniversary of embassy attack,0.7906976744186046,20.930232558139537,False
+71,PySpellChecker,redfern gang rXpiWt loses apLeao,redfern gang rapist loses appeal,refer gang rapist loses appear,0.9,9.375,False
+71,TextBlob,redfern gang rXpiWt loses apLeao,redfern gang rapist loses appeal,refer gang rXpiWt loses appear,0.9,9.375,False
+71,SymSpell,redfern gang rXpiWt loses apLeao,redfern gang rapist loses appeal,refer gang rapist loses appear,0.9,9.375,False
+71,PyEnchat,redfern gang rXpiWt loses apLeao,redfern gang rapist loses appeal,red fern gang expiator loses leap,0.90625,9.375,False
+72,PySpellChecker,devil wfalpl planned to save aussVi*e wic2on,devil wall planned to save aussie icon,devil fall planned to save aussVi*e icon,0.21052631578947367,78.94736842105263,False
+72,TextBlob,devil wfalpl planned to save aussVi*e wic2on,devil wall planned to save aussie icon,devil wall planned to save aussi*e wilson,0.15789473684210525,84.21052631578947,False
+72,SymSpell,devil wfalpl planned to save aussVi*e wic2on,devil wall planned to save aussie icon,devil fall planned to save aussie icon,0.02631578947368421,97.36842105263158,False
+72,PyEnchat,devil wfalpl planned to save aussVi*e wic2on,devil wall planned to save aussie icon,devil snowfall planned to save Aussie Wiccan,0.7894736842105263,21.052631578947366,False
+73,PySpellChecker,indonesia riK5s fighting stereotypes th3pugh the lSnE of 1998,indonesia riots fighting stereotypes through the lens of 1998,indonesia likes fighting stereotypes through the line of 1998,0.08196721311475409,91.80327868852459,False
+73,TextBlob,indonesia riK5s fighting stereotypes th3pugh the lSnE of 1998,indonesia riots fighting stereotypes through the lens of 1998,indonesia rises fighting stereotyped through the long of 1998,0.08196721311475409,91.80327868852459,False
+73,SymSpell,indonesia riK5s fighting stereotypes th3pugh the lSnE of 1998,indonesia riots fighting stereotypes through the lens of 1998,indonesia rings fighting stereotypes through they line of 1998,0.22950819672131148,77.04918032786885,False
+73,PyEnchat,indonesia riK5s fighting stereotypes th3pugh the lSnE of 1998,indonesia riots fighting stereotypes through the lens of 1998,Indonesia risks fighting stereotypes throughput the ls Ne of 1998,0.3114754098360656,68.85245901639344,False

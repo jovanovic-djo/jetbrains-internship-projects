@@ -2,8 +2,6 @@ from spellchecker import SpellChecker
 from textblob import TextBlob
 from symspellpy import SymSpell, Verbosity
 import enchant
-import pandas as pd
-import metrics
 
 
 pyspell_checker = SpellChecker()
@@ -14,7 +12,7 @@ symspell.load_dictionary("improving-writing-assistance-at-jetbrains-ai\\data\\fr
 enchant_checker = enchant.Dict("en_US")
 
 
-def pyspell_correct(sentence):
+def pyspellchecker_correct(sentence):
     corrected_words = [pyspell_checker.correction(word) or word for word in sentence.split()]
     return ' '.join(corrected_words)
 
@@ -41,42 +39,6 @@ def enchant_correct(sentence):
     ]
     return ' '.join(corrected_words)
 
-
-df = pd.read_csv("improving-writing-assistance-at-jetbrains-ai\\data\\test_sentences.csv", delimiter=";")
-
-results = []
-
-for index, row in df.iterrows():
-    incorrect = row['incorrect']
-    correct = row['correct']
-
-    pyspell_result = pyspell_correct(incorrect)
-    textblob_result = textblob_correct(incorrect)
-    symspell_result = symspell_correct(incorrect)
-    enchant_result = enchant_correct(incorrect)
-
-    for spell_checker_name, result in [
-        ("PySpellChecker", pyspell_result),
-        ("TextBlob", textblob_result),
-        ("SymSpell", symspell_result),
-        ("PyEnchat", enchant_result)]:
-        lev_distance = metrics.calculate_levenshtein(result, correct)
-        accuracy = metrics.calculate_accuracy(result, correct)
-        exact_match = metrics.calculate_exact_match(result, correct)
-
-
-        results.append({
-            "Index": index,
-            "SpellChecker": spell_checker_name,
-            "Original": incorrect,
-            "Corrected": correct,
-            "Predicted": result,
-            "Levenshtein Distance": lev_distance,
-            "Accuracy": accuracy
-        })
-
-results_df = pd.DataFrame(results)
-results_df.to_csv("improving-writing-assistance-at-jetbrains-ai\\results\\libraries_results.csv", index=False)
 
 
 
