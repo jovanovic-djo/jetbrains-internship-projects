@@ -27,7 +27,14 @@ def train_spellchecker(input_path):
     tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
     model = BertForMaskedLM.from_pretrained("bert-base-uncased")
     
-    df = pd.read_csv(input_path, delimiter=";")
+    df = pd.read_csv(input_path, delimiter=",")
+    
+    # Check columns
+    expected_columns = {'incorrect', 'correct'}
+    actual_columns = set(df.columns)
+    if not expected_columns.issubset(actual_columns):
+        raise ValueError(f"CSV is missing required columns. Expected columns: {expected_columns}. Found columns: {actual_columns}")
+
     dataset = SpellCheckDataset(df, tokenizer)
     
     data_collator = DataCollatorForLanguageModeling(tokenizer=tokenizer, mlm=True, mlm_probability=0.15)
@@ -48,12 +55,13 @@ def train_spellchecker(input_path):
     )
     
     trainer.train()
-    model.save_pretrained("./spellcheck_model")
-    tokenizer.save_pretrained("./spellcheck_model")
+    model.save_pretrained("improving-writing-assistance-at-jetbrains-ai/spellcheck_model")
+    tokenizer.save_pretrained("improving-writing-assistance-at-jetbrains-ai/spellcheck_model")
+
 
 def spell_check_with_bert(sentence):
-    tokenizer = BertTokenizer.from_pretrained("./spellcheck_model")
-    model = BertForMaskedLM.from_pretrained("./spellcheck_model")
+    tokenizer = BertTokenizer.from_pretrained("improving-writing-assistance-at-jetbrains-ai/spellcheck_model")
+    model = BertForMaskedLM.from_pretrained("improving-writing-assistance-at-jetbrains-ai/spellcheck_model")
     
     inputs = tokenizer(sentence, return_tensors="pt")
     with torch.no_grad():
@@ -71,6 +79,3 @@ if __name__ == "__main__":
         raise FileNotFoundError(f"Input file not found: {input_path}")
 
     train_spellchecker(input_path)
-    
-    test_sentence = "Ths is a spleling errr test."
-    print("Corrected:", spell_check_with_bert(test_sentence))
