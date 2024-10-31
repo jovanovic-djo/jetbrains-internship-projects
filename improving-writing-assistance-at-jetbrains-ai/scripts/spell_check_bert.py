@@ -29,7 +29,6 @@ def train_spellchecker(input_path):
     
     df = pd.read_csv(input_path, delimiter=",")
     
-    # Check columns
     expected_columns = {'incorrect', 'correct'}
     actual_columns = set(df.columns)
     if not expected_columns.issubset(actual_columns):
