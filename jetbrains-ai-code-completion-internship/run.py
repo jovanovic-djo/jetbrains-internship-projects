@@ -9,11 +9,11 @@ def main():
     split_code_examples(split_input_csv, split_output_csv)
 
     completion_input_csv = split_output_csv
-    completion_output_csv = 'jetbrains-ai-code-completion-internship/data/completion_results.csv'
+    completion_output_csv = 'jetbrains-ai-code-completion-internship/results/completion_results.csv'
     generate_completions(completion_input_csv, completion_output_csv)
 
     metrics_input_csv = completion_output_csv
-    metrics_output_csv = 'jetbrains-ai-code-completion-internship/data/metrics_results.csv'
+    metrics_output_csv = 'jetbrains-ai-code-completion-internship/results/metrics_results.csv'
     compute_metrics(metrics_input_csv, metrics_output_csv)
 
     graph_input_csv = metrics_output_csv
