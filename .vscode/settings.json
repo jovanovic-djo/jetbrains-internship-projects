@@ -1,5 +1,0 @@
-{
-    "python.analysis.extraPaths": [
-        "./improving-writing-assistance-at-jetbrains-ai/scripts/result generation"
-    ]
-}

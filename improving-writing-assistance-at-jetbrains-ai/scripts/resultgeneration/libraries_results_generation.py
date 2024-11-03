@@ -1,7 +1,7 @@
 import os
 import pandas as pd
-import metrics
-import spell_check_libraries as scl
+from .. import metrics
+from .. import spell_check_libraries as scl
 
 
 def generate_merged_libraries_results(input_path, output_path):
@@ -9,12 +9,12 @@ def generate_merged_libraries_results(input_path, output_path):
     if not os.path.exists(input_path):
         raise FileNotFoundError(f"Input file not found: {input_path}")
 
-    df = pd.read_csv(input_path, delimiter=";")
+    df = pd.read_csv(input_path, delimiter=",")
     results = []
 
     for index, row in df.iterrows():
-        incorrect = row['incorrect']
-        correct = row['correct']
+        incorrect = row[1]
+        correct = row[0]
 
         pyspell_result = scl.pyspellchecker_correct(incorrect)
         textblob_result = scl.textblob_correct(incorrect)
@@ -52,7 +52,7 @@ def generate_pyspellchecker_results(input_path, output_path):
     if not os.path.exists(input_path):
         raise FileNotFoundError(f"Input file not found: {input_path}")
 
-    df = pd.read_csv(input_path, delimiter=";")
+    df = pd.read_csv(input_path, delimiter=",")
     results = []
 
     for index, row in df.iterrows():
@@ -85,7 +85,7 @@ def generate_symspell_results(input_path, output_path):
     if not os.path.exists(input_path):
         raise FileNotFoundError(f"Input file not found: {input_path}")
 
-    df = pd.read_csv(input_path, delimiter=";")
+    df = pd.read_csv(input_path, delimiter=",")
     results = []
 
     for index, row in df.iterrows():
@@ -118,7 +118,7 @@ def generate_pyenchant_results(input_path, output_path):
     if not os.path.exists(input_path):
         raise FileNotFoundError(f"Input file not found: {input_path}")
 
-    df = pd.read_csv(input_path, delimiter=";")
+    df = pd.read_csv(input_path, delimiter=",")
     results = []
 
     for index, row in df.iterrows():
@@ -151,7 +151,7 @@ def generate_textblob_results(input_path, output_path):
     if not os.path.exists(input_path):
         raise FileNotFoundError(f"Input file not found: {input_path}")
 
-    df = pd.read_csv(input_path, delimiter=";")
+    df = pd.read_csv(input_path, delimiter=",")
     results = []
 
     for index, row in df.iterrows():
@@ -176,3 +176,4 @@ def generate_textblob_results(input_path, output_path):
     
     results_df = pd.DataFrame(results)
     results_df.to_csv(output_path, index=False)
+
