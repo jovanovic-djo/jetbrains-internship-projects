@@ -34,9 +34,9 @@ def generate_merged_libraries_results(input_path, output_path):
             results.append({
                 "Index": index,
                 "SpellChecker": library_name,
-                "Original": incorrect,
-                "Corrected": correct,
-                "Predicted": result,
+                "Incorrect": incorrect,
+                "Correct": correct,
+                "Prediction": result,
                 "Levenshtein Distance": levenshtein_distance,
                 "Accuracy": accuracy,
                 "Exact Match": exact_match
@@ -67,9 +67,9 @@ def generate_pyspellchecker_results(input_path, output_path):
 
         results.append({
             "Index": index,
-            "Original": incorrect,
-            "Corrected": correct,
-            "Predicted": library_result,
+            "Incorrect": incorrect,
+            "Correct": correct,
+            "Prediction": library_result,
             "Levenshtein Distance": levenshtein_distance,
             "Accuracy": accuracy,
             "Exact Match": exact_match
@@ -100,9 +100,9 @@ def generate_symspell_results(input_path, output_path):
 
         results.append({
             "Index": index,
-            "Original": incorrect,
-            "Corrected": correct,
-            "Predicted": library_result,
+            "Incorrect": incorrect,
+            "Correct": correct,
+            "Prediction": library_result,
             "Levenshtein Distance": levenshtein_distance,
             "Accuracy": accuracy,
             "Exact Match": exact_match
@@ -133,9 +133,9 @@ def generate_pyenchant_results(input_path, output_path):
 
         results.append({
             "Index": index,
-            "Original": incorrect,
-            "Corrected": correct,
-            "Predicted": library_result,
+            "Incorrect": incorrect,
+            "Correct": correct,
+            "Prediction": library_result,
             "Levenshtein Distance": levenshtein_distance,
             "Accuracy": accuracy,
             "Exact Match": exact_match
@@ -166,9 +166,9 @@ def generate_textblob_results(input_path, output_path):
 
         results.append({
             "Index": index,
-            "Original": incorrect,
-            "Corrected": correct,
-            "Predicted": library_result,
+            "Incorrect": incorrect,
+            "Correct": correct,
+            "Prediction": library_result,
             "Levenshtein Distance": levenshtein_distance,
             "Accuracy": accuracy,
             "Exact Match": exact_match
