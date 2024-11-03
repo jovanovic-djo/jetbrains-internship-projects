@@ -3,74 +3,55 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import os
 
-data_path = "improving-writing-assistance-at-jetbrains-ai\\data\\test.csv"
+# Load data
+data_path = "improving-writing-assistance-at-jetbrains-ai\\results\\libraries results\\pyenchant.csv"
 output_folder = "improving-writing-assistance-at-jetbrains-ai\\results\\graph results"
 df = pd.read_csv(data_path)
 
+# Ensure that the metrics columns are numeric
 metrics = ["Levenshtein Distance", "Accuracy", "Exact Match"]
-
 df[metrics] = df[metrics].astype(float)
 
+# Set up plot styling
 sns.set_theme(style="whitegrid", palette="muted", font_scale=1.1)
-
 os.makedirs(output_folder, exist_ok=True)
 
-def plot_levenshtein_distance(df, spellchecker_name):
-    plt.figure(figsize=(10, 6))
-    sns.boxplot(data=df, x="SpellChecker", y="Levenshtein Distance", showfliers=False)
-    plt.title(f"{spellchecker_name} - Levenshtein Distance by Spell Checker")
-    plt.xlabel("Spell Checker Library")
-    plt.ylabel("Levenshtein Distance (Lower is Better)")
-    plt.xticks(rotation=45)
-    plt.tight_layout()
-    
-    # Save plot
-    output_path = os.path.join(output_folder, f"{spellchecker_name}_levenshtein_distance.png")
+def plot_advanced_metrics_with_histograms(df, spellchecker_name):
+    fig, axes = plt.subplots(2, 3, figsize=(18, 12), gridspec_kw={'height_ratios': [1, 1.5]})
+    fig.suptitle(f"{spellchecker_name} - Metric Analysis and Distributions", fontsize=16)
+
+    # Define colors for box plots and histograms
+    box_colors = ["#4C72B0", "#55A868"]  # Blue for Levenshtein, Green for Accuracy
+    hist_colors = ["#4C72B0", "#55A868", "#C44E52"]  # Different colors for each metric histogram
+
+    # Enhanced Box Plots for 'Accuracy' and 'Levenshtein Distance'
+    sns.boxplot(data=df, y="Accuracy", ax=axes[0, 0], color=box_colors[1], linewidth=1.5, saturation=0.75)
+    axes[0, 0].set_title("Accuracy")
+    axes[0, 0].set_ylabel("Score")
+    axes[0, 0].spines["top"].set_visible(False)
+    axes[0, 0].spines["right"].set_visible(False)
+
+    sns.boxplot(data=df, y="Levenshtein Distance", ax=axes[0, 1], color=box_colors[0], linewidth=1.5, saturation=0.75)
+    axes[0, 1].set_title("Levenshtein Distance")
+    axes[0, 1].set_ylabel("Score")
+    axes[0, 1].spines["top"].set_visible(False)
+    axes[0, 1].spines["right"].set_visible(False)
+
+    # Leave the third subplot on the first row empty
+    axes[0, 2].axis('off')
+
+    # Histograms for each metric in the second row
+    for i, metric in enumerate(metrics):
+        sns.histplot(df[metric], bins=15, color=hist_colors[i], kde=True, ax=axes[1, i], edgecolor="black")
+        axes[1, i].set_title(f"Distribution of {metric}")
+        axes[1, i].set_xlabel("Score")
+        axes[1, i].set_ylabel("Frequency")
+
+    plt.tight_layout(rect=[0, 0, 1, 0.96])  # Adjust layout to fit title
+    output_path = os.path.join(output_folder, f"{spellchecker_name}_advanced_metrics_with_histograms.png")
     plt.savefig(output_path)
     plt.show()
 
-def plot_accuracy_exact_match(df, spellchecker_name):
-    accuracy_data = df.groupby("SpellChecker")[["Accuracy", "Exact Match"]].mean().reset_index()
-    
-    plt.figure(figsize=(10, 6))
-    accuracy_data.plot(
-        x="SpellChecker",
-        kind="bar",
-        stacked=True,
-        color=["#4C72B0", "#55A868"],
-        width=0.6,
-        edgecolor="grey"
-    )
-    plt.title(f"{spellchecker_name} - Accuracy and Exact Match Rates by Spell Checker")
-    plt.xlabel("Spell Checker Library")
-    plt.ylabel("Average Scores (Accuracy & Exact Match)")
-    plt.xticks(rotation=45)
-    plt.legend(loc="upper right")
-    plt.tight_layout()
-    
-    output_path = os.path.join(output_folder, f"{spellchecker_name}_accuracy_exact_match.png")
-    plt.savefig(output_path)
-    plt.show()
-
-def plot_metrics_line(df, spellchecker_name):
-    line_data = df.groupby("SpellChecker")[metrics].mean().reset_index()
-    
-    line_data_melted = line_data.melt(id_vars=["SpellChecker"], var_name="Metric", value_name="Score")
-    
-    plt.figure(figsize=(10, 6))
-    sns.lineplot(data=line_data_melted, x="SpellChecker", y="Score", hue="Metric", marker="o")
-    plt.title(f"{spellchecker_name} - Comparison of Metrics by Spell Checker")
-    plt.xlabel("Spell Checker Library")
-    plt.ylabel("Score")
-    plt.xticks(rotation=45)
-    plt.legend(title="Metric")
-    plt.tight_layout()
-    
-    output_path = os.path.join(output_folder, f"{spellchecker_name}_metrics_comparison.png")
-    plt.savefig(output_path)
-    plt.show()
-
-spellchecker_name = "Overall_Performance"
-plot_levenshtein_distance(df, spellchecker_name)
-plot_accuracy_exact_match(df, spellchecker_name)
-plot_metrics_line(df, spellchecker_name)
+# Execute the plot function
+spellchecker_name = "pyenchant"
+plot_advanced_metrics_with_histograms(df, spellchecker_name)

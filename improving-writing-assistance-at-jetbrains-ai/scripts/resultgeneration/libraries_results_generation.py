@@ -15,6 +15,7 @@ def generate_merged_libraries_results(input_path, output_path):
     for index, row in df.iterrows():
         incorrect = row[1]
         correct = row[0]
+        type = row[2]
 
         pyspell_result = scl.pyspellchecker_correct(incorrect)
         textblob_result = scl.textblob_correct(incorrect)
@@ -33,6 +34,7 @@ def generate_merged_libraries_results(input_path, output_path):
 
             results.append({
                 "Index": index,
+                "Type": type,
                 "SpellChecker": library_name,
                 "Incorrect": incorrect,
                 "Correct": correct,
@@ -58,6 +60,7 @@ def generate_pyspellchecker_results(input_path, output_path):
     for index, row in df.iterrows():
         incorrect = row['incorrect']
         correct = row['correct']
+        type = row['type']
 
         library_result = scl.pyspellchecker_correct(incorrect)
 
@@ -67,6 +70,7 @@ def generate_pyspellchecker_results(input_path, output_path):
 
         results.append({
             "Index": index,
+            "Type": type,
             "Incorrect": incorrect,
             "Correct": correct,
             "Prediction": library_result,
@@ -91,6 +95,7 @@ def generate_symspell_results(input_path, output_path):
     for index, row in df.iterrows():
         incorrect = row['incorrect']
         correct = row['correct']
+        type = row['type']
 
         library_result = scl.symspell_correct(incorrect)
 
@@ -100,6 +105,7 @@ def generate_symspell_results(input_path, output_path):
 
         results.append({
             "Index": index,
+            "Type": type,
             "Incorrect": incorrect,
             "Correct": correct,
             "Prediction": library_result,
@@ -124,6 +130,7 @@ def generate_pyenchant_results(input_path, output_path):
     for index, row in df.iterrows():
         incorrect = row['incorrect']
         correct = row['correct']
+        type = row['type']
 
         library_result = scl.pyenchant_correct(incorrect)
 
@@ -133,6 +140,7 @@ def generate_pyenchant_results(input_path, output_path):
 
         results.append({
             "Index": index,
+            "Type": type,
             "Incorrect": incorrect,
             "Correct": correct,
             "Prediction": library_result,
@@ -157,6 +165,7 @@ def generate_textblob_results(input_path, output_path):
     for index, row in df.iterrows():
         incorrect = row['incorrect']
         correct = row['correct']
+        type = row['type']
 
         library_result = scl.textblob_correct(incorrect)
 
@@ -166,6 +175,7 @@ def generate_textblob_results(input_path, output_path):
 
         results.append({
             "Index": index,
+            "Type": type,
             "Incorrect": incorrect,
             "Correct": correct,
             "Prediction": library_result,

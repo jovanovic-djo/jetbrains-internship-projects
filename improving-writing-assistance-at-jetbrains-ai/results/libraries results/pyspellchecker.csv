@@ -1,520 +1,498 @@
-Index,Original,Corrected,Predicted,Levenshtein Distance,Accuracy,Exact Match
-0,tsnog bjos data pushes uastralain dollar higher,stong jobs data pushes australian dollar higher,snog boos data pushes uastralain dollar higher,0.8695652173913043,12.76595744680851,False
-1,thier student chafgeV with %sxi drivers murder,their student is charged with taxi drivers murder,their student change with six drivers murder,0.6363636363636364,32.6530612244898,False
-2,ofru teens chragde over sexual assault,four teens charged over sexual assault,of teens charge over sexual assault,0.9428571428571428,5.263157894736842,False
-3,two years to restite power to irsa minKst#r,two years to restore power to iraq minister,two years to respite power to is minister,0.2926829268292683,67.44186046511628,False
-4,anger abpuF forced amalgamation disrupts fi#qt midcoast coincJl,anger about forced amalgamation disrupts first midcoast council,anger about forced amalgamation disrupts first miscast council,0.1935483870967742,79.36507936507937,False
-5,port authoiryt stands by more airport efse,port authority stands by more airport fees,port authority stands by more airport else,0.09523809523809523,90.47619047619048,False
-6,bill eho$ten 6 billion restricting vocagiogal education loAnX,bill shorten 6 billion restricting vocational education loans,bill shorten 6 billion restricting vocational education loan,0.0,98.36065573770492,False
-7,sydney news new plans releaCef zhos sirius builidng regamo,sydney news new plans released show sirius builidng revamp,kidney news new plans release hos serious building regard,0.49122807017543857,50.0,False
-8,can you $#ll shakespeare f%oH artificial inteOllgence,can you tell shakespeare from artificial intelligence,can you all shakespeare for artificial intelligence,0.7647058823529411,22.641509433962266,False
-9,2lectronicX zNop blaze considered suspicious,electronics shop blaze considered suspicious,electronic knop blaze considered suspicious,0.7674418604651163,22.727272727272727,False
-10,fosters ceo dizcussrs profit slJKp,fosters ceo discusses profit slump,fosters coo discusses profit sleep,0.08823529411764706,91.17647058823529,False
-11,tv lpna to cut reigonla jobs union,tv plan to cut regional jobs union,to long to cut regional jobs union,0.14705882352941177,85.29411764705883,False
-12,iraq mortar strike sfss 11 kLkled,iraq mortar strike sees 11 killed,iraq mortar strike sass 11 killed,0.06060606060606061,93.93939393939394,False
-13,copnamblS orphans lay parents to red%,coonamble orphans lay parents to rest,copnamblS orphans lay parents to red,0.08333333333333333,89.1891891891892,False
-14,brocons aiming for top four finish ayss kelly,broncos aiming for top four finish says kelly,protons aiming for top four finish ass kelly,0.2727272727272727,71.11111111111111,False
-15,rina sentences omsuqe bombers to death reprto,iran sentences mosque bombers to death report,ring sentences mosque bombers to death repro,0.13636363636363635,84.44444444444444,False
-16,aydneU man shL6 at in neighbourj0od row,sydney man shot at in neighbourhood row,adieu man she at in neighbourj0od row,0.972972972972973,2.564102564102564,False
-17,coronavirus ausFFalia live updates f<og victoria jobkewped,coronavirus australia live updates blog victoria jobkeeper,coronavirus australia live updates fog victoria jobkewped,0.38596491228070173,60.3448275862069,False
-18,herculian prince cops c&Ls pemaltg,herculian prince cops cups penalty,herculean prince cops cols penalty,0.08823529411764706,91.17647058823529,False
-19,share jarmet set for xlee(y start,share market set for sleepy start,share armet set for sleepy start,0.78125,21.21212121212121,False
-20,bDnn4tt atayinT at knights report,bennett staying at knights report,bDnn4tt staying at knights report,0.06060606060606061,93.93939393939394,False
-21,bgenRia to miss opening wa&llambies tests,genia to miss opening wallabies tests,biennia to miss opening wallabies tests,0.9459459459459459,5.405405405405405,False
-22,imlliosn oslt billing scams banks not checking cacuont names,millions lost billing scams banks not checking account names,million out billing scams banks not checking account names,0.8793103448275862,11.666666666666666,False
-23,pm up beat baotu wtear control apln,pm up beat about water control plan,am up beat about wear control all,0.45454545454545453,51.42857142857142,False
-24,*reykjav6ik zstGocks plunge 76pc on re op1eninBg,reykjavik stocks plunge 76pc on re opening,*reykjav6ik stocks plunge 76pc on re opening,0.9761904761904762,2.380952380952381,False
-25,govt ruegd to continue scholoeis role,govt urged to continue schoolies role,got rued to continue scholoeis role,0.8857142857142857,10.81081081081081,False
-26,us fl2xRs muscles as asia worries anou6 woJth china sea row,us flexes muscles as asia worries about south china sea row,us floors muscles as aria worries about worth china sea row,0.1016949152542373,89.83050847457628,False
-27,hIvt dedendw affordable housing delay,govt defends affordable housing delay,hit defend affordable housing delay,1.0,0.0,False
-28,country nsw edpserate for odctosr,country nsw desperate for doctors,country now desperate for doctor,0.03125,93.93939393939394,False
-29,ma$rtk kavanagh danny obrien win cobalt ban Aap@peal at Pvca*t,mark kavanagh danny obrien win cobalt ban appeal at vcat,mark kavanagh nanny brief win cobalt ban appeal at Pvca*t,0.5892857142857143,41.07142857142857,False
-30,contempt of cotur charge aganits paper rdopped,contempt of court charge against paper dropped,contempt of your charge against paper dropped,0.6444444444444445,34.78260869565217,False
-31,gloucester jo6inJs fight for sh(arBe of nsw nminin5g,gloucester joins fight for share of nsw mining,gloucester joins fight for share of now mining,0.021739130434782608,97.82608695652173,False
-32,patients !Arned of co^Mterfeit drugs,patients warned of counterfeit drugs,patients warned of counterfeit drugs,0.0,100.0,True
-33,blasts ikll 83 in eygptain red sea rserot,blasts kill 83 in egyptian red sea resort,blasts kill 83 in eygptain red sea resort,0.0975609756097561,90.2439024390244,False
-34,ablrigijal land councils push for mo%thern teGgitory treaty,aboriginal land councils push for northern territory treaty,aboriginal land councils push for mother territory treaty,0.38596491228070173,59.32203389830508,False
-35,obama rteRassurances over c1hroysler,obama reassurances over chrysler,mama reassurances over c1hroysler,0.90625,9.375,False
-36,beWr short short documentary acceptance Epeedh,best short short documentary acceptance speech,bear short short documentary acceptance speed,0.06666666666666667,91.30434782608695,False
-37,aust sodliesr cleared vore airq bodyguard shooting,aust soldiers cleared over iraq bodyguard shooting,just soldiers cleared more air bodyguard shooting,0.5306122448979592,46.0,False
-38,smthi anticipating improved kiwis performance,smith anticipating improved kiwis performance,sushi anticipating improved kiwis performance,0.08888888888888889,91.11111111111111,False
-39,un nuclear watchdog idse in car acciedtn,un nuclear watchdog dies in car accident,in nuclear watchdog idle in car accident,0.125,87.5,False
-40,hicks at breaking point assy lawyer,hicks at breaking point says lawyer,hicks at breaking point ass lawyer,0.29411764705882354,68.57142857142857,False
-41,uastraila to host spain in cup ifanl,australia to host spain in cup final,australia to host spain in cup fall,0.08571428571428572,88.88888888888889,False
-42,elcetvie srugrey wiaitng times longest in act,elective surgery waiting times longest in act,elective surgery waiting times longest in act,0.0,100.0,True
-43,report finds government failing d(sabl$d communigJ,report finds government failing disabled community,report finds government failing disabled community,0.0,100.0,True
-44,council phoes for celna up with churchs building,council hopes for clean up with churchs building,council shoes for cella up with church building,0.3404255319148936,64.58333333333334,False
-45,abbtot commits to 38 millino for hoabtr,abbott commits to 38 million for hobart,abbot commits to 38 million for hoar,0.8055555555555556,17.94871794871795,False
-46,lfodo ivctmis get more mtie for aid,flood victims get more time for aid,food victims get more tie for aid,0.9393939393939394,5.714285714285714,False
-47,gladXtoMe council delivers buEge6 rate cap,gladstone council delivers budget rate cap,gladstone council delivers budget rate cap,0.0,100.0,True
-48,emerson labsts albro spending on qld drivers ilcecne system,emerson blasts labor spending on qld drivers licence system,emersion lasts also spending on old drivers licence system,0.7931034482758621,20.33898305084746,False
-49,ken hengU david gonsiu audtraPia israel chamber of commerce,ken henry david gonski australia israel chamber of commerce,ken henge avid gossip australia israel chamber of commerce,0.8448275862068966,15.254237288135593,False
-50,patients wtai for surgery as nruess seek omer pay,patients wait for surgery as nurses seek more pay,patients what for surgery as guess seek omer pay,0.3333333333333333,65.3061224489796,False
-51,verrednre how free trade agreements can admgae free trade,verrender how free trade agreements can damage free trade,verrednre how free trade agreements can damage free trade,0.07017543859649122,92.98245614035088,False
-52,2gyptiag head of armed fprc$s mAkDs breaks silence,egyptian head of armed forces makes breaks silence,2gyptiag head of armed forces makes breaks silence,0.04,96.0,False
-53,anNoican church implements paedophile progrAK,anglican church implements paedophile program,anNoican church implements pedophile program,0.4090909090909091,57.77777777777777,False
-54,wallabies look to ride momentum into tri natoisn,wallabies look to ride momentum into tri nations,wallabies look to ride momentum into try nation,0.02127659574468085,95.83333333333334,False
-55,edwSGd snowden sprSks out on us telev(cion,edward snowden speaks out on us television,edwSGd snowmen speaks out on us television,0.07142857142857142,92.85714285714286,False
-56,rothwell Fonsgitution and leadefshiO changes,rothwell constitution and leadership changes,rothwell constitution and leadership changes,0.0,100.0,True
-57,&c&are alpl3owances to be extended mthCanks to tas woman,care allowances to be extended thanks to tas woman,care allowances to be extended thanks to was woman,0.02,98.0,False
-58,rory gets montogemries ryder cup support,rory gets montgomeries ryder cup support,rosy gets montogemries rider cup support,0.15,85.0,False
-59,napthine awtns to satpm out unions ' ' unholy alliance ' wit,napthine wants to stamp out unions' 'unholy alliance' wit,xanthine awns to satem out unions ' ' unholy alliance ' wit,0.7368421052631579,26.31578947368421,False
-60,seskeg says road cpsims misguided,secker says road claims misguided,seeker says road claims misguided,0.030303030303030304,96.96969696969697,False
-61,lcarek feels the rwtah of mcg fsan,clarke feels the wrath of mcg fans,care feels the wrath of mug fan,0.967741935483871,2.941176470588235,False
-62,eatchers pet lynette dawson police esrach conculeds,teachers pet lynette dawson police search concludes,watchers pet lunette damson police each concludes,0.3877551020408163,58.82352941176471,False
-63,law ocucnil concerned over lcka of detail around court ucst,law council concerned over lack of detail around court cuts,law council concerned over like of detail around court just,0.1016949152542373,89.83050847457628,False
-64,residents get toxic Qandz sl4an up Qssuranc$,residents get toxic sands clean up assurance,residents get toxic and plan up assurance,0.4878048780487805,47.72727272727273,False
-65,wa man 4ern!est dann sentenced for &rap4e of teeInag(e girl,wa man ernest dann sentenced for rape of teenage girl,a man ferniest damn sentenced for rape of teenage girl,0.9245283018867925,7.547169811320755,False
-66,couple cuFs AantAs over mid air drxmw,couple sues qantas over mid air drama,couple cuts mantas over mid air draw,0.1111111111111111,86.48648648648648,False
-67,pm pushes for mrurya darling cnortol,pm pushes for murray darling control,am pushes for mrurya darling control,0.1388888888888889,86.11111111111111,False
-68,tiger t3ickPet salZens may be mislleadiMng accc,tiger ticket sales may be misleading accc,tiger ticket sales may be misleading act,0.025,95.1219512195122,False
-69,vanstone criticside over carer allownaec review,vanstone criticised over carer allowance review,sandstone criticize over carer allowance review,0.3617021276595745,63.829787234042556,False
-70,WRrvice marks anniverDarH of embassy attack,service marks anniversary of embassy attack,service marks anniversary of embassy attack,0.0,100.0,True
-71,redfern gang rXpiWt loses apLeao,redfern gang rapist loses appeal,refer gang rapist loses appear,0.9,9.375,False
-72,devil wfalpl planned to save aussVi*e wic2on,devil wall planned to save aussie icon,devil fall planned to save aussVi*e icon,0.21052631578947367,78.94736842105263,False
-73,indonesia riK5s fighting stereotypes th3pugh the lSnE of 1998,indonesia riots fighting stereotypes through the lens of 1998,indonesia likes fighting stereotypes through the line of 1998,0.08196721311475409,91.80327868852459,False
-74,System.out.pritnln(),System.out.println(),System.out.pritnln(),0.1,90.0,False
-75,equels(),equals(),equels(),0.125,87.5,False
-76,toSring(),toString(),toSring(),0.6666666666666666,30.0,False
-77,comapreTo(),compareTo(),comapreTo(),0.18181818181818182,81.81818181818183,False
-78,substrng(),substring(),substrng(),0.4,54.54545454545454,False
-79,charT(),charAt(),chart,0.2,50.0,False
-80,indxOf(),indexOf(),indxOf(),0.625,33.33333333333333,False
-81,prsInt(),parseInt(),prsInt(),0.875,10.0,False
-82,contians(),contains(),contians(),0.2,80.0,False
-83,hashcode(),hashCode(),hashcode(),0.1,90.0,False
-84,replase(),replace(),replase(),0.1111111111111111,88.88888888888889,False
-85,trimm(),trim(),trimmed,0.3333333333333333,66.66666666666666,False
-86,isEmty(),isEmpty(),isEmty(),0.5,44.44444444444444,False
-87,splitt(),split(),splitter,0.2857142857142857,71.42857142857143,False
-88,aad(),add(),aad(),0.2,80.0,False
-89,sie(),size(),siege,0.6,33.33333333333333,False
-90,gt(),get(),gt(),0.75,20.0,False
-91,srt(),set(),srt(),0.2,80.0,False
-92,ppt(),put(),ppt(),0.2,80.0,False
-93,remve(),remove(),remve(),0.5714285714285714,37.5,False
-94,pritn(),print(),pritn(),0.2857142857142857,71.42857142857143,False
-95,lenn(),len(),lenn(),0.4,60.0,False
-96,imput(),input(),impute,0.3333333333333333,57.14285714285714,False
-97,apend(),append(),apend(),0.7142857142857143,25.0,False
-98,splitt(),split(),splitter,0.2857142857142857,71.42857142857143,False
-99,jion(),join(),jion(),0.3333333333333333,66.66666666666666,False
-100,repace(),replace(),repace(),0.625,33.33333333333333,False
-101,strp(),strip(),strp(),0.5,42.857142857142854,False
-102,uppr(),upper(),uppr(),0.5,42.857142857142854,False
-103,lowr(),lower(),lowr(),0.5,42.857142857142854,False
-104,fnd(),find(),fnd(),0.8,16.666666666666664,False
-105,counnt(),count(),counnt(),0.42857142857142855,57.14285714285714,False
-106,srot(),sort(),srot(),0.3333333333333333,66.66666666666666,False
-107,revers(),reverse(),reverse,0.0,77.77777777777779,False
-108,popp(),pop(),popped,0.4,60.0,False
-109,remve(),remove(),remve(),0.5714285714285714,37.5,False
-110,updte(),update(),updte(),0.5714285714285714,37.5,False
-111,gt(),get(),gt(),0.75,20.0,False
-112,kys(),keys(),kys(),0.8,16.666666666666664,False
-113,vlues(),values(),vlues(),0.8571428571428571,12.5,False
-114,pritln(),println(),pritln(),0.625,33.33333333333333,False
-115,isNulOrEmty(),isNullOrEmpty(),isNulOrEmty(),0.6153846153846154,33.33333333333333,False
-116,isNullOrBlanck(),isNullOrBlank(),isNullOrBlanck(),0.2,80.0,False
-117,toIn(),toInt(),toIn(),0.3333333333333333,57.14285714285714,False
-118,toStrng(),toString(),toStrng(),0.4444444444444444,50.0,False
-119,subsring(),substring(),subsring(),0.6,36.36363636363637,False
-120,replce(),replace(),replce(),0.5,44.44444444444444,False
-121,remvRange(),removeRange(),remvRange(),0.7272727272727273,23.076923076923077,False
-122,startsWth(),startsWith(),startsWth(),0.36363636363636365,58.333333333333336,False
-123,ndsWith(),endsWith(),ndsWith(),1.0,0.0,False
-124,pluss(),plus(),plusses,0.3333333333333333,66.66666666666666,False
-125,minuss(),minus(),minuss(),0.2857142857142857,71.42857142857143,False
-126,mapOf(),mapOf(),mapOf(),0.0,100.0,True
-127,lstOf(),listOf(),lstOf(),0.8571428571428571,12.5,False
-128,filtr(),filter(),filtr(),0.42857142857142855,50.0,False
-129,forEch(),forEach(),forEch(),0.5,44.44444444444444,False
-130,radom(),random(),radome,0.6666666666666666,25.0,False
-131,fnd(),find(),fnd(),0.8,16.666666666666664,False
-132,smm(),sum(),smm(),0.2,80.0,False
-133,tke(),take(),tke(),0.8,16.666666666666664,False
-134,std::cotut,std::cout,std::cotut,0.2222222222222222,77.77777777777779,False
-135,std::cni,std::cin,std::cni,0.25,75.0,False
-136,getlin(),getline(),getlin(),0.25,66.66666666666666,False
-137,puch_back(),push_back(),puch_back(),0.09090909090909091,90.9090909090909,False
-138,pop_bck(),pop_back(),pop_bck(),0.4444444444444444,50.0,False
-139,sie(),size(),siege,0.6,33.33333333333333,False
-140,cler(),clear(),clerk,0.4,42.857142857142854,False
-141,emty(),empty(),emty(),0.6666666666666666,28.57142857142857,False
-142,bgin(),begin(),bgin(),0.8333333333333334,14.285714285714285,False
-143,nd(),end(),nd(),1.0,0.0,False
-144,fnd(),find(),fnd(),0.8,16.666666666666664,False
-145,instert(),insert(),instert(),0.625,37.5,False
-146,earse(),erase(),earse(),0.2857142857142857,71.42857142857143,False
-147,ta(),at(),take,1.0,0.0,False
-148,frnt(),front(),frnt(),0.6666666666666666,28.57142857142857,False
-149,bcak(),back(),bcak(),0.3333333333333333,66.66666666666666,False
-150,srot(),sort(),srot(),0.3333333333333333,66.66666666666666,False
-151,revrse(),reverse(),revrse(),0.625,33.33333333333333,False
-152,mni(),min(),mni(),0.4,60.0,False
-153,amx(),max(),amx(),0.4,60.0,False
-154,pritnf(),printf(),pritnf(),0.25,75.0,False
-155,scfna(),scanf(),scfna(),0.2857142857142857,71.42857142857143,False
-156,stcpy(),strcpy(),stcpy(),0.7142857142857143,25.0,False
-157,strln(),strlen(),strln(),0.42857142857142855,50.0,False
-158,strcm(),strcmp(),strcm(),0.2857142857142857,62.5,False
-159,strct(),strcat(),strct(),0.42857142857142855,50.0,False
-160,maloc(),malloc(),maloc(),0.5714285714285714,37.5,False
-161,caloc(),calloc(),caloc(),0.5714285714285714,37.5,False
-162,fre(),free(),free,0.0,66.66666666666666,False
-163,reloc(),realloc(),reloc(),0.7142857142857143,22.22222222222222,False
-164,memset(),memset(),memset(),0.0,100.0,True
-165,mcpy(),memcpy(),mcpy(),0.8333333333333334,12.5,False
-166,fpen(),fopen(),fpen(),0.8333333333333334,14.285714285714285,False
-167,flose(),fclose(),flose(),0.8571428571428571,12.5,False
-168,fgts(),fgets(),fgts(),0.6666666666666666,28.57142857142857,False
-169,fputss(),fputs(),fputss(),0.2857142857142857,71.42857142857143,False
-170,fprntf(),fprintf(),fprntf(),0.625,33.33333333333333,False
-171,fscnf(),fscanf(),fscnf(),0.5714285714285714,37.5,False
-172,squrt(),sqrt(),squrt(),0.6666666666666666,33.33333333333333,False
-173,pwo(),pow(),pwo(),0.4,60.0,False
-174,Console.WriteLin(),Console.WriteLine(),Console.WriteLin(),0.1111111111111111,84.21052631578947,False
-175,Console.Readlin(),Console.ReadLine(),Console.Readlin(),0.17647058823529413,77.77777777777779,False
-176,Equls(),Equals(),Equls(),0.5714285714285714,37.5,False
-177,ToStrng(),ToString(),ToStrng(),0.4444444444444444,50.0,False
-178,Pars(),Parse(),parson,0.5,42.857142857142854,False
-179,Aad(),Add(),Aad(),0.2,80.0,False
-180,Rmove(),Remove(),Rmove(),0.8571428571428571,12.5,False
-181,Subtring(),Substring(),Subtring(),0.7,27.27272727272727,False
-182,IndxOf(),IndexOf(),IndxOf(),0.625,33.33333333333333,False
-183,Contians(),Contains(),Contians(),0.2,80.0,False
-184,Replce(),Replace(),Replce(),0.5,44.44444444444444,False
-185,Trimm(),Trim(),trimmed,0.5,50.0,False
-186,StartsWth(),StartsWith(),StartsWth(),0.36363636363636365,58.333333333333336,False
-187,Endswth(),EndsWith(),Endswth(),0.5555555555555556,40.0,False
-188,ToUppr(),ToUpper(),ToUppr(),0.375,55.55555555555556,False
-189,ToLowr(),ToLower(),ToLowr(),0.375,55.55555555555556,False
-190,Jion(),Join(),Jion(),0.3333333333333333,66.66666666666666,False
-191,Srot(),Sort(),Srot(),0.3333333333333333,66.66666666666666,False
-192,Fnd(),Find(),Fnd(),0.8,16.666666666666664,False
-193,Lngth(),Length(),Lngth(),0.8571428571428571,12.5,False
-194,conole.log(),console.log(),conole.log(),0.75,23.076923076923077,False
-195,alret(),alert(),alret(),0.2857142857142857,71.42857142857143,False
-196,promt(),prompt(),promt(),0.42857142857142855,50.0,False
-197,parsInt(),parseInt(),parsInt(),0.5555555555555556,40.0,False
-198,parsFloat(),parseFloat(),parsFloat(),0.6363636363636364,33.33333333333333,False
-199,toStrng(),toString(),toStrng(),0.4444444444444444,50.0,False
-200,charAt(),charAt(),charAt(),0.0,100.0,True
-201,indxOf(),indexOf(),indxOf(),0.625,33.33333333333333,False
-202,splitt(),split(),splitter,0.2857142857142857,71.42857142857143,False
-203,jion(),join(),jion(),0.3333333333333333,66.66666666666666,False
-204,puh(),push(),puh(),0.6,33.33333333333333,False
-205,popp(),pop(),popped,0.4,60.0,False
-206,shft(),shift(),shft(),0.6666666666666666,28.57142857142857,False
-207,unshft(),unshift(),unshft(),0.5,44.44444444444444,False
-208,forEch(),forEach(),forEch(),0.5,44.44444444444444,False
-209,mapp(),map(),mapped,0.4,60.0,False
-210,filtr(),filter(),filtr(),0.42857142857142855,50.0,False
-211,reuce(),reduce(),reuce(),0.7142857142857143,25.0,False
-212,srot(),sort(),srot(),0.3333333333333333,66.66666666666666,False
-213,incldes(),includes(),incldes(),0.5555555555555556,40.0,False
-214,bakground-color,background-color,bakground-color,0.8666666666666667,12.5,False
-215,fnt-size,font-size,fantasize,0.2222222222222222,77.77777777777779,False
-216,txt-align,text-align,txt-align,0.8888888888888888,10.0,False
-217,colur,color,color,0.0,100.0,True
-218,brder,border,order,1.0,0.0,False
-219,pading,padding,paying,0.6666666666666666,28.57142857142857,False
-220,maring,margin,making,0.6666666666666666,33.33333333333333,False
-221,disply,display,display,0.0,100.0,True
-222,widht,width,width,0.0,100.0,True
-223,hieght,height,height,0.0,100.0,True
-224,positon,position,position,0.0,100.0,True
-225,flx,flex,fix,0.6666666666666666,25.0,False
-226,grdi,grid,grid,0.0,100.0,True
-227,txt-decoration,text-decoration,txt-decoration,0.9285714285714286,6.666666666666667,False
-228,font-wieght,font-weight,font-wieght,0.18181818181818182,81.81818181818183,False
-229,opacty,opacity,opacity,0.0,100.0,True
-230,overflw,overflow,overflow,0.0,100.0,True
-231,visibilty,visibility,visibility,0.0,100.0,True
-232,zindx,z-index,find,1.0,0.0,False
-233,line-heght,line-height,line-heght,0.3,63.63636363636363,False
-234,indx,index,index,0.0,100.0,True
-235,countr,counter,country,0.2857142857142857,71.42857142857143,False
-236,totl,total,total,0.0,100.0,True
-237,avrage,average,average,0.0,100.0,True
-238,tep,temp,ten,0.3333333333333333,50.0,False
-239,reslt,result,rest,0.25,50.0,False
-240,bufer,buffer,buyer,0.6,33.33333333333333,False
-241,usernme,username,username,0.0,100.0,True
-242,pasword,password,password,0.0,100.0,True
-243,dat,data,at,1.0,0.0,False
-244,itm,item,it,0.0,50.0,False
-245,lenght,length,length,0.0,100.0,True
-246,hight,height,hight,0.8,16.666666666666664,False
-247,widht,width,width,0.0,100.0,True
-248,amout,amount,about,0.4,50.0,False
-249,kye,key,eye,1.0,0.0,False
-250,vlaue,value,value,0.0,100.0,True
-251,timesamp,timestamp,timesamp,0.375,55.55555555555556,False
-252,settngs,settings,settings,0.0,100.0,True
-253,stauss,status,starts,0.3333333333333333,66.66666666666666,False
-254,mesage,message,message,0.0,100.0,True
-255,priorty,priority,priority,0.0,100.0,True
-256,flg,flag,fly,0.3333333333333333,50.0,False
-257,priec,price,price,0.0,100.0,True
-258,qunatity,quantity,quantity,0.0,100.0,True
-259,lst,list,let,0.6666666666666666,25.0,False
-260,usrId,userId,said,1.0,0.0,False
-261,costomer,customer,customer,0.0,100.0,True
-262,evnt,event,event,0.0,100.0,True
-263,respose,response,response,0.0,100.0,True
-264,cnfig,config,unfit,1.0,0.0,False
-265,couunt,count,count,0.0,100.0,True
-266,pae,page,pay,0.3333333333333333,50.0,False
-267,eror,error,error,0.0,100.0,True
-268,stae,state,stay,0.25,60.0,False
-269,positon,position,position,0.0,100.0,True
-270,opton,option,option,0.0,100.0,True
-271,descripton,description,description,0.0,100.0,True
-272,durration,duration,duration,0.0,100.0,True
-273,adrees,address,agrees,0.5,42.857142857142854,False
-274,permisson,permission,permission,0.0,100.0,True
-275,toekn,token,token,0.0,100.0,True
-276,leval,level,level,0.0,100.0,True
-277,detals,details,details,0.0,100.0,True
-278,custmerId,customerId,custmerId,0.5555555555555556,40.0,False
-279,recrod,record,record,0.0,100.0,True
-280,pat,path,pat,0.0,75.0,False
-281,parnt,parent,part,0.25,50.0,False
-282,verison,version,version,0.0,100.0,True
-283,emial,email,email,0.0,100.0,True
-284,asyncronous,asynchronous,asynchronous,0.0,100.0,True
-285,authentification,authentication,authentication,0.0,100.0,True
-286,boolen,boolean,woolen,0.3333333333333333,57.14285714285714,False
-287,callbak,callback,callback,0.0,100.0,True
-288,concatanate,concatenate,concatenate,0.0,100.0,True
-289,constent,constant,constant,0.0,100.0,True
-290,constructer,constructor,constructer,0.09090909090909091,90.9090909090909,False
-291,contineu,continue,continue,0.0,100.0,True
-292,decleration,declaration,declaration,0.0,100.0,True
-293,defualt,default,default,0.0,100.0,True
-294,dependancy,dependency,dependancy,0.1,90.0,False
-295,dequue,dequeue,defuse,0.5,42.857142857142854,False
-296,destructure,destructure,restructure,0.09090909090909091,90.9090909090909,False
-297,dictionery,dictionary,dictionary,0.0,100.0,True
-298,dispach,dispatch,dispatch,0.0,100.0,True
-299,incapsulation,encapsulation,encapsulation,0.0,100.0,True
-300,enviroment,environment,environment,0.0,100.0,True
-301,excute,execute,excuse,0.6666666666666666,28.57142857142857,False
-302,expection,exception,expecting,0.4444444444444444,55.55555555555556,False
-303,funtion,function,function,0.0,100.0,True
-304,hexidecimal,hexadecimal,hexadecimal,0.0,100.0,True
-305,heirarchy,hierarchy,hierarchy,0.0,100.0,True
-306,implimentation,implementation,implementation,0.0,100.0,True
-307,intialize,initialize,initialize,0.0,100.0,True
-308,instence,instance,instance,0.0,100.0,True
-309,intiger,integer,integer,0.0,100.0,True
-310,interfase,interface,interface,0.0,100.0,True
-311,itterate,iterate,iterate,0.0,100.0,True
-312,librery,library,library,0.0,100.0,True
-313,middelware,middleware,middelware,0.2,80.0,False
-314,namesapce,namespace,namesake,0.375,55.55555555555556,False
-315,objct,object,object,0.0,100.0,True
-316,opperator,operator,operator,0.0,100.0,True
-317,paramter,parameter,parameter,0.0,100.0,True
-318,placehoder,placeholder,placeholder,0.0,100.0,True
-319,polymorhism,polymorphism,polymorphism,0.0,100.0,True
-320,primative,primitive,primitive,0.0,100.0,True
-321,protocal,protocol,protocol,0.0,100.0,True
-322,pseudocode,pseudocode,pseudopod,0.1111111111111111,80.0,False
-323,recurssion,recursion,recursion,0.0,100.0,True
-324,referance,reference,reference,0.0,100.0,True
-325,reguler expresion,regular expression,regular expression,0.0,100.0,True
-326,repostiory,repository,repository,0.0,100.0,True
-327,retreive,retrieve,retrieve,0.0,100.0,True
-328,serialzation,serialization,serialization,0.0,100.0,True
-329,statment,statement,statement,0.0,100.0,True
-330,structre,structure,structure,0.0,100.0,True
-331,synax,syntax,syntax,0.0,100.0,True
-332,templete,template,template,0.0,100.0,True
-333,transation,transaction,translation,0.18181818181818182,81.81818181818183,False
-334,utillity,utility,utility,0.0,100.0,True
-335,variabel,variable,variable,0.0,100.0,True
-336,virtualisation,virtualization,virtualisation,0.07142857142857142,92.85714285714286,False
-337,vulnerabilty,vulnerability,vulnerability,0.0,100.0,True
-338,whitesapce,whitespace,whitesapce,0.2,80.0,False
-339,accomodate,accommodate,accommodate,0.0,100.0,True
-340,acheive,achieve,achieve,0.0,100.0,True
-341,accross,across,across,0.0,100.0,True
-342,arguement,argument,argument,0.0,100.0,True
-343,begining,beginning,beginning,0.0,100.0,True
-344,calender,calendar,calender,0.125,87.5,False
-345,catagory,category,category,0.0,100.0,True
-346,commited,committed,committed,0.0,100.0,True
-347,definately,definitely,definitely,0.0,100.0,True
-348,dissapear,disappear,disappear,0.0,100.0,True
-349,dissapoint,disappoint,disappoint,0.0,100.0,True
-350,embarass,embarrass,embarrass,0.0,100.0,True
-351,experiance,experience,experience,0.0,100.0,True
-352,foriegn,foreign,foreign,0.0,100.0,True
-353,freind,friend,friend,0.0,100.0,True
-354,guage,gauge,gauge,0.0,100.0,True
-355,greatful,grateful,grateful,0.0,100.0,True
-356,gaurentee,guarantee,guarantee,0.0,100.0,True
-357,harrass,harass,harass,0.0,100.0,True
-358,imediate,immediate,immediate,0.0,100.0,True
-359,independant,independent,independent,0.0,100.0,True
-360,indispensible,indispensable,indispensable,0.0,100.0,True
-361,judgement,judgment,judgement,0.5,50.0,False
-362,knowlege,knowledge,knowledge,0.0,100.0,True
-363,liason,liaison,liaison,0.0,100.0,True
-364,lisence,license,licence,0.14285714285714285,85.71428571428571,False
-365,maintenence,maintenance,maintenance,0.0,100.0,True
-366,managable,manageable,manageable,0.0,100.0,True
-367,manuever,maneuver,maneuver,0.0,100.0,True
-368,medival,medieval,medical,0.42857142857142855,50.0,False
-369,millenium,millennium,millennium,0.0,100.0,True
-370,miniscule,minuscule,miniscule,0.1111111111111111,88.88888888888889,False
-371,noticable,noticeable,noticeable,0.0,100.0,True
-372,occassion,occasion,occasion,0.0,100.0,True
-373,occured,occurred,occurred,0.0,100.0,True
-374,persistant,persistent,persistent,0.0,100.0,True
-375,posession,possession,possession,0.0,100.0,True
-376,preferible,preferable,preferable,0.0,100.0,True
-377,priviledge,privilege,privilege,0.0,100.0,True
-378,procede,proceed,proceed,0.0,100.0,True
-379,proffessional,professional,professional,0.0,100.0,True
-380,recieve,receive,receive,0.0,100.0,True
-381,recomend,recommend,recommend,0.0,100.0,True
-382,relevent,relevant,relevant,0.0,100.0,True
-383,responsability,responsibility,responsibility,0.0,100.0,True
-384,seperate,separate,separate,0.0,100.0,True
-385,severly,severely,severely,0.0,100.0,True
-386,succesful,successful,successful,0.0,100.0,True
-387,suprise,surprise,surprise,0.0,100.0,True
-388,treshold,threshold,threshold,0.0,100.0,True
-389,onn,one,on,0.0,66.66666666666666,False
-390,twi,two,two,0.0,100.0,True
-391,thre,three,the,0.3333333333333333,40.0,False
-392,forr,four,for,0.3333333333333333,50.0,False
-393,fiev,five,five,0.0,100.0,True
-394,sxi,six,six,0.0,100.0,True
-395,sevn,seven,seen,0.5,40.0,False
-396,eigt,eight,eight,0.0,100.0,True
-397,nien,nine,nine,0.0,100.0,True
-398,zreo,zero,zero,0.0,100.0,True
-399,tn,ten,to,0.5,33.33333333333333,False
-400,fivteen,fifteen,fifteen,0.0,100.0,True
-401,twentythree,twenty-three,twentythree,0.36363636363636365,58.333333333333336,False
-402,thiryfour,thirty-four,thiryfour,0.5555555555555556,36.36363636363637,False
-403,fortyseven,forty-seven,fortyseven,0.5,45.45454545454545,False
-404,fiftey-two,fifty-two,fiftey-two,0.5555555555555556,44.44444444444444,False
-405,sixtyeight,sixty-eight,sixtyeight,0.5,45.45454545454545,False
-406,seventynie,seventy-nine,seventynie,0.3,58.333333333333336,False
-407,eightysix,eighty-six,eightysix,0.3333333333333333,60.0,False
-408,nintynine,ninety-nine,nintynine,0.5555555555555556,36.36363636363637,False
-409,one hudnred,one hundred,one hundred,0.0,100.0,True
-410,one hundered twentyfive,one hundred twenty-five,one hundred twentyfive,0.18181818181818182,78.26086956521739,False
-411,two hundreed,two hundred,two hundred,0.0,100.0,True
-412,twohundredfifty,two hundred fifty,twohundredfifty,0.7333333333333333,23.52941176470588,False
-413,three hundredthirtythree,three hundred thirty-three,three hundredthirtythree,0.4583333333333333,50.0,False
-414,for hundred,four hundred,for hundred,0.8181818181818182,16.666666666666664,False
-415,fourhundred sevnty-six,four hundred seventy-six,fourhundred sevnty-six,0.8181818181818182,16.666666666666664,False
-416,five hunderd,five hundred,five hundred,0.0,100.0,True
-417,sxi hundred,six hundred,six hundred,0.0,100.0,True
-418,sevn hundred,seven hundred,seen hundred,0.8333333333333334,15.384615384615385,False
-419,eigthundred fifty-nine,eight hundred fifty-nine,eigthundred fifty-nine,0.7727272727272727,20.833333333333336,False
-420,nien hundred,nine hundred,nine hundred,0.0,100.0,True
-421,one tousand,one thousand,one thousand,0.0,100.0,True
-422,two-thousand,two thousand,two-thousand,0.08333333333333333,91.66666666666666,False
-423,three thousnd threehundred,three thousand three hundred,three thousand threehundred,0.25925925925925924,71.42857142857143,False
-424,four thousd fivehundred,four thousand five hundred,four thous fivehundred,0.5454545454545454,38.46153846153847,False
-425,fivethousand sixhundredfifty,five thousand six hundred fifty,fivethousand sixhundredfifty,0.8571428571428571,12.903225806451612,False
-426,sixtousand,six thousand,sixtousand,0.7,25.0,False
-427,seventhouand,seven thousand,seventhouand,0.5833333333333334,35.714285714285715,False
-428,eigthtousand sevenhundred,eight thousand seven hundred,eigthtousand sevenhundred,0.8,17.857142857142858,False
-429,ninetousnad,nine thousand,ninetousnad,0.6363636363636364,30.76923076923077,False
-430,tentousand,ten thousand,tentousand,0.7,25.0,False
-431,twelvetousand fivehundred,twelve thousand five hundred,twelvetousand fivehundred,0.72,25.0,False
-432,twentythosend,twenty thousand,twentythosend,0.5384615384615384,40.0,False
-433,thirtythousand threehindred,thirty thousand three hundred,thirtythousand threehindred,0.7407407407407407,24.137931034482758,False
-434,fortythosand,forty thousand,fortythosand,0.5833333333333334,35.714285714285715,False
-435,fiftythpusand onehunderd,fifty thousand one hundred,fiftythpusand onehunderd,0.7916666666666666,19.230769230769234,False
-436,sixtythousnd,sixty thousand,sixtythousnd,0.5833333333333334,35.714285714285715,False
-437,seventythousnad,seventy thousand,seventythousnad,0.4666666666666667,50.0,False
-438,eighty-thousand fivehundded,eighty thousand five hundred,eighty-thousand fivehundded,0.25925925925925924,71.42857142857143,False
-439,ninethosand ninhudred,ninety thousand nine hundred,ninethosand ninhudred,0.7142857142857143,21.428571428571427,False
-440,Tereaza,Tereza,Tereaza,0.3333333333333333,66.66666666666666,False
-441,Jakoub,Jakub,Jakoub,0.4,60.0,False
-442,Anah,Anna,anal,0.75,25.0,False
-443,Peter,Petr,Peter,0.25,75.0,False
-444,Sofie,Sophie,softie,0.5,50.0,False
-445,Alekzander,Alexander,Alekzander,0.6666666666666666,33.33333333333333,False
-446,Marry,Marie,Marry,0.4,60.0,False
-447,Leonn,Leon,leone,0.25,75.0,False
-448,Katarina,Katharina,kamaaina,0.75,22.22222222222222,False
-449,Lucass,Lukas,class,0.8,20.0,False
-450,Giulia,Julia,girlie,1.0,0.0,False
-451,Sebastin,Sebastian,elastin,1.0,0.0,False
-452,Charlot,Charlotte,chariot,0.2857142857142857,55.55555555555556,False
-453,Willam,William,will,0.25,42.857142857142854,False
-454,Olivya,Olivia,olive,0.4,50.0,False
-455,Jams,James,Jams,0.25,60.0,False
-456,Charlette,Charlotte,charlotte,0.1111111111111111,88.88888888888889,False
-457,Benjiman,Benjamin,benjamin,0.125,87.5,False
-458,Amellia,Amelia,camellia,1.0,0.0,False
-459,Lucus,Lucas,mucus,0.4,60.0,False
-460,Isabela,Isabella,Isabela,0.14285714285714285,75.0,False
-461,Henrey,Henry,henry,0.2,80.0,False
-462,Abagail,Abigail,abigail,0.14285714285714285,85.71428571428571,False
-463,Anastacia,Anastasia,Anastacia,0.1111111111111111,88.88888888888889,False
-464,Dmitri,Dmitry,Dmitri,0.16666666666666666,83.33333333333334,False
-465,Ekaterena,Ekaterina,Ekaterena,0.1111111111111111,88.88888888888889,False
-466,Iwan,Ivan,swan,0.5,50.0,False
-467,Nataliya,Natalia,natality,0.2857142857142857,71.42857142857143,False
-468,Alexsandr,Aleksandr,Alexsandr,0.1111111111111111,88.88888888888889,False
-469,Maira,Maria,maria,0.2,80.0,False
-470,Sergay,Sergei,serial,0.6666666666666666,33.33333333333333,False
-471,Yulya,Yulia,duly,0.5,40.0,False
-472,Vladmir,Vladimir,Vladmir,0.42857142857142855,50.0,False
-473,Jovanaa,Jovana,Jovanaa,0.0,100.0,False
-474,Steffan,Stefan,stiffen,0.6666666666666666,33.33333333333333,False
-475,Anna,Ana,Anna,0.3333333333333333,66.66666666666666,False
-476,Nickola,Nikola,nickel,0.8333333333333334,16.666666666666664,False
-477,Draganna,Dragana,Draganna,0.14285714285714285,85.71428571428571,False
-478,Marco,Marko,march,0.6,40.0,False
-479,Myllica,Milica,myrica,0.5,50.0,False
-480,Boyana,Bojana,banana,0.5,50.0,False
-481,Alejendro,Alejandro,Alejendro,0.1111111111111111,88.88888888888889,False
-482,Carlous,Carlos,callous,0.5,50.0,False
-483,Andress,Andres,address,0.3333333333333333,66.66666666666666,False
-484,Antonnio,Antonio,Antonnio,0.2857142857142857,71.42857142857143,False
-485,Carman,Carmen,Carman,0.16666666666666666,83.33333333333334,False
-486,Isabell,Isabel,Isabell,0.0,100.0,False
-487,Lorenzzo,Lorenzo,Lorenzzo,0.14285714285714285,85.71428571428571,False
-488,Kiara,Chiara,tiara,1.0,0.0,False
-489,Mateo,Matteo,mate,0.5,33.33333333333333,False
-490,Luccia,Lucia,lucia,0.2,80.0,False
-491,Larse,Lars,large,0.5,50.0,False
-492,Fluer,Fleur,flyer,0.6,40.0,False
-493,Braam,Bram,bream,0.75,25.0,False
-494,Sane,Sanne,Sane,0.25,60.0,False
-495,Priyya,Priya,privy,0.6,40.0,False
-496,extaordinary,extraordinary,extraordinary,0.0,100.0,True
-497,responsability,responsibility,responsibility,0.0,100.0,True
-498,uncharacteristcally,uncharacteristically,uncharacteristically,0.0,100.0,True
-499,misinterpetation,misinterpretation,misinterpretation,0.0,100.0,True
-500,fundimentalism,fundamentalism,fundamentalism,0.0,100.0,True
-501,uncommunicitive,uncommunicative,uncommunicative,0.0,100.0,True
-502,anthropomorphisim,anthropomorphism,anthropomorphism,0.0,100.0,True
-503,discombobulate,discombobulated,discombobulate,0.0,93.33333333333333,False
-504,intercontinetal,intercontinental,intercontinental,0.0,100.0,True
-505,internationalisation,internationalization,internationalization,0.0,100.0,True
-506,incomprehensiblety,incomprehensibility,incomprehensible,0.125,73.68421052631578,False
-507,counterproductieve,counterproductive,counterproductive,0.0,100.0,True
-508,unintelligibleity,unintelligibility,unintelligibility,0.0,100.0,True
-509,hyperventalation,hyperventilation,hyperventilation,0.0,100.0,True
-510,disqualfication,disqualification,disqualification,0.0,100.0,True
-511,email,e-mail,email,0.8,16.666666666666664,False
-512,its,it's,its,0.3333333333333333,50.0,False
-513,their,they're,their,0.4,42.857142857142854,False
-514,shell,she’ll,shell,0.2,66.66666666666666,False
-515,Oreilly,O’Reilly,really,1.0,0.0,False
-516,coop,co-op,coop,0.5,40.0,False
-517,100$,$100,100$,0.75,25.0,False
-518,wellbeing,well-being,welling,0.42857142857142855,40.0,False
+Index,Type,Incorrect,Correct,Prediction,Levenshtein Distance,Accuracy,Exact Match
+0,sentence,tsnog bjos data pushes uastralain dollar higher,stong jobs data pushes australian dollar higher,snog boos data pushes uastralain dollar higher,0.8695652173913043,12.76595744680851,False
+1,sentence,thier student chafgeV with %sxi drivers murder,their student is charged with taxi drivers murder,their student change with six drivers murder,0.6363636363636364,32.6530612244898,False
+2,sentence,ofru teens chragde over sexual assault,four teens charged over sexual assault,of teens charge over sexual assault,0.9428571428571428,5.263157894736842,False
+3,sentence,two years to restite power to irsa minKst#r,two years to restore power to iraq minister,two years to respite power to is minister,0.2926829268292683,67.44186046511628,False
+4,sentence,anger abpuF forced amalgamation disrupts fi#qt midcoast coincJl,anger about forced amalgamation disrupts first midcoast council,anger about forced amalgamation disrupts first miscast council,0.1935483870967742,79.36507936507937,False
+5,sentence,port authoiryt stands by more airport efse,port authority stands by more airport fees,port authority stands by more airport else,0.09523809523809523,90.47619047619048,False
+6,sentence,bill eho$ten 6 billion restricting vocagiogal education loAnX,bill shorten 6 billion restricting vocational education loans,bill shorten 6 billion restricting vocational education loan,0.0,98.36065573770492,False
+7,sentence,sydney news new plans releaCef zhos sirius builidng regamo,sydney news new plans released show sirius builidng revamp,kidney news new plans release hos serious building regard,0.49122807017543857,50.0,False
+8,sentence,can you $#ll shakespeare f%oH artificial inteOllgence,can you tell shakespeare from artificial intelligence,can you all shakespeare for artificial intelligence,0.7647058823529411,22.641509433962266,False
+9,sentence,2lectronicX zNop blaze considered suspicious,electronics shop blaze considered suspicious,electronic knop blaze considered suspicious,0.7674418604651163,22.727272727272727,False
+10,sentence,fosters ceo dizcussrs profit slJKp,fosters ceo discusses profit slump,fosters coo discusses profit sleep,0.08823529411764706,91.17647058823529,False
+11,sentence,tv lpna to cut reigonla jobs union,tv plan to cut regional jobs union,to long to cut regional jobs union,0.14705882352941177,85.29411764705883,False
+12,sentence,iraq mortar strike sfss 11 kLkled,iraq mortar strike sees 11 killed,iraq mortar strike sass 11 killed,0.06060606060606061,93.93939393939394,False
+13,sentence,copnamblS orphans lay parents to red%,coonamble orphans lay parents to rest,copnamblS orphans lay parents to red,0.08333333333333333,89.1891891891892,False
+14,sentence,brocons aiming for top four finish ayss kelly,broncos aiming for top four finish says kelly,protons aiming for top four finish ass kelly,0.2727272727272727,71.11111111111111,False
+15,sentence,rina sentences omsuqe bombers to death reprto,iran sentences mosque bombers to death report,ring sentences mosque bombers to death repro,0.13636363636363635,84.44444444444444,False
+16,sentence,aydneU man shL6 at in neighbourj0od row,sydney man shot at in neighbourhood row,adieu man she at in neighbourj0od row,0.972972972972973,2.564102564102564,False
+17,sentence,coronavirus ausFFalia live updates f<og victoria jobkewped,coronavirus australia live updates blog victoria jobkeeper,coronavirus australia live updates fog victoria jobkewped,0.38596491228070173,60.3448275862069,False
+18,sentence,herculian prince cops c&Ls pemaltg,herculian prince cops cups penalty,herculean prince cops cols penalty,0.08823529411764706,91.17647058823529,False
+19,sentence,share jarmet set for xlee(y start,share market set for sleepy start,share armet set for sleepy start,0.78125,21.21212121212121,False
+20,sentence,bDnn4tt atayinT at knights report,bennett staying at knights report,bDnn4tt staying at knights report,0.06060606060606061,93.93939393939394,False
+21,sentence,bgenRia to miss opening wa&llambies tests,genia to miss opening wallabies tests,biennia to miss opening wallabies tests,0.9459459459459459,5.405405405405405,False
+22,sentence,imlliosn oslt billing scams banks not checking cacuont names,millions lost billing scams banks not checking account names,million out billing scams banks not checking account names,0.8793103448275862,11.666666666666666,False
+23,sentence,pm up beat baotu wtear control apln,pm up beat about water control plan,am up beat about wear control all,0.45454545454545453,51.42857142857142,False
+24,sentence,*reykjav6ik zstGocks plunge 76pc on re op1eninBg,reykjavik stocks plunge 76pc on re opening,*reykjav6ik stocks plunge 76pc on re opening,0.9761904761904762,2.380952380952381,False
+25,sentence,govt ruegd to continue scholoeis role,govt urged to continue schoolies role,got rued to continue scholoeis role,0.8857142857142857,10.81081081081081,False
+26,sentence,us fl2xRs muscles as asia worries anou6 woJth china sea row,us flexes muscles as asia worries about south china sea row,us floors muscles as aria worries about worth china sea row,0.1016949152542373,89.83050847457628,False
+27,sentence,hIvt dedendw affordable housing delay,govt defends affordable housing delay,hit defend affordable housing delay,1.0,0.0,False
+28,sentence,country nsw edpserate for odctosr,country nsw desperate for doctors,country now desperate for doctor,0.03125,93.93939393939394,False
+29,sentence,ma$rtk kavanagh danny obrien win cobalt ban Aap@peal at Pvca*t,mark kavanagh danny obrien win cobalt ban appeal at vcat,mark kavanagh nanny brief win cobalt ban appeal at Pvca*t,0.5892857142857143,41.07142857142857,False
+30,sentence,contempt of cotur charge aganits paper rdopped,contempt of court charge against paper dropped,contempt of your charge against paper dropped,0.6444444444444445,34.78260869565217,False
+31,sentence,gloucester jo6inJs fight for sh(arBe of nsw nminin5g,gloucester joins fight for share of nsw mining,gloucester joins fight for share of now mining,0.021739130434782608,97.82608695652173,False
+32,sentence,patients !Arned of co^Mterfeit drugs,patients warned of counterfeit drugs,patients warned of counterfeit drugs,0.0,100.0,True
+33,sentence,blasts ikll 83 in eygptain red sea rserot,blasts kill 83 in egyptian red sea resort,blasts kill 83 in eygptain red sea resort,0.0975609756097561,90.2439024390244,False
+34,sentence,ablrigijal land councils push for mo%thern teGgitory treaty,aboriginal land councils push for northern territory treaty,aboriginal land councils push for mother territory treaty,0.38596491228070173,59.32203389830508,False
+35,sentence,obama rteRassurances over c1hroysler,obama reassurances over chrysler,mama reassurances over c1hroysler,0.90625,9.375,False
+36,sentence,beWr short short documentary acceptance Epeedh,best short short documentary acceptance speech,bear short short documentary acceptance speed,0.06666666666666667,91.30434782608695,False
+37,sentence,aust sodliesr cleared vore airq bodyguard shooting,aust soldiers cleared over iraq bodyguard shooting,just soldiers cleared more air bodyguard shooting,0.5306122448979592,46.0,False
+38,sentence,smthi anticipating improved kiwis performance,smith anticipating improved kiwis performance,sushi anticipating improved kiwis performance,0.08888888888888889,91.11111111111111,False
+39,sentence,un nuclear watchdog idse in car acciedtn,un nuclear watchdog dies in car accident,in nuclear watchdog idle in car accident,0.125,87.5,False
+40,sentence,hicks at breaking point assy lawyer,hicks at breaking point says lawyer,hicks at breaking point ass lawyer,0.29411764705882354,68.57142857142857,False
+41,sentence,uastraila to host spain in cup ifanl,australia to host spain in cup final,australia to host spain in cup fall,0.08571428571428572,88.88888888888889,False
+42,sentence,elcetvie srugrey wiaitng times longest in act,elective surgery waiting times longest in act,elective surgery waiting times longest in act,0.0,100.0,True
+43,sentence,report finds government failing d(sabl$d communigJ,report finds government failing disabled community,report finds government failing disabled community,0.0,100.0,True
+44,sentence,council phoes for celna up with churchs building,council hopes for clean up with churchs building,council shoes for cella up with church building,0.3404255319148936,64.58333333333334,False
+45,sentence,abbtot commits to 38 millino for hoabtr,abbott commits to 38 million for hobart,abbot commits to 38 million for hoar,0.8055555555555556,17.94871794871795,False
+46,sentence,lfodo ivctmis get more mtie for aid,flood victims get more time for aid,food victims get more tie for aid,0.9393939393939394,5.714285714285714,False
+47,sentence,gladXtoMe council delivers buEge6 rate cap,gladstone council delivers budget rate cap,gladstone council delivers budget rate cap,0.0,100.0,True
+48,sentence,emerson labsts albro spending on qld drivers ilcecne system,emerson blasts labor spending on qld drivers licence system,emersion lasts also spending on old drivers licence system,0.7931034482758621,20.33898305084746,False
+49,sentence,ken hengU david gonsiu audtraPia israel chamber of commerce,ken henry david gonski australia israel chamber of commerce,ken henge avid gossip australia israel chamber of commerce,0.8448275862068966,15.254237288135593,False
+50,sentence,patients wtai for surgery as nruess seek omer pay,patients wait for surgery as nurses seek more pay,patients what for surgery as guess seek omer pay,0.3333333333333333,65.3061224489796,False
+51,sentence,verrednre how free trade agreements can admgae free trade,verrender how free trade agreements can damage free trade,verrednre how free trade agreements can damage free trade,0.07017543859649122,92.98245614035088,False
+52,sentence,2gyptiag head of armed fprc$s mAkDs breaks silence,egyptian head of armed forces makes breaks silence,2gyptiag head of armed forces makes breaks silence,0.04,96.0,False
+53,sentence,anNoican church implements paedophile progrAK,anglican church implements paedophile program,anNoican church implements pedophile program,0.4090909090909091,57.77777777777777,False
+54,sentence,wallabies look to ride momentum into tri natoisn,wallabies look to ride momentum into tri nations,wallabies look to ride momentum into try nation,0.02127659574468085,95.83333333333334,False
+55,sentence,edwSGd snowden sprSks out on us telev(cion,edward snowden speaks out on us television,edwSGd snowmen speaks out on us television,0.07142857142857142,92.85714285714286,False
+56,sentence,rothwell Fonsgitution and leadefshiO changes,rothwell constitution and leadership changes,rothwell constitution and leadership changes,0.0,100.0,True
+57,sentence,&c&are alpl3owances to be extended mthCanks to tas woman,care allowances to be extended thanks to tas woman,care allowances to be extended thanks to was woman,0.02,98.0,False
+58,sentence,rory gets montogemries ryder cup support,rory gets montgomeries ryder cup support,rosy gets montogemries rider cup support,0.15,85.0,False
+59,sentence,napthine awtns to satpm out unions ' ' unholy alliance ' wit,napthine wants to stamp out unions' 'unholy alliance' wit,xanthine awns to satem out unions ' ' unholy alliance ' wit,0.7368421052631579,26.31578947368421,False
+60,sentence,seskeg says road cpsims misguided,secker says road claims misguided,seeker says road claims misguided,0.030303030303030304,96.96969696969697,False
+61,sentence,lcarek feels the rwtah of mcg fsan,clarke feels the wrath of mcg fans,care feels the wrath of mug fan,0.967741935483871,2.941176470588235,False
+62,sentence,eatchers pet lynette dawson police esrach conculeds,teachers pet lynette dawson police search concludes,watchers pet lunette damson police each concludes,0.3877551020408163,58.82352941176471,False
+63,sentence,law ocucnil concerned over lcka of detail around court ucst,law council concerned over lack of detail around court cuts,law council concerned over like of detail around court just,0.1016949152542373,89.83050847457628,False
+64,sentence,residents get toxic Qandz sl4an up Qssuranc$,residents get toxic sands clean up assurance,residents get toxic and plan up assurance,0.4878048780487805,47.72727272727273,False
+65,sentence,wa man 4ern!est dann sentenced for &rap4e of teeInag(e girl,wa man ernest dann sentenced for rape of teenage girl,a man ferniest damn sentenced for rape of teenage girl,0.9245283018867925,7.547169811320755,False
+66,sentence,couple cuFs AantAs over mid air drxmw,couple sues qantas over mid air drama,couple cuts mantas over mid air draw,0.1111111111111111,86.48648648648648,False
+67,sentence,pm pushes for mrurya darling cnortol,pm pushes for murray darling control,am pushes for mrurya darling control,0.1388888888888889,86.11111111111111,False
+68,sentence,tiger t3ickPet salZens may be mislleadiMng accc,tiger ticket sales may be misleading accc,tiger ticket sales may be misleading act,0.025,95.1219512195122,False
+69,sentence,vanstone criticside over carer allownaec review,vanstone criticised over carer allowance review,sandstone criticize over carer allowance review,0.3617021276595745,63.829787234042556,False
+70,sentence,WRrvice marks anniverDarH of embassy attack,service marks anniversary of embassy attack,service marks anniversary of embassy attack,0.0,100.0,True
+71,sentence,redfern gang rXpiWt loses apLeao,redfern gang rapist loses appeal,refer gang rapist loses appear,0.9,9.375,False
+72,sentence,devil wfalpl planned to save aussVi*e wic2on,devil wall planned to save aussie icon,devil fall planned to save aussVi*e icon,0.21052631578947367,78.94736842105263,False
+73,sentence,indonesia riK5s fighting stereotypes th3pugh the lSnE of 1998,indonesia riots fighting stereotypes through the lens of 1998,indonesia likes fighting stereotypes through the line of 1998,0.08196721311475409,91.80327868852459,False
+74,code,System.out.pritnln(),System.out.println(),System.out.pritnln(),0.1,90.0,False
+75,code,equels(),equals(),equels(),0.125,87.5,False
+76,code,toSring(),toString(),toSring(),0.6666666666666666,30.0,False
+77,code,comapreTo(),compareTo(),comapreTo(),0.18181818181818182,81.81818181818183,False
+78,code,substrng(),substring(),substrng(),0.4,54.54545454545454,False
+79,code,charT(),charAt(),chart,0.2,50.0,False
+80,code,indxOf(),indexOf(),indxOf(),0.625,33.33333333333333,False
+81,code,prsInt(),parseInt(),prsInt(),0.875,10.0,False
+82,code,contians(),contains(),contians(),0.2,80.0,False
+83,code,hashcode(),hashCode(),hashcode(),0.1,90.0,False
+84,code,replase(),replace(),replase(),0.1111111111111111,88.88888888888889,False
+85,code,trimm(),trim(),trimmed,0.3333333333333333,66.66666666666666,False
+86,code,isEmty(),isEmpty(),isEmty(),0.5,44.44444444444444,False
+87,code,splitt(),split(),splitter,0.2857142857142857,71.42857142857143,False
+88,code,aad(),add(),aad(),0.2,80.0,False
+89,code,sie(),size(),siege,0.6,33.33333333333333,False
+90,code,gt(),get(),gt(),0.75,20.0,False
+91,code,srt(),set(),srt(),0.2,80.0,False
+92,code,ppt(),put(),ppt(),0.2,80.0,False
+93,code,remve(),remove(),remve(),0.5714285714285714,37.5,False
+94,code,pritn(),print(),pritn(),0.2857142857142857,71.42857142857143,False
+95,code,lenn(),len(),lenn(),0.4,60.0,False
+96,code,imput(),input(),impute,0.3333333333333333,57.14285714285714,False
+97,code,apend(),append(),apend(),0.7142857142857143,25.0,False
+98,code,splitt(),split(),splitter,0.2857142857142857,71.42857142857143,False
+99,code,jion(),join(),jion(),0.3333333333333333,66.66666666666666,False
+100,code,repace(),replace(),repace(),0.625,33.33333333333333,False
+101,code,strp(),strip(),strp(),0.5,42.857142857142854,False
+102,code,uppr(),upper(),uppr(),0.5,42.857142857142854,False
+103,code,lowr(),lower(),lowr(),0.5,42.857142857142854,False
+104,code,fnd(),find(),fnd(),0.8,16.666666666666664,False
+105,code,counnt(),count(),counnt(),0.42857142857142855,57.14285714285714,False
+106,code,srot(),sort(),srot(),0.3333333333333333,66.66666666666666,False
+107,code,revers(),reverse(),reverse,0.0,77.77777777777779,False
+108,code,popp(),pop(),popped,0.4,60.0,False
+109,code,remve(),remove(),remve(),0.5714285714285714,37.5,False
+110,code,updte(),update(),updte(),0.5714285714285714,37.5,False
+111,code,gt(),get(),gt(),0.75,20.0,False
+112,code,kys(),keys(),kys(),0.8,16.666666666666664,False
+113,code,vlues(),values(),vlues(),0.8571428571428571,12.5,False
+114,code,pritln(),println(),pritln(),0.625,33.33333333333333,False
+115,code,isNulOrEmty(),isNullOrEmpty(),isNulOrEmty(),0.6153846153846154,33.33333333333333,False
+116,code,isNullOrBlanck(),isNullOrBlank(),isNullOrBlanck(),0.2,80.0,False
+117,code,toIn(),toInt(),toIn(),0.3333333333333333,57.14285714285714,False
+118,code,toStrng(),toString(),toStrng(),0.4444444444444444,50.0,False
+119,code,subsring(),substring(),subsring(),0.6,36.36363636363637,False
+120,code,replce(),replace(),replce(),0.5,44.44444444444444,False
+121,code,remvRange(),removeRange(),remvRange(),0.7272727272727273,23.076923076923077,False
+122,code,startsWth(),startsWith(),startsWth(),0.36363636363636365,58.333333333333336,False
+123,code,ndsWith(),endsWith(),ndsWith(),1.0,0.0,False
+124,code,pluss(),plus(),plusses,0.3333333333333333,66.66666666666666,False
+125,code,minuss(),minus(),minuss(),0.2857142857142857,71.42857142857143,False
+126,code,mapOf(),mapOf(),mapOf(),0.0,100.0,True
+127,code,lstOf(),listOf(),lstOf(),0.8571428571428571,12.5,False
+128,code,filtr(),filter(),filtr(),0.42857142857142855,50.0,False
+129,code,forEch(),forEach(),forEch(),0.5,44.44444444444444,False
+130,code,radom(),random(),radome,0.6666666666666666,25.0,False
+131,code,fnd(),find(),fnd(),0.8,16.666666666666664,False
+132,code,smm(),sum(),smm(),0.2,80.0,False
+133,code,tke(),take(),tke(),0.8,16.666666666666664,False
+134,code,std::cotut,std::cout,std::cotut,0.2222222222222222,77.77777777777779,False
+135,code,std::cni,std::cin,std::cni,0.25,75.0,False
+136,code,getlin(),getline(),getlin(),0.25,66.66666666666666,False
+137,code,puch_back(),push_back(),puch_back(),0.09090909090909091,90.9090909090909,False
+138,code,pop_bck(),pop_back(),pop_bck(),0.4444444444444444,50.0,False
+139,code,sie(),size(),siege,0.6,33.33333333333333,False
+140,code,cler(),clear(),clerk,0.4,42.857142857142854,False
+141,code,emty(),empty(),emty(),0.6666666666666666,28.57142857142857,False
+142,code,bgin(),begin(),bgin(),0.8333333333333334,14.285714285714285,False
+143,code,nd(),end(),nd(),1.0,0.0,False
+144,code,fnd(),find(),fnd(),0.8,16.666666666666664,False
+145,code,instert(),insert(),instert(),0.625,37.5,False
+146,code,earse(),erase(),earse(),0.2857142857142857,71.42857142857143,False
+147,code,ta(),at(),take,1.0,0.0,False
+148,code,frnt(),front(),frnt(),0.6666666666666666,28.57142857142857,False
+149,code,bcak(),back(),bcak(),0.3333333333333333,66.66666666666666,False
+150,code,srot(),sort(),srot(),0.3333333333333333,66.66666666666666,False
+151,code,revrse(),reverse(),revrse(),0.625,33.33333333333333,False
+152,code,mni(),min(),mni(),0.4,60.0,False
+153,code,amx(),max(),amx(),0.4,60.0,False
+154,code,pritnf(),printf(),pritnf(),0.25,75.0,False
+155,code,scfna(),scanf(),scfna(),0.2857142857142857,71.42857142857143,False
+156,code,stcpy(),strcpy(),stcpy(),0.7142857142857143,25.0,False
+157,code,strln(),strlen(),strln(),0.42857142857142855,50.0,False
+158,code,strcm(),strcmp(),strcm(),0.2857142857142857,62.5,False
+159,code,strct(),strcat(),strct(),0.42857142857142855,50.0,False
+160,code,maloc(),malloc(),maloc(),0.5714285714285714,37.5,False
+161,code,caloc(),calloc(),caloc(),0.5714285714285714,37.5,False
+162,code,fre(),free(),free,0.0,66.66666666666666,False
+163,code,reloc(),realloc(),reloc(),0.7142857142857143,22.22222222222222,False
+164,code,memset(),memset(),memset(),0.0,100.0,True
+165,code,mcpy(),memcpy(),mcpy(),0.8333333333333334,12.5,False
+166,code,fpen(),fopen(),fpen(),0.8333333333333334,14.285714285714285,False
+167,code,flose(),fclose(),flose(),0.8571428571428571,12.5,False
+168,code,fgts(),fgets(),fgts(),0.6666666666666666,28.57142857142857,False
+169,code,fputss(),fputs(),fputss(),0.2857142857142857,71.42857142857143,False
+170,code,fprntf(),fprintf(),fprntf(),0.625,33.33333333333333,False
+171,code,fscnf(),fscanf(),fscnf(),0.5714285714285714,37.5,False
+172,code,squrt(),sqrt(),squrt(),0.6666666666666666,33.33333333333333,False
+173,code,pwo(),pow(),pwo(),0.4,60.0,False
+174,code,Console.WriteLin(),Console.WriteLine(),Console.WriteLin(),0.1111111111111111,84.21052631578947,False
+175,code,Console.Readlin(),Console.ReadLine(),Console.Readlin(),0.17647058823529413,77.77777777777779,False
+176,code,Equls(),Equals(),Equls(),0.5714285714285714,37.5,False
+177,code,ToStrng(),ToString(),ToStrng(),0.4444444444444444,50.0,False
+178,code,Pars(),Parse(),parson,0.5,42.857142857142854,False
+179,code,Aad(),Add(),Aad(),0.2,80.0,False
+180,code,Rmove(),Remove(),Rmove(),0.8571428571428571,12.5,False
+181,code,Subtring(),Substring(),Subtring(),0.7,27.27272727272727,False
+182,code,IndxOf(),IndexOf(),IndxOf(),0.625,33.33333333333333,False
+183,code,Contians(),Contains(),Contians(),0.2,80.0,False
+184,code,Replce(),Replace(),Replce(),0.5,44.44444444444444,False
+185,code,Trimm(),Trim(),trimmed,0.5,50.0,False
+186,code,StartsWth(),StartsWith(),StartsWth(),0.36363636363636365,58.333333333333336,False
+187,code,Endswth(),EndsWith(),Endswth(),0.5555555555555556,40.0,False
+188,code,ToUppr(),ToUpper(),ToUppr(),0.375,55.55555555555556,False
+189,code,ToLowr(),ToLower(),ToLowr(),0.375,55.55555555555556,False
+190,code,Jion(),Join(),Jion(),0.3333333333333333,66.66666666666666,False
+191,code,Srot(),Sort(),Srot(),0.3333333333333333,66.66666666666666,False
+192,code,Fnd(),Find(),Fnd(),0.8,16.666666666666664,False
+193,code,Lngth(),Length(),Lngth(),0.8571428571428571,12.5,False
+194,code,conole.log(),console.log(),conole.log(),0.75,23.076923076923077,False
+195,code,alret(),alert(),alret(),0.2857142857142857,71.42857142857143,False
+196,code,promt(),prompt(),promt(),0.42857142857142855,50.0,False
+197,code,parsInt(),parseInt(),parsInt(),0.5555555555555556,40.0,False
+198,code,parsFloat(),parseFloat(),parsFloat(),0.6363636363636364,33.33333333333333,False
+199,code,toStrng(),toString(),toStrng(),0.4444444444444444,50.0,False
+200,code,charAt(),charAt(),charAt(),0.0,100.0,True
+201,code,indxOf(),indexOf(),indxOf(),0.625,33.33333333333333,False
+202,code,splitt(),split(),splitter,0.2857142857142857,71.42857142857143,False
+203,code,jion(),join(),jion(),0.3333333333333333,66.66666666666666,False
+204,code,puh(),push(),puh(),0.6,33.33333333333333,False
+205,code,popp(),pop(),popped,0.4,60.0,False
+206,code,shft(),shift(),shft(),0.6666666666666666,28.57142857142857,False
+207,code,unshft(),unshift(),unshft(),0.5,44.44444444444444,False
+208,code,forEch(),forEach(),forEch(),0.5,44.44444444444444,False
+209,code,mapp(),map(),mapped,0.4,60.0,False
+210,code,filtr(),filter(),filtr(),0.42857142857142855,50.0,False
+211,code,reuce(),reduce(),reuce(),0.7142857142857143,25.0,False
+212,code,srot(),sort(),srot(),0.3333333333333333,66.66666666666666,False
+213,code,incldes(),includes(),incldes(),0.5555555555555556,40.0,False
+214,code,bakground-color,background-color,bakground-color,0.8666666666666667,12.5,False
+215,code,fnt-size,font-size,fantasize,0.2222222222222222,77.77777777777779,False
+216,code,txt-align,text-align,txt-align,0.8888888888888888,10.0,False
+217,code,colur,color,color,0.0,100.0,True
+218,code,brder,border,order,1.0,0.0,False
+219,code,pading,padding,paying,0.6666666666666666,28.57142857142857,False
+220,code,maring,margin,making,0.6666666666666666,33.33333333333333,False
+221,code,disply,display,display,0.0,100.0,True
+222,code,widht,width,width,0.0,100.0,True
+223,code,hieght,height,height,0.0,100.0,True
+224,code,positon,position,position,0.0,100.0,True
+225,code,flx,flex,fix,0.6666666666666666,25.0,False
+226,code,grdi,grid,grid,0.0,100.0,True
+227,code,txt-decoration,text-decoration,txt-decoration,0.9285714285714286,6.666666666666667,False
+228,code,font-wieght,font-weight,font-wieght,0.18181818181818182,81.81818181818183,False
+229,code,opacty,opacity,opacity,0.0,100.0,True
+230,code,overflw,overflow,overflow,0.0,100.0,True
+231,code,visibilty,visibility,visibility,0.0,100.0,True
+232,code,zindx,z-index,find,1.0,0.0,False
+233,code,line-heght,line-height,line-heght,0.3,63.63636363636363,False
+234,code,indx,index,index,0.0,100.0,True
+235,code,countr,counter,country,0.2857142857142857,71.42857142857143,False
+236,code,totl,total,total,0.0,100.0,True
+237,code,avrage,average,average,0.0,100.0,True
+238,code,tep,temp,ten,0.3333333333333333,50.0,False
+239,code,reslt,result,rest,0.25,50.0,False
+240,code,bufer,buffer,buyer,0.6,33.33333333333333,False
+241,word,usernme,username,username,0.0,100.0,True
+242,word,pasword,password,password,0.0,100.0,True
+243,word,dat,data,at,1.0,0.0,False
+244,word,itm,item,it,0.0,50.0,False
+245,word,lenght,length,length,0.0,100.0,True
+246,word,hight,height,hight,0.8,16.666666666666664,False
+247,word,widht,width,width,0.0,100.0,True
+248,word,amout,amount,about,0.4,50.0,False
+249,word,kye,key,eye,1.0,0.0,False
+250,word,vlaue,value,value,0.0,100.0,True
+251,word,timesamp,timestamp,timesamp,0.375,55.55555555555556,False
+252,word,settngs,settings,settings,0.0,100.0,True
+253,word,stauss,status,starts,0.3333333333333333,66.66666666666666,False
+254,word,mesage,message,message,0.0,100.0,True
+255,word,priorty,priority,priority,0.0,100.0,True
+256,word,flg,flag,fly,0.3333333333333333,50.0,False
+257,word,priec,price,price,0.0,100.0,True
+258,word,qunatity,quantity,quantity,0.0,100.0,True
+259,word,lst,list,let,0.6666666666666666,25.0,False
+260,word,usrId,userId,said,1.0,0.0,False
+261,word,costomer,customer,customer,0.0,100.0,True
+262,word,evnt,event,event,0.0,100.0,True
+263,word,respose,response,response,0.0,100.0,True
+264,word,cnfig,config,unfit,1.0,0.0,False
+265,word,couunt,count,count,0.0,100.0,True
+266,word,pae,page,pay,0.3333333333333333,50.0,False
+267,word,eror,error,error,0.0,100.0,True
+268,word,stae,state,stay,0.25,60.0,False
+269,word,positon,position,position,0.0,100.0,True
+270,word,opton,option,option,0.0,100.0,True
+271,word,descripton,description,description,0.0,100.0,True
+272,word,durration,duration,duration,0.0,100.0,True
+273,word,adrees,address,agrees,0.5,42.857142857142854,False
+274,word,permisson,permission,permission,0.0,100.0,True
+275,word,toekn,token,token,0.0,100.0,True
+276,word,leval,level,level,0.0,100.0,True
+277,word,detals,details,details,0.0,100.0,True
+278,word,custmerId,customerId,custmerId,0.5555555555555556,40.0,False
+279,word,recrod,record,record,0.0,100.0,True
+280,word,pat,path,pat,0.0,75.0,False
+281,word,parnt,parent,part,0.25,50.0,False
+282,word,verison,version,version,0.0,100.0,True
+283,word,emial,email,email,0.0,100.0,True
+284,word,asyncronous,asynchronous,asynchronous,0.0,100.0,True
+285,word,authentification,authentication,authentication,0.0,100.0,True
+286,word,boolen,boolean,woolen,0.3333333333333333,57.14285714285714,False
+287,word,callbak,callback,callback,0.0,100.0,True
+288,word,concatanate,concatenate,concatenate,0.0,100.0,True
+289,word,constent,constant,constant,0.0,100.0,True
+290,word,constructer,constructor,constructer,0.09090909090909091,90.9090909090909,False
+291,word,contineu,continue,continue,0.0,100.0,True
+292,word,decleration,declaration,declaration,0.0,100.0,True
+293,word,defualt,default,default,0.0,100.0,True
+294,word,dependancy,dependency,dependancy,0.1,90.0,False
+295,word,dequue,dequeue,defuse,0.5,42.857142857142854,False
+296,word,destructure,destructure,restructure,0.09090909090909091,90.9090909090909,False
+297,word,dictionery,dictionary,dictionary,0.0,100.0,True
+298,word,dispach,dispatch,dispatch,0.0,100.0,True
+299,word,incapsulation,encapsulation,encapsulation,0.0,100.0,True
+300,word,enviroment,environment,environment,0.0,100.0,True
+301,word,excute,execute,excuse,0.6666666666666666,28.57142857142857,False
+302,word,expection,exception,expecting,0.4444444444444444,55.55555555555556,False
+303,word,funtion,function,function,0.0,100.0,True
+304,word,hexidecimal,hexadecimal,hexadecimal,0.0,100.0,True
+305,word,heirarchy,hierarchy,hierarchy,0.0,100.0,True
+306,word,implimentation,implementation,implementation,0.0,100.0,True
+307,word,intialize,initialize,initialize,0.0,100.0,True
+308,word,instence,instance,instance,0.0,100.0,True
+309,word,intiger,integer,integer,0.0,100.0,True
+310,word,interfase,interface,interface,0.0,100.0,True
+311,word,itterate,iterate,iterate,0.0,100.0,True
+312,word,librery,library,library,0.0,100.0,True
+313,word,middelware,middleware,middelware,0.2,80.0,False
+314,word,namesapce,namespace,namesake,0.375,55.55555555555556,False
+315,word,objct,object,object,0.0,100.0,True
+316,word,opperator,operator,operator,0.0,100.0,True
+317,word,paramter,parameter,parameter,0.0,100.0,True
+318,word,placehoder,placeholder,placeholder,0.0,100.0,True
+319,word,polymorhism,polymorphism,polymorphism,0.0,100.0,True
+320,word,primative,primitive,primitive,0.0,100.0,True
+321,word,protocal,protocol,protocol,0.0,100.0,True
+322,word,pseudocode,pseudocode,pseudopod,0.1111111111111111,80.0,False
+323,word,recurssion,recursion,recursion,0.0,100.0,True
+324,word,referance,reference,reference,0.0,100.0,True
+325,word,reguler expresion,regular expression,regular expression,0.0,100.0,True
+326,word,repostiory,repository,repository,0.0,100.0,True
+327,word,retreive,retrieve,retrieve,0.0,100.0,True
+328,word,serialzation,serialization,serialization,0.0,100.0,True
+329,word,statment,statement,statement,0.0,100.0,True
+330,word,structre,structure,structure,0.0,100.0,True
+331,word,synax,syntax,syntax,0.0,100.0,True
+332,word,templete,template,template,0.0,100.0,True
+333,word,transation,transaction,translation,0.18181818181818182,81.81818181818183,False
+334,word,utillity,utility,utility,0.0,100.0,True
+335,word,variabel,variable,variable,0.0,100.0,True
+336,word,virtualisation,virtualization,virtualisation,0.07142857142857142,92.85714285714286,False
+337,word,vulnerabilty,vulnerability,vulnerability,0.0,100.0,True
+338,word,whitesapce,whitespace,whitesapce,0.2,80.0,False
+339,word,accomodate,accommodate,accommodate,0.0,100.0,True
+340,word,acheive,achieve,achieve,0.0,100.0,True
+341,word,accross,across,across,0.0,100.0,True
+342,word,arguement,argument,argument,0.0,100.0,True
+343,word,begining,beginning,beginning,0.0,100.0,True
+344,word,calender,calendar,calender,0.125,87.5,False
+345,word,catagory,category,category,0.0,100.0,True
+346,word,commited,committed,committed,0.0,100.0,True
+347,word,definately,definitely,definitely,0.0,100.0,True
+348,word,dissapear,disappear,disappear,0.0,100.0,True
+349,word,dissapoint,disappoint,disappoint,0.0,100.0,True
+350,word,embarass,embarrass,embarrass,0.0,100.0,True
+351,word,experiance,experience,experience,0.0,100.0,True
+352,word,foriegn,foreign,foreign,0.0,100.0,True
+353,word,freind,friend,friend,0.0,100.0,True
+354,word,guage,gauge,gauge,0.0,100.0,True
+355,word,greatful,grateful,grateful,0.0,100.0,True
+356,word,gaurentee,guarantee,guarantee,0.0,100.0,True
+357,word,harrass,harass,harass,0.0,100.0,True
+358,word,imediate,immediate,immediate,0.0,100.0,True
+359,word,independant,independent,independent,0.0,100.0,True
+360,word,indispensible,indispensable,indispensable,0.0,100.0,True
+361,word,judgement,judgment,judgement,0.5,50.0,False
+362,word,knowlege,knowledge,knowledge,0.0,100.0,True
+363,word,liason,liaison,liaison,0.0,100.0,True
+364,word,lisence,license,licence,0.14285714285714285,85.71428571428571,False
+365,word,maintenence,maintenance,maintenance,0.0,100.0,True
+366,word,managable,manageable,manageable,0.0,100.0,True
+367,word,manuever,maneuver,maneuver,0.0,100.0,True
+368,word,medival,medieval,medical,0.42857142857142855,50.0,False
+369,word,millenium,millennium,millennium,0.0,100.0,True
+370,word,miniscule,minuscule,miniscule,0.1111111111111111,88.88888888888889,False
+371,word,noticable,noticeable,noticeable,0.0,100.0,True
+372,word,occassion,occasion,occasion,0.0,100.0,True
+373,word,occured,occurred,occurred,0.0,100.0,True
+374,word,persistant,persistent,persistent,0.0,100.0,True
+375,word,posession,possession,possession,0.0,100.0,True
+376,word,preferible,preferable,preferable,0.0,100.0,True
+377,word,priviledge,privilege,privilege,0.0,100.0,True
+378,word,procede,proceed,proceed,0.0,100.0,True
+379,word,proffessional,professional,professional,0.0,100.0,True
+380,word,recieve,receive,receive,0.0,100.0,True
+381,word,recomend,recommend,recommend,0.0,100.0,True
+382,word,relevent,relevant,relevant,0.0,100.0,True
+383,word,responsability,responsibility,responsibility,0.0,100.0,True
+384,word,seperate,separate,separate,0.0,100.0,True
+385,word,severly,severely,severely,0.0,100.0,True
+386,word,succesful,successful,successful,0.0,100.0,True
+387,word,suprise,surprise,surprise,0.0,100.0,True
+388,word,treshold,threshold,threshold,0.0,100.0,True
+389,number,onn,one,on,0.0,66.66666666666666,False
+390,number,twi,two,two,0.0,100.0,True
+391,number,thre,three,the,0.3333333333333333,40.0,False
+392,number,forr,four,for,0.3333333333333333,50.0,False
+393,number,fiev,five,five,0.0,100.0,True
+394,number,sxi,six,six,0.0,100.0,True
+395,number,sevn,seven,seen,0.5,40.0,False
+396,number,eigt,eight,eight,0.0,100.0,True
+397,number,nien,nine,nine,0.0,100.0,True
+398,number,zreo,zero,zero,0.0,100.0,True
+399,number,tn,ten,to,0.5,33.33333333333333,False
+400,number,fivteen,fifteen,fifteen,0.0,100.0,True
+401,number,twentythree,twenty-three,twentythree,0.36363636363636365,58.333333333333336,False
+402,number,thiryfour,thirty-four,thiryfour,0.5555555555555556,36.36363636363637,False
+403,number,fortyseven,forty-seven,fortyseven,0.5,45.45454545454545,False
+404,number,fiftey-two,fifty-two,fiftey-two,0.5555555555555556,44.44444444444444,False
+405,number,sixtyeight,sixty-eight,sixtyeight,0.5,45.45454545454545,False
+406,number,seventynie,seventy-nine,seventynie,0.3,58.333333333333336,False
+407,number,eightysix,eighty-six,eightysix,0.3333333333333333,60.0,False
+408,number,nintynine,ninety-nine,nintynine,0.5555555555555556,36.36363636363637,False
+409,number,one hudnred,one hundred,one hundred,0.0,100.0,True
+410,number,one hundered twentyfive,one hundred twenty-five,one hundred twentyfive,0.18181818181818182,78.26086956521739,False
+411,number,two hundreed,two hundred,two hundred,0.0,100.0,True
+412,number,twohundredfifty,two hundred fifty,twohundredfifty,0.7333333333333333,23.52941176470588,False
+413,number,three hundredthirtythree,three hundred thirty-three,three hundredthirtythree,0.4583333333333333,50.0,False
+414,number,for hundred,four hundred,for hundred,0.8181818181818182,16.666666666666664,False
+415,number,fourhundred sevnty-six,four hundred seventy-six,fourhundred sevnty-six,0.8181818181818182,16.666666666666664,False
+416,number,five hunderd,five hundred,five hundred,0.0,100.0,True
+417,number,sxi hundred,six hundred,six hundred,0.0,100.0,True
+418,number,sevn hundred,seven hundred,seen hundred,0.8333333333333334,15.384615384615385,False
+419,number,eigthundred fifty-nine,eight hundred fifty-nine,eigthundred fifty-nine,0.7727272727272727,20.833333333333336,False
+420,number,nien hundred,nine hundred,nine hundred,0.0,100.0,True
+421,number,one tousand,one thousand,one thousand,0.0,100.0,True
+422,number,two-thousand,two thousand,two-thousand,0.08333333333333333,91.66666666666666,False
+423,number,three thousnd threehundred,three thousand three hundred,three thousand threehundred,0.25925925925925924,71.42857142857143,False
+424,number,four thousd fivehundred,four thousand five hundred,four thous fivehundred,0.5454545454545454,38.46153846153847,False
+425,number,fivethousand sixhundredfifty,five thousand six hundred fifty,fivethousand sixhundredfifty,0.8571428571428571,12.903225806451612,False
+426,number,sixtousand,six thousand,sixtousand,0.7,25.0,False
+427,number,seventhouand,seven thousand,seventhouand,0.5833333333333334,35.714285714285715,False
+428,number,eigthtousand sevenhundred,eight thousand seven hundred,eigthtousand sevenhundred,0.8,17.857142857142858,False
+429,number,ninetousnad,nine thousand,ninetousnad,0.6363636363636364,30.76923076923077,False
+430,number,tentousand,ten thousand,tentousand,0.7,25.0,False
+431,number,twelvetousand fivehundred,twelve thousand five hundred,twelvetousand fivehundred,0.72,25.0,False
+432,number,twentythosend,twenty thousand,twentythosend,0.5384615384615384,40.0,False
+433,number,thirtythousand threehindred,thirty thousand three hundred,thirtythousand threehindred,0.7407407407407407,24.137931034482758,False
+434,number,fortythosand,forty thousand,fortythosand,0.5833333333333334,35.714285714285715,False
+435,number,fiftythpusand onehunderd,fifty thousand one hundred,fiftythpusand onehunderd,0.7916666666666666,19.230769230769234,False
+436,number,sixtythousnd,sixty thousand,sixtythousnd,0.5833333333333334,35.714285714285715,False
+437,number,seventythousnad,seventy thousand,seventythousnad,0.4666666666666667,50.0,False
+438,number,eighty-thousand fivehundded,eighty thousand five hundred,eighty-thousand fivehundded,0.25925925925925924,71.42857142857143,False
+439,number,ninethosand ninhudred,ninety thousand nine hundred,ninethosand ninhudred,0.7142857142857143,21.428571428571427,False
+440,name,Tereaza,Tereza,Tereaza,0.3333333333333333,66.66666666666666,False
+441,name,Jakoub,Jakub,Jakoub,0.4,60.0,False
+442,name,Anah,Anna,anal,0.75,25.0,False
+443,name,Peter,Petr,Peter,0.25,75.0,False
+444,name,Sofie,Sophie,softie,0.5,50.0,False
+445,name,Alekzander,Alexander,Alekzander,0.6666666666666666,33.33333333333333,False
+446,name,Marry,Marie,Marry,0.4,60.0,False
+447,name,Leonn,Leon,leone,0.25,75.0,False
+448,name,Katarina,Katharina,kamaaina,0.75,22.22222222222222,False
+449,name,Lucass,Lukas,class,0.8,20.0,False
+450,name,Giulia,Julia,girlie,1.0,0.0,False
+451,name,Sebastin,Sebastian,elastin,1.0,0.0,False
+452,name,Charlot,Charlotte,chariot,0.2857142857142857,55.55555555555556,False
+453,name,Willam,William,will,0.25,42.857142857142854,False
+454,name,Olivya,Olivia,olive,0.4,50.0,False
+455,name,Jams,James,Jams,0.25,60.0,False
+456,name,Charlette,Charlotte,charlotte,0.1111111111111111,88.88888888888889,False
+457,name,Benjiman,Benjamin,benjamin,0.125,87.5,False
+458,name,Amellia,Amelia,camellia,1.0,0.0,False
+459,name,Lucus,Lucas,mucus,0.4,60.0,False
+460,name,Isabela,Isabella,Isabela,0.14285714285714285,75.0,False
+461,name,Henrey,Henry,henry,0.2,80.0,False
+462,name,Abagail,Abigail,abigail,0.14285714285714285,85.71428571428571,False
+463,name,Anastacia,Anastasia,Anastacia,0.1111111111111111,88.88888888888889,False
+464,name,Dmitri,Dmitry,Dmitri,0.16666666666666666,83.33333333333334,False
+465,name,Ekaterena,Ekaterina,Ekaterena,0.1111111111111111,88.88888888888889,False
+466,name,Iwan,Ivan,swan,0.5,50.0,False
+467,name,Nataliya,Natalia,natality,0.2857142857142857,71.42857142857143,False
+468,name,Alexsandr,Aleksandr,Alexsandr,0.1111111111111111,88.88888888888889,False
+469,name,Maira,Maria,maria,0.2,80.0,False
+470,name,Sergay,Sergei,serial,0.6666666666666666,33.33333333333333,False
+471,name,Yulya,Yulia,duly,0.5,40.0,False
+472,name,Vladmir,Vladimir,Vladmir,0.42857142857142855,50.0,False
+473,name,Jovanaa,Jovana,Jovanaa,0.0,100.0,False
+474,name,Steffan,Stefan,stiffen,0.6666666666666666,33.33333333333333,False
+475,name,Anna,Ana,Anna,0.3333333333333333,66.66666666666666,False
+476,name,Nickola,Nikola,nickel,0.8333333333333334,16.666666666666664,False
+477,name,Draganna,Dragana,Draganna,0.14285714285714285,85.71428571428571,False
+478,name,Marco,Marko,march,0.6,40.0,False
+479,name,Myllica,Milica,myrica,0.5,50.0,False
+480,name,Boyana,Bojana,banana,0.5,50.0,False
+481,name,Alejendro,Alejandro,Alejendro,0.1111111111111111,88.88888888888889,False
+482,name,Carlous,Carlos,callous,0.5,50.0,False
+483,name,Andress,Andres,address,0.3333333333333333,66.66666666666666,False
+484,name,Antonnio,Antonio,Antonnio,0.2857142857142857,71.42857142857143,False
+485,name,Carman,Carmen,Carman,0.16666666666666666,83.33333333333334,False
+486,name,Isabell,Isabel,Isabell,0.0,100.0,False
+487,name,Lorenzzo,Lorenzo,Lorenzzo,0.14285714285714285,85.71428571428571,False
+488,name,Kiara,Chiara,tiara,1.0,0.0,False
+489,name,Mateo,Matteo,mate,0.5,33.33333333333333,False
+490,name,Luccia,Lucia,lucia,0.2,80.0,False
+491,name,Larse,Lars,large,0.5,50.0,False
+492,name,Fluer,Fleur,flyer,0.6,40.0,False
+493,name,Braam,Bram,bream,0.75,25.0,False
+494,name,Sane,Sanne,Sane,0.25,60.0,False
+495,name,Priyya,Priya,privy,0.6,40.0,False
+496,name,Georgi,George,georgia,0.3333333333333333,66.66666666666666,False

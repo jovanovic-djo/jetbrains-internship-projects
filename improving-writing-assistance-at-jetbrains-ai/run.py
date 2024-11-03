@@ -2,7 +2,7 @@ import os
 from scripts.resultgeneration import libraries_results_generation as lrg
 
 def main():
-    
+
     input_path = "improving-writing-assistance-at-jetbrains-ai\\data\\test.csv"
     output_path = "improving-writing-assistance-at-jetbrains-ai\\results\\libraries results\\"
 
