@@ -51,13 +51,15 @@ The key metrics used for evaluation are as follows:
 * Result Summary: Each library's performance was summarized in terms of average metric scores. Specific attention was given to data type-specific performance variations, helping identify cases where each library is more or less effective.
 
 ### Results and Discussion
-Overall Accuracy: SymSpell had slight advance in overall accuracy compared to other libraries.
-Handling Code: TextBlob did significantly better on code examples compared to other 3 libraries
-Exact Match Rates: TextBlob also had better results based on exact match metrics.
-Library for Random Sentences: It was close call between PySpellChecker and SymSpell, but SymSpell had better accuracy.
-Single Word Results: PySpellChecker and SymSpell had similar results that are slightly better than other 2 libraries.
-Human Names: PyEnchant was the only library that had acceptable results regarding this type of data.
-Levenstein Distance: All libraries had similar results for this metric, SymSpell had slightly better outcome.
+* Overall Accuracy: SymSpell had slight advance in overall accuracy compared to other libraries.
+* Handling Code: TextBlob did significantly better on code examples compared to other 3 libraries
+* Exact Match Rates: TextBlob also had better results based on exact match metrics.
+* Library for Random Sentences: It was close call between PySpellChecker and SymSpell, but SymSpell had better accuracy.
+* Single Word Results: PySpellChecker and SymSpell had similar results that are slightly better than other 2 libraries.
+* Human Names: PyEnchant was the only library that had acceptable results regarding this type of data.
+* Levenstein Distance: All libraries had similar results for this metric, SymSpell had slightly better outcome.
+
+![image](https://github.com/user-attachments/assets/e46e844e-2441-4502-8c8e-69faa99ea950)
 
 
 #### Potential enhancements of the project
