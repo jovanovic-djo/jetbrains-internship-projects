@@ -19,10 +19,10 @@ As a result, you should provide a link to a repository containing the source cod
 ### Dataset Structure
 The dataset used for evaluation is specifically designed to cover a wide variety of spelling errors relevant to programming and everyday text, file is `test.csv`. 
 * Random Sentences: Contains general-purpose sentences with common misspellings. Source: https://www.kaggle.com/datasets/samarthagarwal23/spelling-mistake-data-1mn/data.
-* Programming Commands: Includes code-like strings to test the libraries' handling of technical terms.
+* Programming Commands: Includes code-like strings to test the libraries handling of technical terms. Examples from all of the popular programming languages are included.
 * Single Words: Consists of isolated, commonly misspelled words to measure word-level correction accuracy.
-* Numbers in Words: Contains numbers spelled out in text form, testing the libraries’ recognition of numerical context.
-* Names: Includes common names from people
+* Numbers in Words: Contains numbers spelled out in text form, testing the libraries recognition of numerical context.
+* Names: Includes common names from people from different countries around the world.
 
 ### Metrics
 The key metrics used for evaluation are as follows:
