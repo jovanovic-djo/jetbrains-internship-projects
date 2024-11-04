@@ -59,10 +59,10 @@ The key metrics used for evaluation are as follows:
 * Human Names: PyEnchant was the only library that had acceptable results regarding this type of data.
 * Levenstein Distance: All libraries had similar results for this metric, SymSpell had slightly better outcome.
 
+##### Example of library result graph:
 ![image](https://github.com/user-attachments/assets/e46e844e-2441-4502-8c8e-69faa99ea950)
 
-
-#### Potential enhancements of the project
+### Potential enhancements of the project
 * Implementation of fine-tuned models, like for example: BERT, T5 or GPT models. Approach would be similar, we would execute models on our `test.csv` dataset and generate result dataset from which we would generate graphs.
 * Also, implementation of LLMs through API, like OpenAI, Cohere or other LLMs.
 * Add complexity to metrics and testing dataset. Potentially measure time efficiency.
