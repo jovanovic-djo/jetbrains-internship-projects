@@ -1,4 +1,5 @@
-## JetBrains AI Code Completion Internship
+## Improving Writing Assistance at JetBrains AI
+
 ### Task
 One of the most widespread applications of natural language processing is to correct erroneous texts, in particular incorrectly spelled words. Your goal is to explore the existing spell checking tools and evaluate them.
 
